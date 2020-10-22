@@ -1,0 +1,2353 @@
+---
+:name: 'Software Engineering In-Person - Phase 2 '
+:id: 342
+:modules:
+- :id: 2153
+  :name: Instructor Materials - DO NOT PUBLISH
+  :lessons:
+  - id: phase-2
+    title: Phase 2
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28024
+    page_url: phase-2
+    url: https://learning.flatironschool.com/api/v1/courses/342/pages/phase-2
+    published: false
+    repository: ''
+  - id: phase-2-week-1
+    title: Phase 2 Week 1
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28021
+    page_url: phase-2-week-1
+    url: https://learning.flatironschool.com/api/v1/courses/342/pages/phase-2-week-1
+    published: false
+    repository: ''
+  - id: phase-2-week-2
+    title: Phase 2 Week 2
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28020
+    page_url: phase-2-week-2
+    url: https://learning.flatironschool.com/api/v1/courses/342/pages/phase-2-week-2
+    published: false
+    repository: ''
+  - id: phase-2-week-3
+    title: Phase 2 Week 3
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28018
+    page_url: phase-2-week-3
+    url: https://learning.flatironschool.com/api/v1/courses/342/pages/phase-2-week-3
+    published: false
+    repository: ''
+  - id: phase-2-assessments
+    title: Phase 2 Assessments
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28017
+    page_url: phase-2-assessments
+    url: https://learning.flatironschool.com/api/v1/courses/342/pages/phase-2-assessments
+    published: false
+    repository: ''
+  - id: sample-phase-2-projects
+    title: Sample Phase 2 Projects
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28019
+    page_url: sample-phase-2-projects
+    url: https://learning.flatironschool.com/api/v1/courses/342/pages/sample-phase-2-projects
+    published: false
+    repository: ''
+  - id: phase-2-repeat-action-plan
+    title: Phase 2 Repeat Action Plan
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28022
+    page_url: phase-2-repeat-action-plan
+    url: https://learning.flatironschool.com/api/v1/courses/342/pages/phase-2-repeat-action-plan
+    published: false
+    repository: ''
+- :id: 2223
+  :name: Discussion Questions
+  :lessons:
+  - id: '1284'
+    title: 'Discussion Questions: ActiveRecord Review'
+    indent: 0
+    type: Discussion
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28670
+    url: https://learning.flatironschool.com/api/v1/courses/342/discussion_topics/1284
+    published: false
+    repository: https://github.com/learn-co-curriculum/active-record-review-discussion-questions
+  - id: '1080'
+    title: 'Discussion Questions: Request Response Cycle'
+    indent: 0
+    type: Discussion
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28667
+    url: https://learning.flatironschool.com/api/v1/courses/342/discussion_topics/1080
+    published: false
+    repository: https://github.com/learn-co-curriculum/request-response-cycle-discussion-questions
+  - id: '1079'
+    title: 'Discussion Questions: MVC, Routes and Params'
+    indent: 0
+    type: Discussion
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28666
+    url: https://learning.flatironschool.com/api/v1/courses/342/discussion_topics/1079
+    published: false
+    repository: https://github.com/learn-co-curriculum/mvc-discussion-questions
+  - id: '1282'
+    title: 'Discussion Questions: Forms, CRUD and Active Record Associations'
+    indent: 0
+    type: Discussion
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28671
+    url: https://learning.flatironschool.com/api/v1/courses/342/discussion_topics/1282
+    published: false
+    repository: https://github.com/learn-co-curriculum/week-4-day-2-discussion
+  - id: '1081'
+    title: 'Discussion Questions: REST'
+    indent: 0
+    type: Discussion
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28664
+    url: https://learning.flatironschool.com/api/v1/courses/342/discussion_topics/1081
+    published: false
+    repository: https://github.com/learn-co-curriculum/rest-discussion-questions
+  - id: '1084'
+    title: 'Discussion Questions: Rails Intro Review'
+    indent: 0
+    type: Discussion
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28669
+    url: https://learning.flatironschool.com/api/v1/courses/342/discussion_topics/1084
+    published: false
+    repository: https://github.com/learn-co-curriculum/week-4-day-4-discussion
+  - id: '1285'
+    title: 'Discussion Questions: RESTful Challenge'
+    indent: 0
+    type: Discussion
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28673
+    url: https://learning.flatironschool.com/api/v1/courses/342/discussion_topics/1285
+    published: false
+    repository: https://github.com/learn-co-curriculum/restful-kickstarter-challenge
+  - id: '1283'
+    title: 'Discussion Questions: Twitter Follows'
+    indent: 0
+    type: Discussion
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28672
+    url: https://learning.flatironschool.com/api/v1/courses/342/discussion_topics/1283
+    published: false
+    repository: https://github.com/learn-co-curriculum/twitter-follows-readme
+  - id: '1083'
+    title: 'Discussion Questions: Rails Routes, Requests and Responses'
+    indent: 0
+    type: Discussion
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28665
+    url: https://learning.flatironschool.com/api/v1/courses/342/discussion_topics/1083
+    published: false
+    repository: https://github.com/learn-co-curriculum/ror-routes-discussion-questions
+  - id: '1082'
+    title: 'Discussion Questions: MVCs in Rails'
+    indent: 0
+    type: Discussion
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28668
+    url: https://learning.flatironschool.com/api/v1/courses/342/discussion_topics/1082
+    published: false
+    repository: https://github.com/learn-co-curriculum/ror-discussion-questions
+  - id: '1078'
+    title: 'Discussion Questions: Merge Challenge'
+    indent: 0
+    type: Discussion
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28663
+    url: https://learning.flatironschool.com/api/v1/courses/342/discussion_topics/1078
+    published: false
+    repository: https://github.com/learn-co-curriculum/discussion-questions-merge-problem
+- :id: 2224
+  :name: HTML Review
+  :lessons:
+  - id: html-basics-overview
+    title: HTML Basics Overview
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28675
+    page_url: html-basics-overview
+    url: https://learning.flatironschool.com/api/v1/courses/342/pages/html-basics-overview
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: https://github.com/learn-co-curriculum/html-basics-welcome-to-html
+  - id: crafting-html-documents
+    title: Crafting HTML Documents
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28674
+    page_url: crafting-html-documents
+    url: https://learning.flatironschool.com/api/v1/courses/342/pages/crafting-html-documents
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: https://github.com/learn-co-curriculum/html-basics-crafting-html-docs
+  - id: '9252'
+    title: Well-Formed HTML Document Lab
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28679
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/9252
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/html-basics-well-formed-html-document-lab
+  - id: nested-html-tags-and-attributes
+    title: Nested HTML Tags And Attributes
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28677
+    page_url: nested-html-tags-and-attributes
+    url: https://learning.flatironschool.com/api/v1/courses/342/pages/nested-html-tags-and-attributes
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: https://github.com/learn-co-curriculum/html-basics-nested-tags-and-attributes
+  - id: '9251'
+    title: Create an `<a>` Tag with an `href` Attribute
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28678
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/9251
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/html-basics-a-tag-with-href-attributes-lab
+  - id: leveraging-additional-html-documentation-resources
+    title: Leveraging Additional HTML Documentation Resources
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28676
+    page_url: leveraging-additional-html-documentation-resources
+    url: https://learning.flatironschool.com/api/v1/courses/342/pages/leveraging-additional-html-documentation-resources
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: https://github.com/learn-co-curriculum/html-basics-researching-html-elements
+  - id: html-fundamentals-lists-images-and-links
+    title: 'HTML Fundamentals: Lists, Images and Links'
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28680
+    page_url: html-fundamentals-lists-images-and-links
+    url: https://learning.flatironschool.com/api/v1/courses/342/pages/html-fundamentals-lists-images-and-links
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: https://github.com/learn-co-curriculum/html-fundamentals-lists-images-links
+  - id: '9257'
+    title: Text Formatting in HTML
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28687
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/9257
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/html-fundamentals-text-formatting-lab
+  - id: '9255'
+    title: HTML Lists
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28684
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/9255
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/html-fundamentals-html-lists-lab
+  - id: '9256'
+    title: HTML Tables
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28686
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/9256
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/html-fundamentals-html-tables-lab
+  - id: '9253'
+    title: HTML Images
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28683
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/9253
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/html-fundamentals-html-images-lab
+  - id: '9254'
+    title: HTML Links
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28685
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/9254
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/html-fundamentals-html-links-lab
+  - id: dev-tools-super-power
+    title: Dev Tools Super Power
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28681
+    page_url: dev-tools-super-power
+    url: https://learning.flatironschool.com/api/v1/courses/342/pages/dev-tools-super-power
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: https://github.com/learn-co-curriculum/html-fundamentals-dev-tools-super-power
+  - id: '2817'
+    title: HTML Basics Quiz
+    indent: 0
+    type: Quiz
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/36562
+    url: https://learning.flatironschool.com/api/v1/courses/342/quizzes/2817
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: ''
+- :id: 2225
+  :name: Rack
+  :lessons:
+  - id: how-the-web-works
+    title: How The Web Works
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28690
+    page_url: how-the-web-works
+    url: https://learning.flatironschool.com/api/v1/courses/342/pages/how-the-web-works
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: https://github.com/learn-co-curriculum/how-the-web-works-readme
+  - id: increasing-layers-of-abstraction
+    title: Increasing Layers of Abstraction
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28691
+    page_url: increasing-layers-of-abstraction
+    url: https://learning.flatironschool.com/api/v1/courses/342/pages/increasing-layers-of-abstraction
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: https://github.com/learn-co-curriculum/why-layers-of-abstraction
+  - id: '9277'
+    title: Inspecting The Web With Rack
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28697
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/9277
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/rack-intro
+  - id: '9275'
+    title: Dynamic Web Apps with Rack
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28694
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/9275
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/rack-dynamic-web-apps
+  - id: '9278'
+    title: Rack Responses Lab
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28695
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/9278
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/rack-responses-lab
+  - id: the-http-request
+    title: The HTTP Request
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28692
+    page_url: the-http-request
+    url: https://learning.flatironschool.com/api/v1/courses/342/pages/the-http-request
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: https://github.com/learn-co-curriculum/rack-http-request-readme
+  - id: '9276'
+    title: Rack Routes and GET Params
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28696
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/9276
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/rack-get-params-lab
+  - id: dynamic-url-routes
+    title: Dynamic URL Routes
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28688
+    page_url: dynamic-url-routes
+    url: https://learning.flatironschool.com/api/v1/courses/342/pages/dynamic-url-routes
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: https://github.com/learn-co-curriculum/rack-dynamic-paths-readme
+  - id: http-status-codes
+    title: HTTP Status Codes
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28689
+    page_url: http-status-codes
+    url: https://learning.flatironschool.com/api/v1/courses/342/pages/http-status-codes
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: https://github.com/learn-co-curriculum/rack-status-codes-readme
+  - id: '9274'
+    title: Dynamic Routes and Status Codes
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28693
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/9274
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/rack-dynamic-routes-lab
+  - id: '2820'
+    title: Rack and the Internet Quiz
+    indent: 0
+    type: Quiz
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/36775
+    url: https://learning.flatironschool.com/api/v1/courses/342/quizzes/2820
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: ''
+- :id: 2226
+  :name: Sinatra Basics
+  :lessons:
+  - id: what-is-sinatra
+    title: What is Sinatra?
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28701
+    page_url: what-is-sinatra
+    url: https://learning.flatironschool.com/api/v1/courses/342/pages/what-is-sinatra
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: https://github.com/learn-co-curriculum/what-is-sinatra
+  - id: sinatra-from-scratch
+    title: Sinatra From Scratch
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28699
+    page_url: sinatra-from-scratch
+    url: https://learning.flatironschool.com/api/v1/courses/342/pages/sinatra-from-scratch
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: https://github.com/learn-co-curriculum/sinatra-from-scratch-readme
+  - id: sinatra-basics
+    title: Sinatra Basics
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28700
+    page_url: sinatra-basics
+    url: https://learning.flatironschool.com/api/v1/courses/342/pages/sinatra-basics
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: https://github.com/learn-co-curriculum/sinatra-basics
+  - id: '9334'
+    title: Using the Shotgun Development Server
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28703
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/9334
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/sinatra-shotgun-server
+  - id: '9325'
+    title: Sinatra Hello World Basics
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28704
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/9325
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/sinatra-hello-world-basics
+  - id: routes-in-sinatra
+    title: Routes in Sinatra
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28698
+    page_url: routes-in-sinatra
+    url: https://learning.flatironschool.com/api/v1/courses/342/pages/routes-in-sinatra
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: https://github.com/learn-co-curriculum/sinatra-routes-readme
+  - id: '9317'
+    title: Sinatra Routes Lab
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28702
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/9317
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/sinatra-basic-routes-lab
+  - id: '2839'
+    title: Sinatra Basics Quiz
+    indent: 0
+    type: Quiz
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/37749
+    url: https://learning.flatironschool.com/api/v1/courses/342/quizzes/2839
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: ''
+- :id: 2227
+  :name: Sinatra MVC
+  :lessons:
+  - id: intro-to-mvc
+    title: Intro To MVC
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28705
+    page_url: intro-to-mvc
+    url: https://learning.flatironschool.com/api/v1/courses/342/pages/intro-to-mvc
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: https://github.com/learn-co-curriculum/sinatra-intro-to-mvc
+  - id: '9327'
+    title: Sinatra MVC File Structure
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28709
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/9327
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/sinatra-mvc-file-structure
+  - id: '9336'
+    title: Sinatra Views
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28708
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/9336
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/sinatra-views
+  - id: '9318'
+    title: Sinatra Basic Views Lab
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28707
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/9318
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/sinatra-basic-views-lab
+  - id: sinatra-views-using-erb
+    title: 'Sinatra Views: Using ERB'
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28706
+    page_url: sinatra-views-using-erb
+    url: https://learning.flatironschool.com/api/v1/courses/342/pages/sinatra-views-using-erb
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: https://github.com/learn-co-curriculum/sinatra-using-erb
+  - id: '9337'
+    title: Sinatra Views Lab
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28710
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/9337
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/sinatra-views-lab
+  - id: '2840'
+    title: Sinatra MVC Quiz
+    indent: 0
+    type: Quiz
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/37754
+    url: https://learning.flatironschool.com/api/v1/courses/342/quizzes/2840
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: ''
+- :id: 2228
+  :name: Sinatra Forms
+  :lessons:
+  - id: '9258'
+    title: Intro To Capybara
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28716
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/9258
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/intro-to-capybara
+  - id: '9320'
+    title: Dynamic Routes in Sinatra
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28713
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/9320
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/sinatra-dynamic-routes-codealong
+  - id: '9321'
+    title: Sinatra Dynamic Routes Lab
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28718
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/9321
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/sinatra-dynamic-routes-lab
+  - id: '9322'
+    title: HTML Forms and Params
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28715
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/9322
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/sinatra-forms-params-readme-walkthrough
+  - id: '9335'
+    title: Passing Data Between Views and Controllers in Sinatra
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28717
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/9335
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/sinatra-view-and-controller-readme-walkthrough
+  - id: '9223'
+    title: Sinatra Forms Lab
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28719
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/9223
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/basic-sinatra-forms-lab
+  - id: '2843'
+    title: Sinatra Forms Quiz
+    indent: 0
+    type: Quiz
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/37783
+    url: https://learning.flatironschool.com/api/v1/courses/342/quizzes/2843
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: ''
+  - id: sinatra-yield-readme
+    title: Sinatra Yield Readme
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28712
+    page_url: sinatra-yield-readme
+    url: https://learning.flatironschool.com/api/v1/courses/342/pages/sinatra-yield-readme
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: https://github.com/learn-co-curriculum/sinatra-yield-readme
+  - id: '9326'
+    title: Integrating Models Sinatra Code-along
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28714
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/9326
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/sinatra-integrating-models-walkthrough
+  - id: '9328'
+    title: Sinatra MVC Lab - Pig Latinizer
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28720
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/9328
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/sinatra-mvc-lab
+  - id: '9316'
+    title: Sinatra Basic Forms Lab
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28723
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/9316
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/sinatra-basic-forms-lab
+  - id: nested-forms-readme
+    title: Nested Forms Readme
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28711
+    page_url: nested-forms-readme
+    url: https://learning.flatironschool.com/api/v1/courses/342/pages/nested-forms-readme
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: https://github.com/learn-co-curriculum/sinatra-nested-forms-readme
+  - id: '9329'
+    title: 'Sinatra Nested Forms Lab: Pirates!'
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28721
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/9329
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/sinatra-nested-forms
+  - id: '9330'
+    title: 'Sinatra Nested Forms Lab: Superheroes!'
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28722
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/9330
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/sinatra-nested-forms-lab-superheros
+- :id: 2229
+  :name: Sinatra and Active Record
+  :lessons:
+  - id: '9314'
+    title: Sinatra Activerecord Setup
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28728
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/9314
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/sinatra-activerecord-setup
+  - id: sinatra-and-active-record-crud
+    title: Sinatra and Active Record CRUD
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28735
+    page_url: sinatra-and-active-record-crud
+    url: https://learning.flatironschool.com/api/v1/courses/342/pages/sinatra-and-active-record-crud
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: https://github.com/learn-co-curriculum/sinatra-activerecord-reading
+  - id: '9315'
+    title: Sinatra ActiveRecord CRUD Lab
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28731
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/9315
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/sinatra-ar-crud-lab
+  - id: restful-routes
+    title: RESTful Routes
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28734
+    page_url: restful-routes
+    url: https://learning.flatironschool.com/api/v1/courses/342/pages/restful-routes
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: https://github.com/learn-co-curriculum/sinatra-restful-routes-readme
+  - id: '9332'
+    title: Restful Routes Basic Lab
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28727
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/9332
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/sinatra-restful-routes-lab
+  - id: '9313'
+    title: ActiveRecord Associations in Sinatra
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28726
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/9313
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/sinatra-activerecord-associations
+  - id: '2845'
+    title: Sinatra and Active Record Quiz
+    indent: 0
+    type: Quiz
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/37863
+    url: https://learning.flatironschool.com/api/v1/courses/342/quizzes/2845
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: ''
+  - id: sinatra-activerecord-associations-join-tables
+    title: 'Sinatra ActiveRecord Associations: Join Tables'
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28736
+    page_url: sinatra-activerecord-associations-join-tables
+    url: https://learning.flatironschool.com/api/v1/courses/342/pages/sinatra-activerecord-associations-join-tables
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: https://github.com/learn-co-curriculum/sinatra-activerecord-associations-join-tables
+  - id: sinatra-multiple-controllers
+    title: Sinatra Multiple Controllers
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28737
+    page_url: sinatra-multiple-controllers
+    url: https://learning.flatironschool.com/api/v1/courses/342/pages/sinatra-multiple-controllers
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: https://github.com/learn-co-curriculum/sinatra-multiple-controllers
+  - id: '9319'
+    title: 'Sinatra and Active Record: Associations and Complex Forms'
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28729
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/9319
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/sinatra-complex-forms-associations
+  - id: '9268'
+    title: Welcome to NYC Sinatra!
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28732
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/9268
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/nyc-sinatra
+  - id: '9273'
+    title: Sinatra Playlister
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28730
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/9273
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/playlister-sinatra
+  - id: '9331'
+    title: Sinatra Mini-Project
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28738
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/9331
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/sinatra-project
+  - id: '2846'
+    title: Sinatra and Active Record Relationships Quiz
+    indent: 0
+    type: Quiz
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/37865
+    url: https://learning.flatironschool.com/api/v1/courses/342/quizzes/2846
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: ''
+- :id: 2230
+  :name: Sinatra Additional Practice
+  :lessons:
+  - id: '9323'
+    title: Sinatra Fwitter 5 -  Sessions
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28743
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/9323
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/sinatra-fwitter-5-sessions
+  - id: '9324'
+    title: Fwitter Group Project
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28739
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/9324
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/sinatra-fwitter-group-project
+  - id: '9333'
+    title: sinatra-scheduler
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28741
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/9333
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/sinatra-scheduler
+  - id: '9261'
+    title: mod-two-week-one-review
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28740
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/9261
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/mod-two-week-one-review
+  - id: '9268'
+    title: Welcome to NYC Sinatra!
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28742
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/9268
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/nyc-sinatra
+- :id: 2231
+  :name: Introduction to Rails
+  :lessons:
+  - id: intro-to-rails
+    title: Intro to Rails
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28747
+    page_url: intro-to-rails
+    url: https://learning.flatironschool.com/api/v1/courses/342/pages/intro-to-rails
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: https://github.com/learn-co-curriculum/intro-to-rails
+  - id: rails-application-basics
+    title: Rails Application Basics
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28746
+    page_url: rails-application-basics
+    url: https://learning.flatironschool.com/api/v1/courses/342/pages/rails-application-basics
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: https://github.com/learn-co-curriculum/rails-application-basics-readme
+  - id: rails-model-view-controller
+    title: Rails Model View Controller
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28748
+    page_url: rails-model-view-controller
+    url: https://learning.flatironschool.com/api/v1/courses/342/pages/rails-model-view-controller
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: https://github.com/learn-co-curriculum/rails-model-view-controller-readme
+  - id: '9301'
+    title: Rails Static Request
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28752
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/9301
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/rails-static-request-readme
+  - id: '9296'
+    title: Rails Hello World Lab
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28751
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/9296
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/rails-hello-world-lab
+  - id: '2891'
+    title: Introduction to Rails Quiz
+    indent: 0
+    type: Quiz
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/40238
+    url: https://learning.flatironschool.com/api/v1/courses/342/quizzes/2891
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: ''
+  - id: intro-to-rest
+    title: Intro to REST
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28745
+    page_url: intro-to-rest
+    url: https://learning.flatironschool.com/api/v1/courses/342/pages/intro-to-rest
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: https://github.com/learn-co-curriculum/rails-intro-to-rest
+  - id: '9289'
+    title: Rails Dynamic Request
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28750
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/9289
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/rails-dynamic-request-readme
+  - id: '9300'
+    title: RESTful Index Action Lab
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28753
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/9300
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/rails-restful-index-action-lab
+  - id: '9288'
+    title: Rails Dynamic Request Lab
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28749
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/9288
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/rails-dynamic-request-lab
+  - id: '2892'
+    title: Intro to REST Quiz
+    indent: 0
+    type: Quiz
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/40240
+    url: https://learning.flatironschool.com/api/v1/courses/342/quizzes/2892
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: ''
+- :id: 2232
+  :name: 'Rails: Intro to ActionView'
+  :lessons:
+  - id: '9303'
+    title: Rails URL Helpers
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28756
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/9303
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/rails-url-helpers-readme
+  - id: '9302'
+    title: Rails URL Helpers Lab
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28757
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/9302
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/rails-url-helpers-lab
+  - id: '9294'
+    title: Rails form_tag
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28754
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/9294
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/rails-form_tag-readme
+  - id: '9293'
+    title: Rails form_tag Lab
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28755
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/9293
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/rails-form_tag-lab
+  - id: '2895'
+    title: 'Rails: Intro to ActionView Quiz'
+    indent: 0
+    type: Quiz
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/40372
+    url: https://learning.flatironschool.com/api/v1/courses/342/quizzes/2895
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: ''
+- :id: 2233
+  :name: CRUD with Rails
+  :lessons:
+  - id: '9286'
+    title: Create Action
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28762
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/9286
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/rails-create-action-readme
+  - id: '9285'
+    title: Create Action Lab
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28758
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/9285
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/rails-create-action-lab
+  - id: '11659'
+    title: 'RESTful Rails Actions: Index, Show, New, Create Lab'
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28773
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/11659
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/rails-index-show-new-create-lab
+  - id: '9290'
+    title: Edit/Update Action
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28760
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/9290
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/rails-edit-update-action-readme
+  - id: '9338'
+    title: Strong Params Basics
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28761
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/9338
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/strong-params-basics
+  - id: '9292'
+    title: The form_for Helper
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28775
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/9292
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/rails-form_for-on-edit-readme
+  - id: rails-forms-overview
+    title: Rails Forms Overview
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28764
+    page_url: rails-forms-overview
+    url: https://learning.flatironschool.com/api/v1/courses/342/pages/rails-forms-overview
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: https://github.com/learn-co-curriculum/rails-forms-readme
+  - id: '9291'
+    title: Using `form_for` Lab
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28776
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/9291
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/rails-form_for-lab
+  - id: '9295'
+    title: Rails Generators
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28777
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/9295
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/rails-generators-readme
+  - id: '9287'
+    title: CRU with form_for Lab
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28759
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/9287
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/rails-cru-form_for-lab
+  - id: '2911'
+    title: CRUD with Rails Quiz
+    indent: 0
+    type: Quiz
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/40597
+    url: https://learning.flatironschool.com/api/v1/courses/342/quizzes/2911
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: ''
+  - id: rails-mini-project
+    title: Rails Mini Project
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28763
+    page_url: rails-mini-project
+    url: https://learning.flatironschool.com/api/v1/courses/342/pages/rails-mini-project
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: https://github.com/learn-co-curriculum/bonus-challenge-rails-mini-project
+- :id: 2234
+  :name: Associations and Rails
+  :lessons:
+  - id: active-record-associations-review
+    title: Active Record Associations Review
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28879
+    page_url: active-record-associations-review
+    url: https://learning.flatironschool.com/api/v1/courses/342/pages/active-record-associations-review
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: https://github.com/learn-co-curriculum/activerecord-associations-review
+  - id: '9259'
+    title: Join the Fun
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28893
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/9259
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/join-the-fun-rails
+  - id: '9218'
+    title: The Active Record Lifecycle
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28896
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/9218
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/activerecord-lifecycle-reading
+  - id: '9242'
+    title: 'Flatiron-bnb: Associations'
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28885
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/9242
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/flatiron-bnb-associations
+  - id: '9244'
+    title: 'Flatiron-bnb: Methods'
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28887
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/9244
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/flatiron-bnb-methods
+  - id: '9243'
+    title: 'Flatiron-BnB: Controllers and Views'
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28888
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/9243
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/flatiron-bnb-controllers-and-views
+  - id: '9237'
+    title: Displaying Associations Rails
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28886
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/9237
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/displaying-associations-rails
+  - id: '9238'
+    title: Displaying Associations Rails Lab
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28882
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/9238
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/displaying-associations-rails-lab
+  - id: '2918'
+    title: ActiveRecord Associations Review Quiz
+    indent: 0
+    type: Quiz
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/40731
+    url: https://learning.flatironschool.com/api/v1/courses/342/quizzes/2918
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: ''
+  - id: forms-and-basic-associations-rails
+    title: Forms And Basic Associations Rails
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28880
+    page_url: forms-and-basic-associations-rails
+    url: https://learning.flatironschool.com/api/v1/courses/342/pages/forms-and-basic-associations-rails
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: https://github.com/learn-co-curriculum/forms-and-basic-associations-rails
+  - id: '9247'
+    title: Forms And Basic Associations Rails Lab
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28889
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/9247
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/forms-and-basic-associations-rails-lab
+  - id: '9221'
+    title: Basic Nested Forms
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28881
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/9221
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/basic-nested-forms
+  - id: '9222'
+    title: Basic Nested Forms Lab
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28883
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/9222
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/basic-nested-forms-lab
+  - id: '9239'
+    title: Displaying Has Many Through Rails
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28884
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/9239
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/displaying-has-many-through-rails
+  - id: '9240'
+    title: Displaying Has Many Through Rails Lab
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28892
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/9240
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/displaying-has-many-through-rails-lab
+  - id: '9248'
+    title: Has Many Through Forms Rails
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28890
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/9248
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/has-many-through-forms-rails
+  - id: '9249'
+    title: Has Many Through Forms Rails Labs
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28894
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/9249
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/has-many-through-forms-rails-labs
+  - id: '9281'
+    title: Rails Blog Associations and Validations
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28895
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/9281
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/rails-blog-associations-validations
+  - id: '9282'
+    title: 'Rails Blog: Complex Nested Forms'
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28891
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/9282
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/rails-blog-nested-forms
+  - id: '2951'
+    title: Forms and Basic Associations in Rails Quiz
+    indent: 0
+    type: Quiz
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/41912
+    url: https://learning.flatironschool.com/api/v1/courses/342/quizzes/2951
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: ''
+- :id: 2244
+  :name: Rails Validations and Forms
+  :lessons:
+  - id: activerecord-validations
+    title: ActiveRecord Validations
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28897
+    page_url: activerecord-validations
+    url: https://learning.flatironschool.com/api/v1/courses/342/pages/activerecord-validations
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: https://github.com/learn-co-curriculum/activerecord-validations-readme
+  - id: '9219'
+    title: ActiveRecord Validations Lab
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28904
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/9219
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/activerecord-validations-lab
+  - id: validations-in-controller-actions
+    title: Validations in Controller Actions
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28900
+    page_url: validations-in-controller-actions
+    url: https://learning.flatironschool.com/api/v1/courses/342/pages/validations-in-controller-actions
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: https://github.com/learn-co-curriculum/validations-in-controller-actions-rails
+  - id: '9339'
+    title: Validations In Controller Actions Lab
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28903
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/9339
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/validations-in-controller-actions-rails-lab
+  - id: validations-with-%60form-tag%60
+    title: Validations with `form_tag`
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28902
+    page_url: validations-with-`form-tag`
+    url: https://learning.flatironschool.com/api/v1/courses/342/pages/validations-with-%60form-tag%60
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: https://github.com/learn-co-curriculum/validations-with-form_tag-rails
+  - id: '9340'
+    title: Validations with `form_tag`
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28905
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/9340
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/validations-with-form_tag-rails-lab
+  - id: validations-with-%60form-for%60
+    title: Validations with `form_for`
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28901
+    page_url: validations-with-`form-for`
+    url: https://learning.flatironschool.com/api/v1/courses/342/pages/validations-with-%60form-for%60
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: https://github.com/learn-co-curriculum/validations-with-form_for-rails
+  - id: delete-forms-and-requests
+    title: DELETE Forms and Requests
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28898
+    page_url: delete-forms-and-requests
+    url: https://learning.flatironschool.com/api/v1/courses/342/pages/delete-forms-and-requests
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: https://github.com/learn-co-curriculum/delete-forms-rails
+  - id: '9226'
+    title: CRUD With Validations Lab
+    indent: 0
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/56809
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/9226
+    published: false
+    repository: https://github.com/learn-co-curriculum/crud-with-validations-lab
+  - id: '3056'
+    title: Rails Validations and Forms Quiz
+    indent: 0
+    type: Quiz
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/43621
+    url: https://learning.flatironschool.com/api/v1/courses/342/quizzes/3056
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: ''
+  - id: testing-in-rails
+    title: Testing in Rails
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28899
+    page_url: testing-in-rails
+    url: https://learning.flatironschool.com/api/v1/courses/342/pages/testing-in-rails
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: https://github.com/learn-co-curriculum/ruby-rails-testing
+- :id: 2245
+  :name: Rails Layouts and Partials
+  :lessons:
+  - id: rails-layouts-and-templates
+    title: Rails Layouts and Templates
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28906
+    page_url: rails-layouts-and-templates
+    url: https://learning.flatironschool.com/api/v1/courses/342/pages/rails-layouts-and-templates
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: https://github.com/learn-co-curriculum/rails-layouts-and-templates
+  - id: '9297'
+    title: Rails Layouts And Templates Lab
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28910
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/9297
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/rails-layouts-and-templates-lab
+  - id: '9312'
+    title: Simple Partials
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28912
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/9312
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/simple-partials-reading
+  - id: '9311'
+    title: Simple Partials Lab
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28914
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/9311
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/simple-partials-lab
+  - id: '9272'
+    title: Partials with Locals
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28908
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/9272
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/partial-locals-reading
+  - id: '9271'
+    title: Partials with Locals Lab
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28909
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/9271
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/partial-locals-lab
+  - id: '9245'
+    title: Flatiron Kitchen
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28907
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/9245
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/flatiron-kitchen
+  - id: '9307'
+    title: Rendering Collections
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28911
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/9307
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/rendering-collections-reading
+  - id: '9306'
+    title: Rendering Collections Lab
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28913
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/9306
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/rendering-collections-lab
+  - id: '3075'
+    title: Rails Layouts and Partials Quiz
+    indent: 0
+    type: Quiz
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/44619
+    url: https://learning.flatironschool.com/api/v1/courses/342/quizzes/3075
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: ''
+  - id: '9299'
+    title: Programmer Partials Lab
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28915
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/9299
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/rails-programmer-profile-partials
+- :id: 2246
+  :name: Rails Authentication
+  :lessons:
+  - id: cookies-and-sessions
+    title: Cookies and sessions
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28926
+    page_url: cookies-and-sessions
+    url: https://learning.flatironschool.com/api/v1/courses/342/pages/cookies-and-sessions
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: https://github.com/learn-co-curriculum/cookies_and_sessions_readme
+  - id: '9225'
+    title: Cookies and Sessions Lab
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28935
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/9225
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/cookies_and_sessions_lab
+  - id: sessions-controller
+    title: Sessions Controller
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28931
+    page_url: sessions-controller
+    url: https://learning.flatironschool.com/api/v1/courses/342/pages/sessions-controller
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: https://github.com/learn-co-curriculum/sessions_controller_readme
+  - id: '9310'
+    title: Sessions Controller Lab
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28944
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/9310
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/sessions_controller_lab
+  - id: login-required-readme
+    title: Login Required Readme
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28930
+    page_url: login-required-readme
+    url: https://learning.flatironschool.com/api/v1/courses/342/pages/login-required-readme
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: https://github.com/learn-co-curriculum/login_required_readme
+  - id: '9260'
+    title: Login Required Lab
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28938
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/9260
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/login_required_lab
+  - id: using-%60has-secure-password%60
+    title: Using `has_secure_password`
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28932
+    page_url: using-`has-secure-password`
+    url: https://learning.flatironschool.com/api/v1/courses/342/pages/using-%60has-secure-password%60
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: https://github.com/learn-co-curriculum/has_secure_password_readme
+  - id: '9250'
+    title: has_secure_password
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28939
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/9250
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/has_secure_password_lab
+  - id: '3078'
+    title: Rails Sessions and Cookies Quiz
+    indent: 0
+    type: Quiz
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/44665
+    url: https://learning.flatironschool.com/api/v1/courses/342/quizzes/3078
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: ''
+  - id: '9270'
+    title: OmniAuth
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28941
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/9270
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: https://github.com/learn-co-curriculum/omniauth_readme
+  - id: '9269'
+    title: Omniauth Lab
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28940
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/9269
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: https://github.com/learn-co-curriculum/omniauth_lab
+  - id: authentication-and-authorization-with-gems
+    title: Authentication and Authorization with Gems
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28924
+    page_url: authentication-and-authorization-with-gems
+    url: https://learning.flatironschool.com/api/v1/courses/342/pages/authentication-and-authorization-with-gems
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: https://github.com/learn-co-curriculum/authentication_and_authorization_with_gems
+  - id: devise
+    title: Devise
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28927
+    page_url: devise
+    url: https://learning.flatironschool.com/api/v1/courses/342/pages/devise
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: https://github.com/learn-co-curriculum/devise_readme
+  - id: '9234'
+    title: 'Devise: Setup and customization'
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28937
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/9234
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/devise_lab
+  - id: authorization-with-cancancan
+    title: Authorization with CancanCan
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28925
+    page_url: authorization-with-cancancan
+    url: https://learning.flatironschool.com/api/v1/courses/342/pages/authorization-with-cancancan
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: https://github.com/learn-co-curriculum/cancan_readme
+  - id: '9224'
+    title: CancanCan Secret Notes
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28933
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/9224
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/cancan_lab
+  - id: devise-with-roles
+    title: Devise with Roles
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28929
+    page_url: devise-with-roles
+    url: https://learning.flatironschool.com/api/v1/courses/342/pages/devise-with-roles
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: https://github.com/learn-co-curriculum/devise_roles_readme
+  - id: '9236'
+    title: Devise with Roles
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28936
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/9236
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/devise_roles_lab
+  - id: devise-and-pundit
+    title: Devise and Pundit
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28928
+    page_url: devise-and-pundit
+    url: https://learning.flatironschool.com/api/v1/courses/342/pages/devise-and-pundit
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: https://github.com/learn-co-curriculum/devise_pundit_readme
+  - id: '9235'
+    title: Devise and Pundit Lab
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28934
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/9235
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/devise_pundit_lab
+  - id: '9279'
+    title: Rails Amusement Park
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28942
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/9279
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/rails-amusement-park
+- :id: 2247
+  :name: Rails Project Mode
+  :lessons:
+  - id: guided-phase-two-final-project
+    title: Guided Phase Two Final Project
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28970
+    page_url: guided-phase-two-final-project
+    url: https://learning.flatironschool.com/api/v1/courses/342/pages/guided-phase-two-final-project
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: https://github.com/learn-co-curriculum/guided-module-two-project-assessment
+  - id: rails-project-mode
+    title: Rails Project Mode
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28969
+    page_url: rails-project-mode
+    url: https://learning.flatironschool.com/api/v1/courses/342/pages/rails-project-mode
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: https://github.com/learn-co-curriculum/rails-project-mode
+  - id: flatiron-picture-gram
+    title: Flatiron Picture-gram
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28968
+    page_url: flatiron-picture-gram
+    url: https://learning.flatironschool.com/api/v1/courses/342/pages/flatiron-picture-gram
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: https://github.com/learn-co-curriculum/rails-guided-project-immersive-module-two
+  - id: '9246'
+    title: Flatiron Store on Rails
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28971
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/9246
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/flatiron-store-project
+  - id: build-a-rails-app
+    title: Build a Rails App
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28966
+    page_url: build-a-rails-app
+    url: https://learning.flatironschool.com/api/v1/courses/342/pages/build-a-rails-app
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: https://github.com/learn-co-curriculum/immersive-small-rails-project
+  - id: build-a-rails-app-2
+    title: Build a Rails App-2
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28967
+    page_url: build-a-rails-app-2
+    url: https://learning.flatironschool.com/api/v1/courses/342/pages/build-a-rails-app-2
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: https://github.com/learn-co-curriculum/rails-assessment
+  - id: '9217'
+    title: Rubber Ducking
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28972
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/9217
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/Rails-RubberDucking
+  - id: phase-2-holiday-homework-2
+    title: Phase 2 Holiday Homework-2
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28979
+    page_url: phase-2-holiday-homework-2
+    url: https://learning.flatironschool.com/api/v1/courses/342/pages/phase-2-holiday-homework-2
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: https://github.com/learn-co-curriculum/mod-two-ho-ho-homework
+  - id: first-rails-project
+    title: First Rails Project
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28980
+    page_url: first-rails-project
+    url: https://learning.flatironschool.com/api/v1/courses/342/pages/first-rails-project
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: https://github.com/learn-co-curriculum/first-rails-project
+  - id: rails-recipes-mini-project
+    title: Rails Recipes Mini Project
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28973
+    page_url: rails-recipes-mini-project
+    url: https://learning.flatironschool.com/api/v1/courses/342/pages/rails-recipes-mini-project
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: https://github.com/learn-co-curriculum/rails-allergen-lab
+- :id: 2248
+  :name: CSS Review
+  :lessons:
+  - id: diving-into-the-world-of-css-cascading-style-sheets
+    title: Diving into the World of CSS (Cascading Style Sheets)
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28982
+    page_url: diving-into-the-world-of-css-cascading-style-sheets
+    url: https://learning.flatironschool.com/api/v1/courses/342/pages/diving-into-the-world-of-css-cascading-style-sheets
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: https://github.com/learn-co-curriculum/css-essentials-introduction-to-css
+  - id: '9232'
+    title: Getting Started with CSS Lab
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28986
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/9232
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/css-essentials-introduction-to-css-lab
+  - id: css-fundamentals
+    title: CSS Fundamentals
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28981
+    page_url: css-fundamentals
+    url: https://learning.flatironschool.com/api/v1/courses/342/pages/css-fundamentals
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: https://github.com/learn-co-curriculum/css-essentials-css-fundamentals
+  - id: '9227'
+    title: Introduction to CSS Lab
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28987
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/9227
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/css-essentials-css-fundamentals-lab
+  - id: '9230'
+    title: CSS Issue Bot 9000
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28983
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/9230
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/css-essentials-css-issue-bot-9000
+  - id: '9233'
+    title: My Little Rainbow
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28988
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/9233
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/css-essentials-my-little-rainbow-lab
+  - id: '9231'
+    title: CSS Kitten Wheelbarrow
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28985
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/9231
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/css-essentials-css-kitten-wheelbarrow-lab
+  - id: '9229'
+    title: CSS Graffiti Override Lab
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/28984
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/9229
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/css-essentials-css-graffiti-override-lab
+  - id: '3428'
+    title: CSS Review Quiz
+    indent: 0
+    type: Quiz
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/47181
+    url: https://learning.flatironschool.com/api/v1/courses/342/quizzes/3428
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: ''
+- :id: 4630
+  :name: Additional Practice
+  :lessons:
+  - id: refresher-on-mvc
+    title: Refresher on MVC
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/47344
+    page_url: refresher-on-mvc
+    url: https://learning.flatironschool.com/api/v1/courses/342/pages/refresher-on-mvc
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: https://github.com/learn-co-curriculum/refresher-on-mvc
+  - id: '9305'
+    title: Refactoring Views With Helpers
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/47355
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/9305
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/refactoring-views-with-helpers-reading
+  - id: '9304'
+    title: Refactoring Views With Helpers Lab
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/47356
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/9304
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/refactoring-views-with-helpers-lab
+  - id: '9263'
+    title: Model Class Methods
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/47346
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/9263
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/model-class-methods-reading
+  - id: '9262'
+    title: Optimal Queries using Active Record
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/47352
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/9262
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/model-class-methods-lab
+  - id: '9283'
+    title: 'Rails Blog: Comments'
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/47353
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/9283
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/rails-blog-nested-resources
+  - id: '9309'
+    title: Routing And Nested Resources
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/47357
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/9309
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/routing-nested-resources-reading
+  - id: '9308'
+    title: Nested Resource Routing Lab
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/47350
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/9308
+    published: false
+    repository: https://github.com/learn-co-curriculum/routing-nested-resources-lab
+  - id: '9265'
+    title: Modifying Nested Resources
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/47348
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/9265
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/modification-nested-routes-reading
+  - id: '9264'
+    title: Modifying Nested Resources Lab
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/47347
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/9264
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/modification-nested-routes-lab
+  - id: '9267'
+    title: Namespaced Routes
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/47349
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/9267
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/namespaced-routes-reading
+  - id: '9266'
+    title: Namespaced Routes Lab
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/47351
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/9266
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/namespaced-routes-lab
+  - id: '9298'
+    title: Rails Pollywog Ranch Lab
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/47354
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/9298
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/rails-pollywog-ranch
+  - id: '9220'
+    title: ActiveRecord Practice Exercises
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/47345
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/9220
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/activerecord-yelp-exercises
+- :id: 4631
+  :name: Code Challenge Review
+  :lessons:
+  - id: '9241'
+    title: The Dunder Mifflin Pet Show
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/47360
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/9241
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/dunder-mifflin-rails-review
+  - id: '9216'
+    title: Welcome to Travelatr!
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/47361
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/9216
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/Rails-Practice-Code-Challenge-Travelatr
+- :id: 6098
+  :name: Phase 2 Milestones
+  :lessons:
+  - id: '31788'
+    title: Phase 2 Rubric
+    indent: 0
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/59495
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/31788
+    completion_requirement:
+      type: must_mark_done
+    published: false
+    repository: ''
+  - id: phase-2-code-challenge-instructions
+    title: Phase 2 Code Challenge Instructions
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/59496
+    page_url: phase-2-code-challenge-instructions
+    url: https://learning.flatironschool.com/api/v1/courses/342/pages/phase-2-code-challenge-instructions
+    completion_requirement:
+      type: must_mark_done
+    published: false
+    repository: ''
+  - id: '31782'
+    title: 'Phase 2 Code Challenge: Late Show'
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/59497
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/31782
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: ''
+  - id: '31783'
+    title: 'Phase 2 Code Challenge: Pizza Restaurants'
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/59498
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/31783
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: ''
+  - id: '31784'
+    title: 'Phase 2 Code Challenge: Superheroines'
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/59499
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/31784
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: ''
+  - id: '31785'
+    title: 'Phase 2 Code Challenge: Vendor Sweets'
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/59500
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/31785
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: ''
+  - id: '31787'
+    title: Phase 2 Project
+    indent: 0
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/59501
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/31787
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: ''
+  - id: '31786'
+    title: Phase 2 Guided Project
+    indent: 0
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/59502
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/31786
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: ''
+  - id: '31781'
+    title: Phase 2 Blog
+    indent: 0
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/342/modules/items/59503
+    url: https://learning.flatironschool.com/api/v1/courses/342/assignments/31781
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: ''

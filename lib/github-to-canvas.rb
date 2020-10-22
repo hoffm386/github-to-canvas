@@ -1,3 +1,4 @@
+require 'byebug'
 require_relative './github-to-canvas/create_canvas_lesson'
 require_relative './github-to-canvas/update_canvas_lesson'
 require_relative './github-to-canvas/canvas_dotfile'
@@ -21,11 +22,13 @@ class GithubToCanvas
       CanvasInterface.get_course_info(options[:course_id], options[:id])
     when 'map'
       CanvasInterface.map_course_info(options[:file_to_convert])
+    when 'csv'
+      CanvasInterface.csv(options[:file_to_convert])
     when 'canvas_read'
       puts CanvasInterface.read_lesson(options[:filepath])
     when 'github_read'
-      markdown = GithubInterface.read_remote(options[:filepath])
-      puts RepositoryConverter.convert_to_html(markdown)
+      html = RepositoryConverter.remote_file_conversion(options)
+      puts RepositoryConverter.adjust_converted_html(options, html)
     when 'create' # used with a local repo
       html = RepositoryConverter.local_file_conversion(options)
       name = RepositoryInterface.get_name(options[:filepath], html)
@@ -35,13 +38,13 @@ class GithubToCanvas
       puts "Canvas lesson created. Lesson available at #{response['html_url']}"
     when 'align' # used with a local repo
       html = RepositoryConverter.local_file_conversion(options)
-      name = RepositoryInterface.get_name(options[:filepath], html)
+      name = options[:name] ? options[:name] : RepositoryInterface.get_name(options[:filepath], html)
       html = RepositoryConverter.adjust_converted_html(options, html)
       CanvasInterface.update_all_related_lessons(options, name, html)
       
     when 'github_create'
       html = RepositoryConverter.remote_file_conversion(options)
-      name = RepositoryInterface.get_name(options[:filepath], html)
+      name = options[:name] ? options[:name] : RepositoryInterface.get_name(options[:filepath], html)
       html = RepositoryConverter.adjust_converted_html(options, html)
       
       response = CanvasInterface.create_lesson(options, name, html)
@@ -49,7 +52,7 @@ class GithubToCanvas
       puts "Canvas lesson created. Lesson available at #{response['html_url']}"
     when 'github_align'
       html = RepositoryConverter.remote_file_conversion(options)
-      name = RepositoryInterface.get_name(options[:filepath], html)
+      name = options[:name] ? options[:name] : RepositoryInterface.get_name(options[:filepath], html)
       html = RepositoryConverter.adjust_converted_html(options, html)
       response = CanvasInterface.update_existing_lesson(options, name, html)
       puts "Canvas lesson updated. Lesson available at #{response['html_url']}"
@@ -69,10 +72,8 @@ class GithubToCanvas
           options[:course_id] = created_course_info["id"]
           options[:filepath] = lesson["repository"]
           
-          
           html = RepositoryConverter.remote_file_conversion(options)
           # Add each lesson to it's module
-          
           html = RepositoryConverter.adjust_converted_html(options, html)
           created_lesson_info = CanvasInterface.create_lesson(options, lesson["title"], html)
           lesson = lesson.merge(created_lesson_info)
@@ -131,6 +132,24 @@ class GithubToCanvas
           
           puts "Lesson updated - #{lesson['title']}"
           sleep(1)
+        }
+      }
+    when 'clone_course'
+      course_yaml = YAML.load(File.read(options[:file_to_convert]))
+      new_dir = "#{course_yaml[:name].downcase.gsub(' ','-')}"
+      cmd = "mkdir #{new_dir}"
+      `#{cmd}`
+      course_yaml[:modules].each { |module_info|
+      puts "Cloning #{module_info[:name]}"
+        module_info[:lessons].each { |lesson|
+        if lesson["repository"] == ""
+          puts "No repository found for #{lesson['title']}"
+          next
+        else
+          cmd = "git clone #{lesson['repository']}"
+          puts cmd
+          GithubInterface.cd_into_and(new_dir, cmd)
+        end
         }
       }
     else

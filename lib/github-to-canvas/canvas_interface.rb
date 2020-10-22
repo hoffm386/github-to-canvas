@@ -1,3 +1,4 @@
+require 'byebug'
 require 'json'
 require 'rest-client'
 require 'yaml'
@@ -59,6 +60,7 @@ class CanvasInterface
       'module_item[title]' => lesson_info["title"],
       'module_item[type]' => lesson_info["type"],
       'module_item[indent]' => 0,
+      'module_item[page_url]' => lesson_info["id"],
       'module_item[completion_requirement][type]' => 'must_view'
     }
     elsif lesson_info["type"] == "Quiz"
@@ -69,14 +71,16 @@ class CanvasInterface
         'module_item[title]' => lesson_info["title"],
         'module_item[type]' => lesson_info["type"],
         'module_item[indent]' => 1,
+        'module_item[content_id]' =>  lesson_info["id"],
         'module_item[completion_requirement][type]' => 'must_submit'
       }
     end
     begin
+      byebug
       response = RestClient.post(url, payload, self.headers)
     rescue
-      puts "Something went wrong while add lesson #{lesson_info["id"]} to module #{module_info["id"]} in course #{course_id}" if lesson_info["type"] == "Assignment"
-      puts "Something went wrong while add lesson #{lesson_info["page_url"]} to module #{module_info["id"]} in course #{course_id}" if lesson_info["type"] == "Page"
+      puts "Something went wrong while adding lesson #{lesson_info["id"]} to module #{module_info["id"]} in course #{course_id}" if lesson_info["type"] == "Assignment"
+      puts "Something went wrong while adding lesson #{lesson_info["page_url"]} to module #{module_info["id"]} in course #{course_id}" if lesson_info["type"] == "Page"
       abort
     end
 
@@ -95,7 +99,7 @@ class CanvasInterface
     
     begin
       headers = self.headers
-      if options[:type] == 'page'
+      if options[:type] == 'page' || options[:type] == 'Page'
         response = RestClient.get(url, headers)
         lesson_info = JSON.parse(response)
         url = url.sub(/[^\/]+$/, lesson_info["page_id"].to_s)
@@ -169,6 +173,7 @@ class CanvasInterface
     
     [info, type]
   end
+
 
   def self.get_course_info(course, id)
     if id
@@ -290,8 +295,52 @@ class CanvasInterface
     puts course_info.to_yaml
   end
 
-  def self.submit_to_canvas(course_id, type, name, readme)
-    
+  def self.csv(file_to_convert)
+    course_info = YAML.load(File.read("#{Dir.pwd}/#{file_to_convert}"))
+    course_info[:modules] = course_info[:modules].map do |mod|
+      mod[:lessons] = mod[:lessons].map do |lesson|
+
+        url = lesson["url"]
+        response = RestClient.get(url, headers={
+          "Authorization" => "Bearer #{ENV['CANVAS_API_KEY']}"
+        })
+        begin
+          lesson_data = JSON.parse(response)
+          contents = lesson_data["body"] if lesson["type"] == "Page"
+          contents = lesson_data["message"] if lesson["type"] == "Discussion"
+          contents = lesson_data["description"] if lesson["type"] == "Assignment" || lesson["type"] == "Quiz"
+          if contents.nil?
+            repo = ""
+          else
+            if contents[/data-repo=\"(.*?)"/]
+              repo = contents[/data-repo=\"(.*?)"/]
+              repo = repo.slice(11..-2)
+            elsif contents[/class=\"fis-git-link\" href=\"(.*?)"/]
+              repo = contents[/class=\"fis-git-link\" href=\"(.*?)"/]
+              repo = repo.slice(27..-2)
+            else
+              repo = ""
+            end
+          end
+        rescue
+          puts 'Error while mapping course info.'
+          abort
+        end
+        
+        if repo != nil && repo != ""
+          if repo.include?('https://github.com/learn-co-curriculum/')
+            lesson["repository"] = repo
+          else
+            lesson["repository"] = "https://github.com/learn-co-curriculum/" + repo
+          end
+        end
+        sleep(1)
+        lesson
+      end
+      mod
+    end
+    byebug
+    puts course_info.to_yaml
   end
 
   

@@ -17,7 +17,7 @@ class RepositoryConverter
     GithubInterface.get_updated_repo(options[:filepath], options[:branch])
     markdown = RepositoryInterface.read_local_file(options[:filepath], options[:file_to_convert])
     raw_remote_url = self.set_raw_image_remote_url(options[:filepath])
-    
+    markdown = self.escape_existing_html(markdown) if options[:contains_html]
     markdown = self.fix_local_images(options, markdown, raw_remote_url)
     html = self.convert_to_html(markdown)
     # self.fix_local_html_links(options, html, options[:filepath])
@@ -26,6 +26,7 @@ class RepositoryConverter
   def self.remote_file_conversion(options)
     markdown = GithubInterface.read_remote(options[:filepath])
     raw_remote_url = self.set_raw_image_remote_url(options[:filepath])
+    markdown = self.escape_existing_html(markdown) if options[:contains_html]
     markdown = self.fix_local_images(options, markdown, raw_remote_url)
     html = self.convert_to_html(markdown)
     # self.fix_local_html_links(options, html, options[:filepath])
@@ -46,7 +47,22 @@ class RepositoryConverter
     if options[:fis_links]
       html = self.add_fis_links(options, html)
     end
+
+    html = self.fix_escaped_inline_html_code(html)
+
     html
+  end
+
+  def self.fix_escaped_inline_html_code(html)
+    html = html.gsub("<code>&amp;&lt;", "<code><")
+    html = html.gsub("&amp;&gt;</code>", "></code>")
+  end
+
+
+  def self.escape_existing_html(markdown)
+    markdown = markdown.gsub(/<\//, "&lt;/")
+    markdown = markdown.gsub(/</, "&lt;")
+    markdown = markdown.gsub(/>/, "&gt;")
   end
 
   def self.remove_header_and_footer(html)
@@ -56,7 +72,7 @@ class RepositoryConverter
   end
 
   def self.remove_header(readme)
-    readme.gsub!(/^# .+?\n\n/,"")
+    readme = readme.gsub(/^# .+?\n\n/,"")
     readme.gsub(/^# .+?\n/,"")
   end
 

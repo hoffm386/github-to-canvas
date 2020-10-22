@@ -1,0 +1,81 @@
+<h1>GitHub to Canvas Gem</h1>
+
+<h2>Introduction</h2>
+
+<p>The <code>github-to-canvas</code> gem is designed to enable GitHub to Canvas LMS
+integration. This gem is designed to take a GitHub repository&#39;s <code>README.md</code>
+file, convert it to HTML, and push it to Canvas. The gem also updates the
+repository to include a <code>.canvas</code> file containing Canvas specific information.</p>
+
+<p>With  the <code>.canvas</code> file in place, this gem can be used to continuously align
+content between GitHub and Canvas.</p>
+
+<p>This gem is built for use internally at <a href="https://flatironschool.com/">Flatiron School</a>. Access to the
+<a href="https://canvas.instructure.com/doc/api/index.html">Canvas LMS API</a> and the ability to add pages and assignments to a Canvas
+course are required.</p>
+
+<h2>Installation</h2>
+
+<p><code>gem install github-to-canvas</code></p>
+
+<h2>Setup</h2>
+
+<h3>Generate Canvas API Key</h3>
+
+<p>In order to access the Canvas API, you must first generate an API key. Go to
+your Canvas Account Settings and under <strong>Approved Integrations</strong>, create a
+<strong>New Access Token</strong>. You will need to store this API key as an <code>ENV</code> variable
+called <code>CANVAS_API_KEY</code>. Use the following command to add your new key to
+<code>~/.zshrc</code>:</p>
+
+<pre><code class="sh">echo &quot;$(echo &#39;CANVAS_API_KEY=&lt;your-new-API-key-here&gt;&#39; | cat  - ~/.zshrc)&quot; &gt; ~/.zshrc
+</code></pre>
+
+<blockquote>
+<p><strong>Note:</strong> The command above assumes you are using Zsh. Change the dotfile if
+you are using something else like Bash.</p>
+</blockquote>
+
+<h3>Add Canvas API Base Path</h3>
+
+<p>The exact Canvas API path is specific to where you Canvas LMS is located. For example,
+Flatiron School&#39;s base path is <code>https://learning.flatironschool.com/api/v1</code>. Add this path
+as an <code>ENV</code> variable like the API key. <strong>Do not add a <code>/</code> at the end after <code>/api/v1</code>.</strong></p>
+
+<pre><code class="sh">echo &quot;$(echo &#39;CANVAS_API_PATH=&lt;your-base-api-path&gt;&#39; | cat  - ~/.zshrc)&quot; &gt; ~/.zshrc
+</code></pre>
+
+<p>After both the API key and path are added to <code>~/.zshrc</code>, run <code>source ~/.zshrc</code>
+to make them available in your current terminal. You can verify these variables
+are present by running <code>ENV</code>.</p>
+
+<h2>Usage</h2>
+
+<p>To migrate a GitHub <code>README.md</code> file to Canvas, at minimum, you will need to know the
+Canvas course id you are going to add to. This id can be found in the URL of the course.</p>
+
+<ol>
+<li>clone down the repository to a local folder and change directory into it.</li>
+<li>Run <code>github-to-canvas --create &lt;your-course-id&gt;</code></li>
+</ol>
+
+<p>If everything is set up properly, <code>github-to-canvas</code> will create a Canvas lesson
+using <code>master</code> branch <code>README.md</code> and the name of the current folder. By
+default, if the repository contains folders, an <strong>assignment</strong> will be created.
+Otherwise, a <strong>page</strong> will be created.</p>
+
+<p>After a successful lesson creation, <code>github-to-canvas</code> will use the API response
+to build a <code>.canvas</code> YAML file. This file contains the course id, the newly created
+page id, and the Canvas URL to the lesson for future reference.</p>
+
+<h3>Options</h3>
+
+<p>You can override the default behaviors with the following arguments:</p>
+
+<ul>
+<li><code>--name NAME</code> uses the provided name instead of the repository&#39;s folder name</li>
+<li><code>--branch BRANCH</code> uses the provided git branch instead of <code>master</code><br></li>
+<li><code>--type TYPE</code> will accept either <code>&#39;page&#39;</code> or <code>&#39;assignment&#39;</code> and create the
+appropriate Canvas lesson type instead of relying on the repository&#39;s
+directory structure</li>
+</ul>

@@ -1,0 +1,509 @@
+---
+title: HTML Basics Quiz
+description: |-
+  <div>
+  <div><span>It's time to check your knowledge! Use this quiz to create a custom study guide. Note any answers that were marked incorrect, so you can study the relevant material and try this quiz again.</span></div>
+  <br>
+  <div><span>If you don't know the answer to a question, please do not guess. Instead, select "I don't know". It's OK not to know everything and to admit when we're unsure.</span></div>
+  </div>
+shuffle_answers: true
+allowed_attempts: 3
+question_count: 9
+type: Quiz
+questions:
+- id: 18857
+  position:
+  question_name: Question
+  question_type: multiple_answers_question
+  question_text: "<div><span>Select all true statements about HTML:</span></div>"
+  points_possible: 1.0
+  correct_comments_html: ''
+  incorrect_comments_html: ''
+  neutral_comments_html: '<p><strong>Source/s</strong>: <a title="Crafting HTML Documents"
+    href="https://learning.flatironschool.com/courses/342/pages/crafting-html-documents"
+    target="_blank">Crafting HTML Documents</a></p>'
+  answers:
+  - id: 8244
+    text: It describes the structure and meaning of web content
+    comments: ''
+    comments_html: "<p><span>Correct! We use semantically meaningful tags and nesting
+      to structure our pages.</span></p>"
+    weight: 100.0
+  - id: 5226
+    text: Web browsers render its output
+    comments: ''
+    comments_html: "<p><span>Yes! The browser requests the webpage's content. Once
+      it receives it, including the HTML, it renders the content.</span></p>"
+    weight: 100.0
+  - id: 6177
+    text: It can process logic in the same way Ruby does, e.g. you can program a loop
+      in HTML
+    comments: ''
+    comments_html: "<p><span>HTML doesn't allow us to process logic in the same way
+      Ruby does. It's a markup language for structuring web content.</span></p>"
+    weight: 0.0
+  - id: 4825
+    text: The names of HTML tags are displayed in the browser
+    comments: ''
+    comments_html: "<p><span>Not quite. The names of the tags themselves aren't displayed,
+      but they are used to structure the page meaningfully and apply styles.</span></p>"
+    weight: 0.0
+  - id: 8709
+    text: I don't know
+    comments: ''
+    comments_html: "<p><span>Be sure to study the source/s for this question. You'll
+      get it next time.</span></p>"
+    weight: 0.0
+- id: 18858
+  position:
+  question_name: Question
+  question_type: multiple_choice_question
+  question_text: |-
+    <div>
+    <div><span>We want to display a header, paragraph, and link inside a div. Choose the snippet that does this correctly:</span></div>
+    </div>
+  points_possible: 1.0
+  correct_comments_html: ''
+  incorrect_comments_html: ''
+  neutral_comments_html: '<p><strong>Source/s</strong>: <a title="Crafting HTML Documents"
+    href="https://learning.flatironschool.com/courses/342/pages/crafting-html-documents"
+    target="_blank">Crafting HTML Documents</a></p>'
+  answers:
+  - id: 8499
+    text: ''
+    html: |-
+      <div>
+      <pre><span>&lt;</span><span>div</span><span>&gt;</span><br><span>    &lt;</span><span>h1</span><span>&gt;</span><span>The Cat's Meow Ya Doin?</span><span>&lt;/</span><span>h1</span><span>&gt;</span><br><span>    &lt;</span><span>p</span><span>&gt;</span><span>Cats love to meow, but sometimes it sounds like English. I swear my cat is asking me how I'm doing!</span><span>&lt;/</span><span>p</span><span>&gt;</span><br><span>    &lt;</span><span>a</span> <span>href</span><span>=</span><span>"http://stuffonmycat.com"</span><span>&gt;</span><span>Stuff On My Cat</span><span>&lt;/</span><span>a</span><span>&gt;</span><br><span>&lt;/</span><span>div</span><span>&gt;</span></pre>
+      </div>
+    comments: ''
+    comments_html: Perfect! We need to nest the <code>h1</code>, <code>p</code>, and
+      <code>a</code> tags inside the <code>div</code>.
+    weight: 100.0
+  - id: 7935
+    text: ''
+    html: |-
+      <div>
+      <pre><span>&lt;</span><span>div</span><span>&gt;</span><br><span>&lt;/</span><span>div</span><span>&gt;</span><br><br><span>&lt;</span><span>h1</span><span>&gt;</span><span>The Cat's Meow Ya Doin?</span><span>&lt;/</span><span>h1</span><span>&gt;</span><br><span>&lt;</span><span>p</span><span>&gt;</span><span>Cats love to meow, but sometimes it sounds like English. I swear my cat is asking me how I'm doing!</span><span>&lt;/</span><span>p</span><span>&gt;</span><br><span>&lt;</span><span>a</span> <span>href</span><span>=</span><span>"http://stuffonmycat.com"</span><span>&gt;</span><span>Stuff On My Cat</span><span>&lt;/</span><span>a</span><span>&gt;</span></pre>
+      </div>
+    comments: ''
+    comments_html: Not quite. Where should the <code>h1</code>, <code>p</code>, and
+      <code>a</code> tags go? Inside or outside the <code>div</code>?
+    weight: 0.0
+  - id: 3608
+    text: ''
+    html: |-
+      <div>
+      <pre><span>&lt;</span><span>div</span><span>&gt;</span><br><span>    &lt;</span><span>h1</span><span>&gt;</span><span>The Cat's Meow Ya Doin?</span><br><span>        &lt;</span><span>p</span><span>&gt;</span><span>Cats love to meow, but sometimes it sounds like English. I swear my cat is asking me how I'm doing!</span><span>&lt;/</span><span>p</span><span>&gt;</span><br><span>        &lt;</span><span>a</span> <span>href</span><span>=</span><span>"http://stuffonmycat.com"</span><span>&gt;</span><span>Stuff On My Cat</span><span>&lt;/</span><span>a</span><span>&gt;</span><br><span>    &lt;/</span><span>h1</span><span>&gt;</span><br><span>&lt;/</span><span>div</span><span>&gt;</span></pre>
+      </div>
+    comments: ''
+    comments_html: |-
+      <div>
+      <div><span>Not really. We don't want to put the paragraph and link inside the header, but directly inside the div instead.</span></div>
+      </div>
+    weight: 0.0
+  - id: 7523
+    text: ''
+    html: |-
+      <div>
+      <pre><span>&lt;</span><span>div</span><span>&gt;</span><br><span>    &lt;</span><span>h1</span><span>&gt;</span><span>The Cat's Meow Ya Doin?</span><span>&lt;/</span><span>h1</span><span>&gt;</span><br><span>    &lt;</span><span>p</span><span>&gt;</span><span>Cats love to meow, but sometimes it sounds like English. I swear my cat is asking me how I'm doing!</span><span>&lt;/</span><span>p</span><span>&gt;</span><br><span>    &lt;</span><span>a</span> <span>href</span><span>=</span><span>"http://stuffonmycat.com"</span><span>&gt;</span><span>Stuff On My Cat</span><span>&lt;/</span><span>div</span><span>&gt;</span><br><span>&lt;/</span><span>a</span><span>&gt;</span></pre>
+      </div>
+    comments: ''
+    comments_html: |-
+      <div>
+      <div><span>Almost. Take a look at the opening and closing tags of the elements. Are they ordered and matched correctly?</span></div>
+      </div>
+    weight: 0.0
+  - id: 4352
+    text: I don't know
+    html: ''
+    comments: ''
+    comments_html: |-
+      <div>
+      <div><span>Be sure to study the source/s for this question. You'll get it next time.</span></div>
+      </div>
+    weight: 0.0
+- id: 18859
+  position:
+  question_name: Question
+  question_type: matching_question
+  question_text: |-
+    <div>
+    <div><span>Match the tags to their definitions:</span></div>
+    </div>
+  points_possible: 1.0
+  correct_comments_html: ''
+  incorrect_comments_html: ''
+  neutral_comments_html: '<p><strong>Source/s</strong>: <a title="Crafting HTML Documents"
+    href="https://learning.flatironschool.com/courses/342/pages/crafting-html-documents"
+    target="_blank">Crafting HTML Documents</a></p>'
+  answers:
+  - id: 2602
+    text: "<doctype>"
+    left: "<doctype>"
+    right: The very first tag in an HTML document. It tells the browser which version
+      of HTML to use.
+    comments: ''
+    comments_html: "<p>Where do we normally see this tag in an HTML document? You
+      can also check online resources, such as MDN, to learn more about this tag.</p>"
+    match_id: 307
+  - id: 3105
+    text: "<html>"
+    left: "<html>"
+    right: Tells the browser that everything inside this set of tags is HTML code.
+    comments: ''
+    comments_html: "<p>What normally is nested inside this tag?</p>"
+    match_id: 7221
+  - id: 4936
+    text: "<head>"
+    left: "<head>"
+    right: Contains metadata that describes the page, such as its title.
+    comments: ''
+    comments_html: "<p>Hint: None of the data nested inside this tag is rendered by
+      the browser.</p>"
+    match_id: 2717
+  - id: 2924
+    text: "<body>"
+    left: "<body>"
+    right: Contains all of the content that will be rendered by the browser, i.e.
+      visible to visitors.
+    comments: ''
+    comments_html: "<p>Will visitors see the content nested inside this tag?</p>"
+    match_id: 8238
+- id: 18860
+  position:
+  question_name: Question
+  question_type: multiple_choice_question
+  question_text: |-
+    <div>
+    <div><span>Choose the correctly structured HTML snippet:</span></div>
+    </div>
+  points_possible: 1.0
+  correct_comments_html: ''
+  incorrect_comments_html: ''
+  neutral_comments_html: '<p><strong>Source/s</strong>: <a title="Crafting HTML Documents"
+    href="https://learning.flatironschool.com/courses/342/pages/crafting-html-documents"
+    target="_blank">Crafting HTML Documents</a></p>'
+  answers:
+  - id: 7390
+    text: ''
+    html: |-
+      <div>
+      <pre><span>&lt;!</span><span>DOCTYPE</span> <span>html</span><span>&gt;</span><br><span>&lt;</span><span>html</span><span>&gt;</span><br><span>    &lt;</span><span>head</span><span>&gt;</span><br><span>    &lt;/</span><span>head</span><span>&gt;</span><br><br><span>    &lt;</span><span>body</span><span>&gt;</span><br><span>    &lt;/</span><span>body</span><span>&gt;</span><br><span>&lt;/</span><span>html</span><span>&gt;</span></pre>
+      </div>
+    comments: ''
+    comments_html: |-
+      <div>
+      <div>
+      <span>Exactly! First we tell the browser which version of HTML we're using with </span><span>&lt;</span><span>doctype</span><span>&gt;</span><span>, and then we add all of our HTML inside </span><span>&lt;</span><span>html</span><span>&gt;&lt;/</span><span>html</span><span>&gt;</span><span>.</span>
+      </div>
+      </div>
+    weight: 100.0
+  - id: 7722
+    text: ''
+    html: |-
+      <div>
+      <pre><span>&lt;!</span><span>DOCTYPE</span> <span>html</span><span>&gt;</span><br><span>&lt;</span><span>html</span><span>&gt;</span><br><span>    &lt;</span><span>head</span><span>&gt;</span><br><span>    &lt;/</span><span>head</span><span>&gt; </span><br><br><span>    &lt;</span><span>body</span><span>&gt;</span><br><span>    &lt;/</span><span>body</span><span>&gt;</span><br><span>&lt;/</span><span>html</span><span>&gt;</span><br><span>&lt;/!DOCTYPE html&gt;</span></pre>
+      </div>
+    comments: ''
+    comments_html: |-
+      <div>
+      <div>
+      <span>Not quite. </span><span>&lt;</span><span>doctype</span><span>&gt;</span><span> is actually self-closing.</span>
+      </div>
+      </div>
+    weight: 0.0
+  - id: 5333
+    text: ''
+    html: |-
+      <div>
+      <pre><span>&lt;!</span><span>DOCTYPE</span> <span>html</span><span>&gt;</span><br><span>&lt;</span><span>head</span><span>&gt;</span><br><span>    &lt;</span><span>html</span><span>&gt;</span><br><span>        &lt;</span><span>body</span><span>&gt;</span><br><span>        &lt;/</span><span>body</span><span>&gt;</span><br><br><span>    &lt;/</span><span>html</span><span>&gt;</span><br><span>&lt;/</span><span>head</span><span>&gt;</span></pre>
+      </div>
+    comments: ''
+    comments_html: |-
+      <div>
+      <div><span>Not quite. Review what each of these tags mean and then see if you can figure out the correct structure. Specifically, does it make sense to nest everything inside the head tags?</span></div>
+      </div>
+    weight: 0.0
+  - id: 8382
+    text: I don't know
+    html: ''
+    comments: ''
+    comments_html: |-
+      <div>
+      <div><span>Be sure to study the source/s for this question. You'll get it next time.</span></div>
+      </div>
+    weight: 0.0
+- id: 18862
+  position:
+  question_name: Question
+  question_type: multiple_answers_question
+  question_text: "<p>Select all true statements about the <code>id</code> attribute:</p>"
+  points_possible: 1.0
+  correct_comments_html: ''
+  incorrect_comments_html: ''
+  neutral_comments_html: '<p><strong>Source/s</strong>: <a title="Nested HTML Tags
+    And Attributes" href="https://learning.flatironschool.com/courses/342/pages/nested-html-tags-and-attributes"
+    target="_blank">Nested HTML Tags And Attributes</a></p>'
+  answers:
+  - id: '2046'
+    text: It uniquely identifies an HTML element
+    comments: ''
+    comments_html: |-
+      <div>
+      <div><span>Perfect! In JavaScript, we commonly use ids to grab specific elements.</span></div>
+      </div>
+    weight: 100.0
+  - id: '4655'
+    text: It can be used to style an element via CSS
+    comments: ''
+    comments_html: |-
+      <div>
+      <div><span>So true. In our CSS, we can declare rules for styling an element with a specific id.</span></div>
+      </div>
+    weight: 100.0
+  - id: '9697'
+    text: ''
+    comments: ''
+    comments_html: |-
+      <div>
+      <div><span>Exactly! Ids are unique, so they should never be reused.</span></div>
+      </div>
+    weight: 100.0
+    html: An id, such as <code>id="cat-party"</code>, should be used only once in
+      a document
+  - id: '4900'
+    text: We can reuse the same id many times in an HTML document
+    comments: ''
+    comments_html: |-
+      <div>
+      <div><span>Not quite. The browser won't get angry if we do this, but it's semantically incorrect. We should never reuse ids, since they're meant to be unique.</span></div>
+      </div>
+    weight: 0.0
+  - id: '2649'
+    text: We use the id to group similar elements
+    comments: ''
+    comments_html: Not quite. This is where we'd use the <code>class</code> attribute.
+    weight: 0.0
+  - id: '4419'
+    text: I don't know
+    comments: ''
+    comments_html: |-
+      <div>
+      <div><span>Be sure to study the source/s for this question. You'll get it next time.</span></div>
+      </div>
+    weight: 0.0
+- id: 18863
+  position:
+  question_name: Question
+  question_type: multiple_choice_question
+  question_text: |-
+    <div>
+    <div><span>What does the action attribute on a form element do? You'll need to use your researching skills for this one!</span></div>
+    </div>
+  points_possible: 1.0
+  correct_comments_html: ''
+  incorrect_comments_html: ''
+  neutral_comments_html: '<p><strong>Source/s</strong>: <a title="Leveraging Additional
+    HTML Documentation Resources" href="https://learning.flatironschool.com/courses/342/pages/leveraging-additional-html-documentation-resources"
+    target="_blank">Leveraging Additional HTML Documentation Resources</a></p>'
+  answers:
+  - id: 3661
+    text: It tells the browser where to send the form data
+    html: ''
+    comments: ''
+    comments_html: |-
+      <div>
+      <div><span>Exactly! The action is an endpoint that receives the form data, which will then be processed by the server.</span></div>
+      </div>
+    weight: 100.0
+  - id: 847
+    text: It tells the server, which receives the form data, whether you are trying
+      to get data or add data to a database
+    html: ''
+    comments: ''
+    comments_html: |-
+      <div>
+      <div><span>Not quite. This describes the method attribute.</span></div>
+      </div>
+    weight: 0.0
+  - id: 2294
+    text: It allows you to specify a custom method for validating the form when it's
+      submitted
+    html: ''
+    comments: ''
+    comments_html: |-
+      <div>
+      <div><span>Not quite. This seems like a job for JavaScript.</span></div>
+      </div>
+    weight: 0.0
+  - id: 4601
+    text: I don't know
+    html: ''
+    comments: ''
+    comments_html: |-
+      <div>
+      <div><span>Be sure to study the source/s for this question. You'll get it next time.</span></div>
+      </div>
+    weight: 0.0
+- id: 18864
+  position:
+  question_name: Question
+  question_type: multiple_choice_question
+  question_text: |-
+    <div>
+    <div>
+    <span>Choose the </span><strong>best</strong><span> way to provide instructions for making toast:</span>
+    </div>
+    </div>
+  points_possible: 1.0
+  correct_comments_html: ''
+  incorrect_comments_html: ''
+  neutral_comments_html: '<p><strong>Source/s</strong>: <a title="HTML Lists" href="https://learning.flatironschool.com/courses/342/assignments/9255"
+    target="_blank">HTML Lists</a></p>'
+  answers:
+  - id: 6201
+    text: ''
+    html: |-
+      <div>
+      <pre><span>&lt;</span><span>ol</span><span>&gt;</span><br><span>    &lt;</span><span>li</span><span>&gt;</span><span>Remove bread from container</span><span>&lt;/</span><span>li</span><span>&gt;</span><br><span>    &lt;</span><span>li</span><span>&gt;</span><span>Put bread in toaster</span><span>&lt;/</span><span>li</span><span>&gt;</span><br><span>    &lt;</span><span>li</span><span>&gt;</span><span>Push lever down to start toasting</span><span>&lt;/</span><span>li</span><span>&gt;</span><br><span>    &lt;</span><span>li</span><span>&gt;</span><span>Wait for toast to pop up</span><span>&lt;/</span><span>li</span><span>&gt;</span><br><span>&lt;/</span><span>ol</span><span>&gt;</span></pre>
+      </div>
+    comments: ''
+    comments_html: |-
+      <div>
+      <div><span>Superb! We should use an ordered list because these steps need to be performed in order.</span></div>
+      </div>
+    weight: 100.0
+  - id: 6599
+    text: ''
+    html: |-
+      <div>
+      <pre><span>&lt;</span><span>ul</span><span>&gt;</span><br><span>    &lt;</span><span>li</span><span>&gt;</span><span>Remove bread from container</span><span>&lt;/</span><span>li</span><span>&gt;</span><br><span>    &lt;</span><span>li</span><span>&gt;</span><span>Put bread in toaster</span><span>&lt;/</span><span>li</span><span>&gt;</span><br><span>    &lt;</span><span>li</span><span>&gt;</span><span>Push lever down to start toasting</span><span>&lt;/</span><span>li</span><span>&gt;</span><br><span>    &lt;</span><span>li</span><span>&gt;</span><span>Wait for toast to pop up</span><span>&lt;/</span><span>li</span><span>&gt;</span><br><span>&lt;/</span><span>ul</span><span>&gt;</span></pre>
+      </div>
+    comments: ''
+    comments_html: |-
+      <div>
+      <div><span>Almost. We should use a list, but preferably one with numbered items, since these steps should be done in order.</span></div>
+      </div>
+    weight: 0.0
+  - id: 3079
+    text: ''
+    html: |-
+      <div>
+      <pre><span>&lt;</span><span>div</span><span>&gt;</span><br><span>    &lt;</span><span>p</span><span>&gt;</span><span>Remove bread from container</span><span>&lt;/</span><span>p</span><span>&gt;</span><br><span>    &lt;</span><span>p</span><span>&gt;</span><span>Put bread in toaster</span><span>&lt;/</span><span>p</span><span>&gt;</span><br><span>    &lt;</span><span>p</span><span>&gt;</span><span>Push lever down to start toasting</span><span>&lt;/</span><span>p</span><span>&gt;</span><br><span>    &lt;</span><span>p</span><span>&gt;</span><span>Wait for toast to pop up</span><span>&lt;/</span><span>p</span><span>&gt;</span><br><span>&lt;/</span><span>div</span><span>&gt;</span></pre>
+      </div>
+    comments: ''
+    comments_html: |-
+      <div>
+      <div><span>We want our HTML to be meaningful; we can think of instructions as being a list of instructions. With that in mind, which code snippet more meaningfully represents our toast-making steps?</span></div>
+      </div>
+    weight: 0.0
+  - id: 7198
+    text: I don't know
+    html: ''
+    comments: ''
+    comments_html: |-
+      <div>
+      <div><span>Be sure to study the source/s for this question. You'll get it next time.</span></div>
+      </div>
+    weight: 0.0
+- id: 18865
+  position:
+  question_name: Question
+  question_type: matching_question
+  question_text: |-
+    <div>
+    <pre>&lt;img src="./emo-cat-hairstyle.jpg" alt="A cat with a swoopy emo hairstyle" title="That hairball swoops so good!"&gt;</pre>
+    <div>
+    <div>
+    <div><span>Match the image tag's attributes to what they do:</span></div>
+    </div>
+    </div>
+    </div>
+  points_possible: 1.0
+  correct_comments_html: ''
+  incorrect_comments_html: ''
+  neutral_comments_html: '<p><strong>Source/s</strong>: <a title="HTML Images" href="https://learning.flatironschool.com/courses/342/assignments/9253"
+    target="_blank">HTML Images</a></p>'
+  answers:
+  - id: 478
+    text: src
+    left: src
+    right: Specify the image to be displayed
+    comments: ''
+    comments_html: "<p>We set this equal to a path. Where does that path lead?</p>"
+    match_id: 5563
+  - id: 2116
+    text: alt
+    left: alt
+    right: Provide text for accessibility, which will also display if the image doesn't
+      load
+    comments: ''
+    comments_html: "<p>This attribute is useful for screen readers, so visually-impaired
+      visitors can hear a description of the image.</p>"
+    match_id: 1866
+  - id: 8454
+    text: title
+    left: title
+    right: Content will show when hovering over an image. Usually isn't used.
+    comments: ''
+    comments_html: "<p>This, honestly, is not the most useful attribute.</p>"
+    match_id: 1897
+- id: 18866
+  position:
+  question_name: Question
+  question_type: multiple_choice_question
+  question_text: |-
+    <div>
+    <div><span>Choose the code snippet that will open a link in a new tab or window:</span></div>
+    </div>
+  points_possible: 1.0
+  correct_comments_html: ''
+  incorrect_comments_html: ''
+  neutral_comments_html: '<p><strong>Source/s</strong>: <a title="HTML Links" href="https://learning.flatironschool.com/courses/342/assignments/9254"
+    target="_blank">HTML Links</a></p>'
+  answers:
+  - id: 2282
+    text: ''
+    html: |-
+      <div>
+      <pre><span>&lt;</span><span>a</span> <span>href</span><span>=</span><span>"http://stuffonmycat.com"</span> <span>target</span><span>=</span><span>"_blank"</span><span>&gt;</span><span>Stuff On My Cat</span><span>&lt;/</span><span>a</span><span>&gt;</span></pre>
+      </div>
+    comments: ''
+    comments_html: |-
+      <div>
+      <div><span>Oh yeah! This will open the website in a new tab or window with a left-click.</span></div>
+      </div>
+    weight: 100.0
+  - id: 9020
+    text: ''
+    html: |-
+      <div>
+      <pre><span>&lt;</span><span>a</span> <span>link</span><span>=</span><span>"http://stuffonmycat.com"</span> <span>target</span><span>=</span><span>"_blank"</span><span>&gt;</span><span>Stuff On My Cat</span><span>&lt;/</span><span>a</span><span>&gt;</span></pre>
+      </div>
+    comments: ''
+    comments_html: |-
+      <div>
+      <div><span>Not quite. There's something wrong with one of the attributes.</span></div>
+      </div>
+    weight: 0.0
+  - id: 2465
+    text: ''
+    html: |-
+      <div>
+      <pre><span>&lt;</span><span>a</span> <span>href</span><span>=</span><span>"http://stuffonmycat.com"</span> <span>target</span><span>=</span><span>"_new"</span><span>&gt;</span><span>Stuff On My Cat</span><span>&lt;/</span><span>a</span><span>&gt;</span></pre>
+      </div>
+    comments: ''
+    comments_html: |-
+      <div>
+      <div><span>Not quite. There's something wrong with one of the attributes.</span></div>
+      </div>
+    weight: 0.0
+  - id: 1671
+    text: I don't know
+    html: ''
+    comments: ''
+    comments_html: |-
+      <div>
+      <div><span>Be sure to study the source/s for this question. You'll get it next time.</span></div>
+      </div>
+    weight: 0.0

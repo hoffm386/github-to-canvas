@@ -1,0 +1,1449 @@
+---
+:name: Software Engineering In-Person - Phase 3
+:id: 344
+:modules:
+- :id: 2020
+  :name: Instructor Materials - DO NOT PUBLISH
+  :lessons:
+  - id: phase-3-week-1
+    title: Phase 3 Week 1
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/27001
+    page_url: phase-3-week-1
+    url: https://learning.flatironschool.com/api/v1/courses/344/pages/phase-3-week-1
+    published: false
+    repository: ''
+  - id: phase-3-week-2
+    title: Phase 3 Week 2
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/27002
+    page_url: phase-3-week-2
+    url: https://learning.flatironschool.com/api/v1/courses/344/pages/phase-3-week-2
+    published: false
+    repository: ''
+  - id: phase-3-week-3
+    title: Phase 3 Week 3
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/26999
+    page_url: phase-3-week-3
+    url: https://learning.flatironschool.com/api/v1/courses/344/pages/phase-3-week-3
+    published: false
+    repository: ''
+  - id: phase-3-assessments
+    title: Phase 3 Assessments
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/27000
+    page_url: phase-3-assessments
+    url: https://learning.flatironschool.com/api/v1/courses/344/pages/phase-3-assessments
+    published: false
+    repository: ''
+  - id: phase-3-labs
+    title: Phase 3 Labs
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/26995
+    page_url: phase-3-labs
+    url: https://learning.flatironschool.com/api/v1/courses/344/pages/phase-3-labs
+    published: false
+    repository: ''
+  - id: sample-phase-3-projects
+    title: Sample Phase 3 Projects
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/26998
+    page_url: sample-phase-3-projects
+    url: https://learning.flatironschool.com/api/v1/courses/344/pages/sample-phase-3-projects
+    published: false
+    repository: ''
+  - id: phase-3-expectations
+    title: Phase 3 Expectations
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/26996
+    page_url: phase-3-expectations
+    url: https://learning.flatironschool.com/api/v1/courses/344/pages/phase-3-expectations
+    published: false
+    repository: ''
+  - id: phase-3-repeat-plan
+    title: Phase 3 Repeat Plan
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/26997
+    page_url: phase-3-repeat-plan
+    url: https://learning.flatironschool.com/api/v1/courses/344/pages/phase-3-repeat-plan
+    published: false
+    repository: ''
+- :id: 2022
+  :name: Discussion Questions
+  :lessons:
+  - id: '1095'
+    title: 'Discussion Questions: JS and the DOM'
+    indent: 0
+    type: Discussion
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/27084
+    url: https://learning.flatironschool.com/api/v1/courses/344/discussion_topics/1095
+    published: false
+    repository: https://github.com/learn-co-curriculum/fewpjs-discussion-questions-intro-to-dom-js
+  - id: '1094'
+    title: 'Discussion Questions: Events'
+    indent: 0
+    type: Discussion
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/27082
+    url: https://learning.flatironschool.com/api/v1/courses/344/discussion_topics/1094
+    published: false
+    repository: https://github.com/learn-co-curriculum/fewpjs-discussion-questions-events
+  - id: '1099'
+    title: 'Discussion Questions: AJAX'
+    indent: 0
+    type: Discussion
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/27080
+    url: https://learning.flatironschool.com/api/v1/courses/344/discussion_topics/1099
+    published: false
+    repository: https://github.com/learn-co-curriculum/ajax-discussion-question
+  - id: '1092'
+    title: 'Discussion Questions: Client-Server Communication'
+    indent: 0
+    type: Discussion
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/27078
+    url: https://learning.flatironschool.com/api/v1/courses/344/discussion_topics/1092
+    published: false
+    repository: https://github.com/learn-co-curriculum/fewpjs-discussion-questions-client-server-communication-ii
+  - id: '1098'
+    title: 'Discussion Questions: MVC and Rails Render'
+    indent: 0
+    type: Discussion
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/27088
+    url: https://learning.flatironschool.com/api/v1/courses/344/discussion_topics/1098
+    published: false
+    repository: https://github.com/learn-co-curriculum/js-rails-as-api-discussion-questions-mvc-render
+  - id: '1096'
+    title: 'Discussion Questions: Thinking in Types'
+    indent: 0
+    type: Discussion
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/27086
+    url: https://learning.flatironschool.com/api/v1/courses/344/discussion_topics/1096
+    published: false
+    repository: https://github.com/learn-co-curriculum/fewpjs-discussion-questions-thinking-in-types
+  - id: '1093'
+    title: 'Discussion Questions: ES6 Features'
+    indent: 0
+    type: Discussion
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/27083
+    url: https://learning.flatironschool.com/api/v1/courses/344/discussion_topics/1093
+    published: false
+    repository: https://github.com/learn-co-curriculum/fewpjs-discussion-questions-es6-features
+  - id: '1097'
+    title: 'Discussion Questions: Execution Context'
+    indent: 0
+    type: Discussion
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/27085
+    url: https://learning.flatironschool.com/api/v1/courses/344/discussion_topics/1097
+    published: false
+    repository: https://github.com/learn-co-curriculum/js-advanced-functions-discussion-question-execution-context
+  - id: '1091'
+    title: Arrow Function Discussion Questions
+    indent: 0
+    type: Discussion
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/27079
+    url: https://learning.flatironschool.com/api/v1/courses/344/discussion_topics/1091
+    published: false
+    repository: https://github.com/learn-co-curriculum/arrow-functions-discussion-questions
+- :id: 2024
+  :name: Introduction to Phase 3
+  :lessons:
+  - id: what-to-expect-in-module-3
+    title: What To Expect In Module 3
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/27006
+    page_url: what-to-expect-in-module-3
+    url: https://learning.flatironschool.com/api/v1/courses/344/pages/what-to-expect-in-module-3
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: https://github.com/learn-co-curriculum/What-To-Expect-In-Mod-3
+- :id: 2028
+  :name: Defining Front End Web Programming
+  :lessons:
+  - id: demonstrate-a-front-end-web-programming-example
+    title: Demonstrate a Front-End Web Programming Example
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/27134
+    page_url: demonstrate-a-front-end-web-programming-example
+    url: https://learning.flatironschool.com/api/v1/courses/344/pages/demonstrate-a-front-end-web-programming-example
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: https://github.com/learn-co-curriculum/fewpjs-fewp-example
+  - id: '9369'
+    title: Stitching Together the Three Pillars
+    indent: 0
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/27135
+    url: https://learning.flatironschool.com/api/v1/courses/344/assignments/9369
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/fewpjs-stitching-together-the-three-pillars-new
+- :id: 2029
+  :name: Manipulating the DOM
+  :lessons:
+  - id: intro-to-dom-programming-and-just-enough-javascript
+    title: Intro to DOM Programming and Just Enough JavaScript
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/27136
+    page_url: intro-to-dom-programming-and-just-enough-javascript
+    url: https://learning.flatironschool.com/api/v1/courses/344/pages/intro-to-dom-programming-and-just-enough-javascript
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: https://github.com/learn-co-curriculum/fewpjs-introducing-the-dom-and-just-enough-javascript
+  - id: introduction-to-the-dom
+    title: Introduction to the DOM
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/27139
+    page_url: introduction-to-the-dom
+    url: https://learning.flatironschool.com/api/v1/courses/344/pages/introduction-to-the-dom
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: https://github.com/learn-co-curriculum/fewpjs-introduction-to-the-dom-to-get-started
+  - id: '9351'
+    title: DOM Editing Lab
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/27142
+    url: https://learning.flatironschool.com/api/v1/courses/344/assignments/9351
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/fewpjs-dom-editing-lab
+  - id: changing-the-dom-with-devtools-and-javascript
+    title: Changing The DOM with DevTools and JavaScript
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/27137
+    page_url: changing-the-dom-with-devtools-and-javascript
+    url: https://learning.flatironschool.com/api/v1/courses/344/pages/changing-the-dom-with-devtools-and-javascript
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: https://github.com/learn-co-curriculum/fewpjs-changing-the-dom-with-dev-tools-and-javascript
+  - id: javascript-variables
+    title: JavaScript Variables
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/27106
+    page_url: javascript-variables
+    url: https://learning.flatironschool.com/api/v1/courses/344/pages/javascript-variables
+    published: false
+    repository: https://github.com/learn-co-curriculum/js-basics-variables-readme
+  - id: '9411'
+    title: JavaScript Variables Lab
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/27117
+    url: https://learning.flatironschool.com/api/v1/courses/344/assignments/9411
+    published: false
+    repository: https://github.com/learn-co-curriculum/js-basics-variables-lab
+  - id: javascript-fundamentals-calling-methods
+    title: 'JavaScript Fundamentals: Calling Methods'
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/27138
+    page_url: javascript-fundamentals-calling-methods
+    url: https://learning.flatironschool.com/api/v1/courses/344/pages/javascript-fundamentals-calling-methods
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: https://github.com/learn-co-curriculum/fewpjs-js-fundamentals-calling-methods
+  - id: the-dom-is-a-tree
+    title: The DOM Is a Tree
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/27141
+    page_url: the-dom-is-a-tree
+    url: https://learning.flatironschool.com/api/v1/courses/344/pages/the-dom-is-a-tree
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: https://github.com/learn-co-curriculum/fewpjs-the-dom-tree
+  - id: arrays
+    title: Arrays
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/27130
+    page_url: arrays
+    url: https://learning.flatironschool.com/api/v1/courses/344/pages/arrays
+    published: false
+    repository: https://github.com/learn-co-curriculum/js-data-structures-arrays-readme
+  - id: '9412'
+    title: Arrays Lab
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/27131
+    url: https://learning.flatironschool.com/api/v1/courses/344/assignments/9412
+    published: false
+    repository: https://github.com/learn-co-curriculum/js-data-structures-arrays-lab
+  - id: '9382'
+    title: Looping Lab
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/27609
+    url: https://learning.flatironschool.com/api/v1/courses/344/assignments/9382
+    published: false
+    repository: https://github.com/learn-co-curriculum/js-looping-and-iteration-looping-code-along
+  - id: javascript-node-search-power-tools
+    title: JavaScript Node Search Power Tools
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/27140
+    page_url: javascript-node-search-power-tools
+    url: https://learning.flatironschool.com/api/v1/courses/344/pages/javascript-node-search-power-tools
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: https://github.com/learn-co-curriculum/fewpjs-queryselector-methods
+  - id: '11297'
+    title: Creating and Inserting DOM Nodes
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/27610
+    url: https://learning.flatironschool.com/api/v1/courses/344/assignments/11297
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/fewpjs-removing-altering-and-inserting-html-lab
+  - id: '2169'
+    title: DOM Manipulation Quiz
+    indent: 0
+    type: Quiz
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/27612
+    url: https://learning.flatironschool.com/api/v1/courses/344/quizzes/2169
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: ''
+  - id: youre-a-dom-manipulation-master
+    title: You're a DOM Manipulation Master
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/27611
+    page_url: youre-a-dom-manipulation-master
+    url: https://learning.flatironschool.com/api/v1/courses/344/pages/youre-a-dom-manipulation-master
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: https://github.com/learn-co-curriculum/fewpjs_youre_a_dom_manipulation_master
+- :id: 2030
+  :name: Recognizing JavaScript Events
+  :lessons:
+  - id: how-to-leverage-javascript-events
+    title: How to Leverage JavaScript Events
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/27614
+    page_url: how-to-leverage-javascript-events
+    url: https://learning.flatironschool.com/api/v1/courses/344/pages/how-to-leverage-javascript-events
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: https://github.com/learn-co-curriculum/fewpjs-javascript-eventing
+  - id: '9352'
+    title: Interacting with the DOM via JavaScript Event Listeners
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/27618
+    url: https://learning.flatironschool.com/api/v1/courses/344/assignments/9352
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/fewpjs-event-listening
+  - id: events-and-functions
+    title: Events and Functions
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/27615
+    page_url: events-and-functions
+    url: https://learning.flatironschool.com/api/v1/courses/344/pages/events-and-functions
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: https://github.com/learn-co-curriculum/fewpjs-events-functions-intro
+  - id: functions
+    title: Functions
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/27107
+    page_url: functions
+    url: https://learning.flatironschool.com/api/v1/courses/344/pages/functions
+    published: false
+    repository: https://github.com/learn-co-curriculum/fewpjs-functions-in-javascript
+  - id: '9355'
+    title: 'JavaScript Functions as First Class Data: Do behavior'
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/27619
+    url: https://learning.flatironschool.com/api/v1/courses/344/assignments/9355
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/fewpjs-fns-as-first-class-data-do-behavior
+  - id: '9354'
+    title: 'JavaScript Functions as First Class Data: Array of Functions'
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/27617
+    url: https://learning.flatironschool.com/api/v1/courses/344/assignments/9354
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/fewpjs-fns-as-first-class-data-array-o-functions
+  - id: '9345'
+    title: Moving Things with JavaScript by Acting on Events
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/27621
+    url: https://learning.flatironschool.com/api/v1/courses/344/assignments/9345
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/fewpjs-acting-on-events
+  - id: '9350'
+    title: Loading JavaScript on Document Load
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/27620
+    url: https://learning.flatironschool.com/api/v1/courses/344/assignments/9350
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/fewpjs-document-onload
+  - id: scope
+    title: Scope
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/27126
+    page_url: scope
+    url: https://learning.flatironschool.com/api/v1/courses/344/pages/scope
+    published: false
+    repository: https://github.com/learn-co-curriculum/js-principles-scope-readme
+  - id: scope-chain
+    title: Scope chain
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/27125
+    page_url: scope-chain
+    url: https://learning.flatironschool.com/api/v1/courses/344/pages/scope-chain
+    published: false
+    repository: https://github.com/learn-co-curriculum/js-principles-scope-chain-readme
+  - id: '9429'
+    title: Scope Lab
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/27127
+    url: https://learning.flatironschool.com/api/v1/courses/344/assignments/9429
+    published: false
+    repository: https://github.com/learn-co-curriculum/js-principles-scope-lab
+  - id: lexical-scoping
+    title: Lexical scoping
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/27124
+    page_url: lexical-scoping
+    url: https://learning.flatironschool.com/api/v1/courses/344/pages/lexical-scoping
+    published: false
+    repository: https://github.com/learn-co-curriculum/js-principles-lexical-scoping-readme
+  - id: hoisting
+    title: Hoisting
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/27123
+    page_url: hoisting
+    url: https://learning.flatironschool.com/api/v1/courses/344/pages/hoisting
+    published: false
+    repository: https://github.com/learn-co-curriculum/js-principles-hoisting-readme
+  - id: '9395'
+    title: TaskLister Lite™️
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/27622
+    url: https://learning.flatironschool.com/api/v1/courses/344/assignments/9395
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/jsdom-task-lister-lite
+  - id: '9393'
+    title: The DOM Challenge
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/27623
+    url: https://learning.flatironschool.com/api/v1/courses/344/assignments/9393
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/jsdom-dom-challenge
+  - id: youre-a-javascript-eventing-master
+    title: You're a JavaScript Eventing Master
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/27616
+    page_url: youre-a-javascript-eventing-master
+    url: https://learning.flatironschool.com/api/v1/courses/344/pages/youre-a-javascript-eventing-master
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: https://github.com/learn-co-curriculum/fewpjs-eventing-master
+- :id: 2031
+  :name: Communicating with the Server
+  :lessons:
+  - id: communicating-with-the-server
+    title: Communicating with the Server
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/27628
+    page_url: communicating-with-the-server
+    url: https://learning.flatironschool.com/api/v1/courses/344/pages/communicating-with-the-server
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: https://github.com/learn-co-curriculum/fewpjs-communicating-with-the-server
+  - id: use-%60fetch-%60
+    title: Use `fetch()`
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/27629
+    page_url: use-`fetch-`
+    url: https://learning.flatironschool.com/api/v1/courses/344/pages/use-%60fetch-%60
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: https://github.com/learn-co-curriculum/fewpjs-use-fetch
+  - id: '9353'
+    title: "`fetch()` Lab"
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/27630
+    url: https://learning.flatironschool.com/api/v1/courses/344/assignments/9353
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/fewpjs-fetch-lab
+  - id: javascript-objects-and-fetch
+    title: JavaScript Objects and Fetch
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/27626
+    page_url: javascript-objects-and-fetch
+    url: https://learning.flatironschool.com/api/v1/courses/344/pages/javascript-objects-and-fetch
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: https://github.com/learn-co-curriculum/fewpjs-objects-and-fetch-intro
+  - id: objects
+    title: Objects
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/27129
+    page_url: objects
+    url: https://learning.flatironschool.com/api/v1/courses/344/pages/objects
+    published: false
+    repository: https://github.com/learn-co-curriculum/js-data-structures-objects-readme
+  - id: '9379'
+    title: Objects Lab
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/27132
+    url: https://learning.flatironschool.com/api/v1/courses/344/assignments/9379
+    published: false
+    repository: https://github.com/learn-co-curriculum/js-data-structures-objects-lab
+  - id: object-iteration
+    title: Object Iteration
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/27653
+    page_url: object-iteration
+    url: https://learning.flatironschool.com/api/v1/courses/344/pages/object-iteration
+    published: false
+    repository: https://github.com/learn-co-curriculum/js-looping-and-iteration-object-iteration-readme
+  - id: traversing-nested-objects
+    title: Traversing Nested Objects
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/27654
+    page_url: traversing-nested-objects
+    url: https://learning.flatironschool.com/api/v1/courses/344/pages/traversing-nested-objects
+    published: false
+    repository: https://github.com/learn-co-curriculum/traversing-nested-objects
+  - id: '9394'
+    title: Fetch Dog CEO Challenge
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/27631
+    url: https://learning.flatironschool.com/api/v1/courses/344/assignments/9394
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/jsdom-fetch-dog-ceo-challenge
+  - id: asynchronous-javascript
+    title: Asynchronous JavaScript
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/27627
+    page_url: asynchronous-javascript
+    url: https://learning.flatironschool.com/api/v1/courses/344/pages/asynchronous-javascript
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: https://github.com/learn-co-curriculum/fewpjs-asynchrony
+  - id: '9368'
+    title: Sending Data with Fetch
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/27633
+    url: https://learning.flatironschool.com/api/v1/courses/344/assignments/9368
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/fewpjs-sending-data-with-fetch
+  - id: '9396'
+    title: Toy Tale
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/27632
+    url: https://learning.flatironschool.com/api/v1/courses/344/assignments/9396
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/jsdom-toy-tale
+- :id: 2032
+  :name: Pulling it All Together
+  :lessons:
+  - id: pulling-it-all-together
+    title: Pulling It All Together
+    indent: 1
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/27624
+    page_url: pulling-it-all-together
+    url: https://learning.flatironschool.com/api/v1/courses/344/pages/pulling-it-all-together
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: https://github.com/learn-co-curriculum/fewpjs-pulling-it-all-together
+  - id: '9347'
+    title: Stitching Together the Three Pillars
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/27625
+    url: https://learning.flatironschool.com/api/v1/courses/344/assignments/9347
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/fewpjs-build-the-example
+- :id: 2033
+  :name: Rails as an API
+  :lessons:
+  - id: using-rails-as-an-api
+    title: Using Rails as an API
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/27642
+    page_url: using-rails-as-an-api
+    url: https://learning.flatironschool.com/api/v1/courses/344/pages/using-rails-as-an-api
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: https://github.com/learn-co-curriculum/js-rails-as-api-intro
+  - id: '9391'
+    title: Review of the Rails MVC
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/27639
+    url: https://learning.flatironschool.com/api/v1/courses/344/assignments/9391
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/js-rails-as-api-review-of-rails-mvc
+  - id: '9389'
+    title: Rendering Different Content Types in Rails
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/27638
+    url: https://learning.flatironschool.com/api/v1/courses/344/assignments/9389
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/js-rails-as-api-rendering-different-content-types-using-rails
+  - id: '9384'
+    title: Custom JSON Rendering Using Rails
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/27634
+    url: https://learning.flatironschool.com/api/v1/courses/344/assignments/9384
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/js-rails-as-api-custom-json-rendering-using-rails
+  - id: '9390'
+    title: Rendering Related Data in JSON Using Rails
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/27637
+    url: https://learning.flatironschool.com/api/v1/courses/344/assignments/9390
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/js-rails-as-api-rendering-related-object-data-in-json
+  - id: creating-a-rails-api-from-scratch
+    title: Creating a Rails API from Scratch
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/27643
+    page_url: creating-a-rails-api-from-scratch
+    url: https://learning.flatironschool.com/api/v1/courses/344/pages/creating-a-rails-api-from-scratch
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: https://github.com/learn-co-curriculum/js-rails-as-api-creating-a-rails-api-from-scratch
+  - id: '9387'
+    title: Extracting a Service Class
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/27636
+    url: https://learning.flatironschool.com/api/v1/courses/344/assignments/9387
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/js-rails-as-api-extracting-a-service-class
+  - id: '9392'
+    title: Using Fast JSON API
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/27640
+    url: https://learning.flatironschool.com/api/v1/courses/344/assignments/9392
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/js-rails-as-api-using-fast-json-api
+  - id: '9388'
+    title: Pokemon Teams Project
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/27635
+    url: https://learning.flatironschool.com/api/v1/courses/344/assignments/9388
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/js-rails-as-api-pokemon-teams-project-new
+- :id: 2034
+  :name: Formalizing JavaScript
+  :lessons:
+  - id: '2155'
+    title: Data Types Quiz
+    indent: 0
+    type: Quiz
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/27118
+    url: https://learning.flatironschool.com/api/v1/courses/344/quizzes/2155
+    published: false
+    repository: ''
+  - id: javascript-data-types
+    title: JavaScript Data Types
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/27104
+    page_url: javascript-data-types
+    url: https://learning.flatironschool.com/api/v1/courses/344/pages/javascript-data-types
+    published: false
+    repository: https://github.com/learn-co-curriculum/javascript-data-types-quiz
+  - id: '9361'
+    title: 'JavaScript Fundamentals: Arithmetic Lab'
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/27115
+    url: https://learning.flatironschool.com/api/v1/courses/344/assignments/9361
+    published: false
+    repository: https://github.com/learn-co-curriculum/fewpjs-js-fundamentals-arithmetic-lab
+  - id: javascript-comparisons
+    title: JavaScript Comparisons
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/27098
+    page_url: javascript-comparisons
+    url: https://learning.flatironschool.com/api/v1/courses/344/pages/javascript-comparisons
+    published: false
+    repository: https://github.com/learn-co-curriculum/js-basics-comparisons-readme
+  - id: javascript-conditionals
+    title: JavaScript Conditionals
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/27101
+    page_url: javascript-conditionals
+    url: https://learning.flatironschool.com/api/v1/courses/344/pages/javascript-conditionals
+    published: false
+    repository: https://github.com/learn-co-curriculum/js-basics-conditionals-readme
+  - id: javascript-logical-operators
+    title: JavaScript Logical Operators
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/27100
+    page_url: javascript-logical-operators
+    url: https://learning.flatironschool.com/api/v1/courses/344/pages/javascript-logical-operators
+    published: false
+    repository: https://github.com/learn-co-curriculum/js-basics-logical-operators-readme
+  - id: '9359'
+    title: 'Iterator Drill: Map'
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/27656
+    url: https://learning.flatironschool.com/api/v1/courses/344/assignments/9359
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/fewpjs-iterators-fndcl-fnexpr-map-lab
+  - id: '9358'
+    title: 'Iterator Drill: Find'
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/27657
+    url: https://learning.flatironschool.com/api/v1/courses/344/assignments/9358
+    published: false
+    repository: https://github.com/learn-co-curriculum/fewpjs-iterators-fndcl-fnexpr-find-lab
+  - id: '9357'
+    title: 'Iterator Drill: Filter'
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/27655
+    url: https://learning.flatironschool.com/api/v1/courses/344/assignments/9357
+    published: false
+    repository: https://github.com/learn-co-curriculum/fewpjs-iterators-fndcl-fnexpr-filter-lab
+  - id: '9360'
+    title: 'Iterator Drill: Reduce'
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/27658
+    url: https://learning.flatironschool.com/api/v1/courses/344/assignments/9360
+    published: false
+    repository: https://github.com/learn-co-curriculum/fewpjs-iterators-fndcl-fnexpr-reduce-lab
+- :id: 2035
+  :name: ES6 Syntax Sugar
+  :lessons:
+  - id: '9371'
+    title: Destructuring Assignment
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/27659
+    url: https://learning.flatironschool.com/api/v1/courses/344/assignments/9371
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/fewpjs_destructuring_assignment
+  - id: default-slash-rest-slash-spread-as-function-arguments
+    title: Default / Rest / Spread as Function Arguments
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/27661
+    page_url: default-slash-rest-slash-spread-as-function-arguments
+    url: https://learning.flatironschool.com/api/v1/courses/344/pages/default-slash-rest-slash-spread-as-function-arguments
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: https://github.com/learn-co-curriculum/fewpjs_default_rest_spread_as_function_arguments-to-get-started
+  - id: using-object-dot-assign
+    title: Using Object.assign
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/27660
+    page_url: using-object-dot-assign
+    url: https://learning.flatironschool.com/api/v1/courses/344/pages/using-object-dot-assign
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: https://github.com/learn-co-curriculum/fewpjs_object_assign
+- :id: 2036
+  :name: Advanced Function Usage
+  :lessons:
+  - id: javascript-advanced-functions-introduction
+    title: 'JavaScript Advanced Functions: Introduction'
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/27668
+    page_url: javascript-advanced-functions-introduction
+    url: https://learning.flatironschool.com/api/v1/courses/344/pages/javascript-advanced-functions-introduction
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: https://github.com/learn-co-curriculum/js-advanced-functions-introduction
+  - id: '9372'
+    title: 'JavaScript Advanced Functions: Basic Functions Review'
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/27671
+    url: https://learning.flatironschool.com/api/v1/courses/344/assignments/9372
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/js-advanced-functions-basic-functions-review-lab
+  - id: '9404'
+    title: 'JavaScript Advanced Functions: First-Class Functions Lab'
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/27672
+    url: https://learning.flatironschool.com/api/v1/courses/344/assignments/9404
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/js-advanced-functions-first-class-functions-lab
+  - id: javascript-advanced-functions-collection-processing-methods
+    title: 'JavaScript Advanced Functions: Collection-Processing Methods'
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/27664
+    page_url: javascript-advanced-functions-collection-processing-methods
+    url: https://learning.flatironschool.com/api/v1/courses/344/pages/javascript-advanced-functions-collection-processing-methods
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: https://github.com/learn-co-curriculum/js-advanced-functions-collection-processing-methods
+  - id: '9378'
+    title: 'JavaScript Advanced Functions: Introduction to Map and Reduce Lab'
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/27676
+    url: https://learning.flatironschool.com/api/v1/courses/344/assignments/9378
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/js-advanced-functions-introduction-to-map-and-reduce-lab
+  - id: '9376'
+    title: 'JavaScript Advanced Functions: Generalized Map and Reduce Lab'
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/27675
+    url: https://learning.flatironschool.com/api/v1/courses/344/assignments/9376
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/js-advanced-functions-generalized-map-and-reduce-lab
+  - id: javascript-advanced-functions-the-collection-processing-methods-family-tree
+    title: 'JavaScript Advanced Functions: The Collection-Processing Methods Family
+      Tree'
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/27667
+    page_url: javascript-advanced-functions-the-collection-processing-methods-family-tree
+    url: https://learning.flatironschool.com/api/v1/courses/344/pages/javascript-advanced-functions-the-collection-processing-methods-family-tree
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: https://github.com/learn-co-curriculum/js-advanced-functions-collection-processing-methods-family-tree
+  - id: array-element-finding
+    title: Array Element Finding
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/27662
+    page_url: array-element-finding
+    url: https://learning.flatironschool.com/api/v1/courses/344/pages/array-element-finding
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: https://github.com/learn-co-curriculum/fewpjs_array_element_finding
+  - id: foreach-the-unexpressive-collection-processing-method
+    title: 'forEach: The Unexpressive Collection-Processing Method'
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/27677
+    page_url: foreach-the-unexpressive-collection-processing-method
+    url: https://learning.flatironschool.com/api/v1/courses/344/pages/foreach-the-unexpressive-collection-processing-method
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: https://github.com/learn-co-curriculum/js-advanced-functions-foreach-the-unexpressive-enumerable
+  - id: '9377'
+    title: 'JavaScript Advanced Functions: Introduction to Context'
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/27674
+    url: https://learning.flatironschool.com/api/v1/courses/344/assignments/9377
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/js-advanced-functions-introduction-to-context-lab
+  - id: javascript-advanced-functions-context-and-implicit-setting
+    title: 'JavaScript Advanced Functions: Context and Implicit Setting'
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/27666
+    page_url: javascript-advanced-functions-context-and-implicit-setting
+    url: https://learning.flatironschool.com/api/v1/courses/344/pages/javascript-advanced-functions-context-and-implicit-setting
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: https://github.com/learn-co-curriculum/js-advanced-functions-context-and-implicit-setting
+  - id: javascript-advanced-functions-context-and-explicit-setting
+    title: 'JavaScript Advanced Functions: Context and Explicit Setting'
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/27663
+    page_url: javascript-advanced-functions-context-and-explicit-setting
+    url: https://learning.flatironschool.com/api/v1/courses/344/pages/javascript-advanced-functions-context-and-explicit-setting
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: https://github.com/learn-co-curriculum/js-advanced-functions-context-and-explicit-setting
+  - id: '9373'
+    title: 'JavaScript Advanced Functions: Context Lab'
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/27673
+    url: https://learning.flatironschool.com/api/v1/courses/344/assignments/9373
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/js-advanced-functions-context-lab
+  - id: javascript-advanced-functions-debug-along-the-lost-context-bug
+    title: 'JavaScript Advanced Functions: Debug-Along: The Lost Context Bug'
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/27665
+    page_url: javascript-advanced-functions-debug-along-the-lost-context-bug
+    url: https://learning.flatironschool.com/api/v1/courses/344/pages/javascript-advanced-functions-debug-along-the-lost-context-bug
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: https://github.com/learn-co-curriculum/js-advanced-functions-the-lost-context-bug
+  - id: '9370'
+    title: Arrow Function Shorthand
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/27669
+    url: https://learning.flatironschool.com/api/v1/courses/344/assignments/9370
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/fewpjs_arrow_function_shorthand
+  - id: '9375'
+    title: 'JavaScript Advanced Functions: Build a JavaScript Functional Library'
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/27670
+    url: https://learning.flatironschool.com/api/v1/courses/344/assignments/9375
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/js-advanced-functions-functional-library-project
+- :id: 2038
+  :name: Object-Orientation in JavaScript
+  :lessons:
+  - id: object-orientation-in-javascript
+    title: Object Orientation in JavaScript
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/27681
+    page_url: object-orientation-in-javascript
+    url: https://learning.flatironschool.com/api/v1/courses/344/pages/object-orientation-in-javascript
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: https://github.com/learn-co-curriculum/fewpjs-object-orientation-in-javascript
+  - id: building-cells-classes-and-instances
+    title: 'Building Cells: Classes and Instances'
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/27679
+    page_url: building-cells-classes-and-instances
+    url: https://learning.flatironschool.com/api/v1/courses/344/pages/building-cells-classes-and-instances
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: https://github.com/learn-co-curriculum/fewpjs-oo-classes-and-instances
+  - id: '9365'
+    title: Initializing Instances
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/27683
+    url: https://learning.flatironschool.com/api/v1/courses/344/assignments/9365
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/fewpjs-oo-initializing-instances
+  - id: '9346'
+    title: Adding Behavior With Methods
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/27682
+    url: https://learning.flatironschool.com/api/v1/courses/344/assignments/9346
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/fewpjs-adding-behavior-with-methods
+  - id: building-cells-method-types
+    title: 'Building Cells: Method Types'
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/27680
+    page_url: building-cells-method-types
+    url: https://learning.flatironschool.com/api/v1/courses/344/pages/building-cells-method-types
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: https://github.com/learn-co-curriculum/fewpjs-oo-method-types
+  - id: '9356'
+    title: 'Building Cells: Getter and Setter Methods'
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/27684
+    url: https://learning.flatironschool.com/api/v1/courses/344/assignments/9356
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/fewpjs-getter-and-setter-methods
+  - id: '9367'
+    title: Static Methods Lab
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/27685
+    url: https://learning.flatironschool.com/api/v1/courses/344/assignments/9367
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/fewpjs-oo-static-methods-lab
+  - id: '2175'
+    title: Object-Orientation in JavaScript Quiz
+    indent: 0
+    type: Quiz
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/27686
+    url: https://learning.flatironschool.com/api/v1/courses/344/quizzes/2175
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: ''
+- :id: 2039
+  :name: Object-Oriented JavaScript Inheritance
+  :lessons:
+  - id: class-extensions-and-inheritance-%60extends%60
+    title: 'Class Extensions and Inheritance: `extends`'
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/27687
+    page_url: class-extensions-and-inheritance-`extends`
+    url: https://learning.flatironschool.com/api/v1/courses/344/pages/class-extensions-and-inheritance-%60extends%60
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: https://github.com/learn-co-curriculum/fewpjs-oo-class-extension-and-inheritance-extends
+  - id: '9348'
+    title: 'JavaScript Class Extension Lab: `extends`'
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/27690
+    url: https://learning.flatironschool.com/api/v1/courses/344/assignments/9348
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/fewpjs-class-extensions-extends-lab
+  - id: class-extensions-and-inheritance-%60super%60
+    title: 'Class Extensions and Inheritance: `super`'
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/27689
+    page_url: class-extensions-and-inheritance-`super`
+    url: https://learning.flatironschool.com/api/v1/courses/344/pages/class-extensions-and-inheritance-%60super%60
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: https://github.com/learn-co-curriculum/fewpjs-oo-class-extension-and-inheritance-super
+  - id: '9349'
+    title: 'JavaScript Class Extension Lab: `super`'
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/27691
+    url: https://learning.flatironschool.com/api/v1/courses/344/assignments/9349
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/fewpjs-class-extensions-super-lab
+  - id: liskovs-substitution-principle
+    title: Liskov's Substitution Principle
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/27688
+    page_url: liskovs-substitution-principle
+    url: https://learning.flatironschool.com/api/v1/courses/344/pages/liskovs-substitution-principle
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: https://github.com/learn-co-curriculum/fewpjs-oo-liskovs-substitution-principle
+  - id: '2176'
+    title: Object-Orientation Inheritance Quiz
+    indent: 0
+    type: Quiz
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/27692
+    url: https://learning.flatironschool.com/api/v1/courses/344/quizzes/2176
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: ''
+- :id: 2040
+  :name: Prototypal Inheritance
+  :lessons:
+  - id: introduction-to-prototypal-inheritance
+    title: Introduction to Prototypal Inheritance
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/27694
+    page_url: introduction-to-prototypal-inheritance
+    url: https://learning.flatironschool.com/api/v1/courses/344/pages/introduction-to-prototypal-inheritance
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: https://github.com/learn-co-curriculum/prototypal-oo-js-intro-to-prototypal-inheritance
+  - id: constructor-functions
+    title: Constructor Functions
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/27693
+    page_url: constructor-functions
+    url: https://learning.flatironschool.com/api/v1/courses/344/pages/constructor-functions
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: https://github.com/learn-co-curriculum/prototypal-oo-js-constructor-functions-readme
+  - id: '9424'
+    title: Constructor Functions Lab
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/27697
+    url: https://learning.flatironschool.com/api/v1/courses/344/assignments/9424
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/js-object-oriented-constructor-functions-lab
+  - id: using-prototypes
+    title: Using Prototypes
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/27696
+    page_url: using-prototypes
+    url: https://learning.flatironschool.com/api/v1/courses/344/pages/using-prototypes
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: https://github.com/learn-co-curriculum/prototypal-oo-js-using-prototypes
+  - id: '9400'
+    title: Object Methods in JS Lab
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/27698
+    url: https://learning.flatironschool.com/api/v1/courses/344/assignments/9400
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: https://github.com/learn-co-curriculum/prototypal-oo-js-object-oriented-object-methods-lab
+  - id: '2177'
+    title: Prototypal Inheritance Quiz
+    indent: 0
+    type: Quiz
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/27699
+    url: https://learning.flatironschool.com/api/v1/courses/344/quizzes/2177
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: ''
+  - id: prototypal-oo-in-javascript
+    title: Prototypal OO in JavaScript
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/27695
+    page_url: prototypal-oo-in-javascript
+    url: https://learning.flatironschool.com/api/v1/courses/344/pages/prototypal-oo-in-javascript
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: https://github.com/learn-co-curriculum/prototypal-oo-js-summary
+- :id: 6099
+  :name: Phase 3 Milestones
+  :lessons:
+  - id: '31796'
+    title: Phase 3 Rubric
+    indent: 0
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/59504
+    url: https://learning.flatironschool.com/api/v1/courses/344/assignments/31796
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: ''
+  - id: phase-3-code-challenge-instructions
+    title: Phase 3 Code Challenge Instructions
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/59505
+    page_url: phase-3-code-challenge-instructions
+    url: https://learning.flatironschool.com/api/v1/courses/344/pages/phase-3-code-challenge-instructions
+    completion_requirement:
+      type: must_mark_done
+    published: false
+    repository: ''
+  - id: '31790'
+    title: 'Phase 3 Code Challenge: Flatabeer'
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/59506
+    url: https://learning.flatironschool.com/api/v1/courses/344/assignments/31790
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: ''
+  - id: '31791'
+    title: 'Phase 3 Code Challenge: Flatacalories'
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/59507
+    url: https://learning.flatironschool.com/api/v1/courses/344/assignments/31791
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: ''
+  - id: '31792'
+    title: 'Phase 3 Code Challenge: Flatagram'
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/59508
+    url: https://learning.flatironschool.com/api/v1/courses/344/assignments/31792
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: ''
+  - id: '31793'
+    title: 'Phase 3 Code Challenge: Flatdango'
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/59509
+    url: https://learning.flatironschool.com/api/v1/courses/344/assignments/31793
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: ''
+  - id: '31795'
+    title: Phase 3 Project
+    indent: 0
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/59510
+    url: https://learning.flatironschool.com/api/v1/courses/344/assignments/31795
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: ''
+  - id: '31794'
+    title: Phase 3 Guided Project
+    indent: 0
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/59511
+    url: https://learning.flatironschool.com/api/v1/courses/344/assignments/31794
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: ''
+  - id: '31789'
+    title: Phase 3 Blog
+    indent: 0
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/59512
+    url: https://learning.flatironschool.com/api/v1/courses/344/assignments/31789
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: ''
+- :id: 8105
+  :name: 'Additional Practice: JavaScript Fundamentals'
+  :lessons:
+  - id: '9410'
+    title: Strings Lab Introduction
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/27116
+    url: https://learning.flatironschool.com/api/v1/courses/344/assignments/9410
+    published: false
+    repository: https://github.com/learn-co-curriculum/js-basics-strings-code-along
+  - id: '9407'
+    title: Control Flow Lab
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/27113
+    url: https://learning.flatironschool.com/api/v1/courses/344/assignments/9407
+    published: false
+    repository: https://github.com/learn-co-curriculum/js-basics-control-flow-lab
+  - id: '9408'
+    title: Functions Lab
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/27114
+    url: https://learning.flatironschool.com/api/v1/courses/344/assignments/9408
+    published: false
+    repository: https://github.com/learn-co-curriculum/js-basics-functions-lab
+  - id: intro-to-debugging
+    title: Intro to Debugging
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/27108
+    page_url: intro-to-debugging
+    url: https://learning.flatironschool.com/api/v1/courses/344/pages/intro-to-debugging
+    published: false
+    repository: https://github.com/learn-co-curriculum/js-basics-intro-to-debugging-readme
+  - id: '9409'
+    title: JavaScript Logging Lab
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/27112
+    url: https://learning.flatironschool.com/api/v1/courses/344/assignments/9409
+    published: false
+    repository: https://github.com/learn-co-curriculum/js-basics-logging-lab
+  - id: intro-to-testing
+    title: Intro to Testing
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/27103
+    page_url: intro-to-testing
+    url: https://learning.flatironschool.com/api/v1/courses/344/pages/intro-to-testing
+    published: false
+    repository: https://github.com/learn-co-curriculum/js-basics-intro-to-testing-readme
+  - id: '2156'
+    title: JavaScript Foundations Quiz
+    indent: 0
+    type: Quiz
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/27121
+    url: https://learning.flatironschool.com/api/v1/courses/344/quizzes/2156
+    published: false
+    repository: ''
+  - id: errors-and-stack-traces
+    title: Errors and Stack Traces
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/27122
+    page_url: errors-and-stack-traces
+    url: https://learning.flatironschool.com/api/v1/courses/344/pages/errors-and-stack-traces
+    published: false
+    repository: https://github.com/learn-co-curriculum/js-principles-errors-and-stack-traces-readme
+  - id: '2158'
+    title: Objects and Arrays Quiz
+    indent: 0
+    type: Quiz
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/27133
+    url: https://learning.flatironschool.com/api/v1/courses/344/quizzes/2158
+    published: false
+    repository: ''
+  - id: '2157'
+    title: JavaScript Principles Quiz
+    indent: 0
+    type: Quiz
+    html_url: https://learning.flatironschool.com/courses/344/modules/items/27128
+    url: https://learning.flatironschool.com/api/v1/courses/344/quizzes/2157
+    published: false
+    repository: ''

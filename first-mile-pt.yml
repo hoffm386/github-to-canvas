@@ -1,0 +1,2477 @@
+---
+:name: ''
+:modules:
+- :id: 5606
+  :name: 'Procedural Ruby: Variables and Methods'
+  :lessons:
+  - id: 55475
+    title: Introduction to Variables
+    position: 1
+    indent: 0
+    type: Page
+    module_id: 5606
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55475
+    page_url: introduction-to-variables
+    url: https://learning.flatironschool.com/api/v1/courses/2058/pages/introduction-to-variables
+    completion_requirement:
+      type: must_view
+    published: true
+    repository: ''
+  - id: 55476
+    title: Variable Assignment
+    position: 2
+    indent: 1
+    type: Assignment
+    module_id: 5606
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55476
+    content_id: 29294
+    url: https://learning.flatironschool.com/api/v1/courses/2058/assignments/29294
+    completion_requirement:
+      type: must_submit
+    published: true
+    repository: ''
+  - id: 55477
+    title: String Interpolation
+    position: 3
+    indent: 0
+    type: Page
+    module_id: 5606
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55477
+    page_url: string-interpolation
+    url: https://learning.flatironschool.com/api/v1/courses/2058/pages/string-interpolation
+    completion_requirement:
+      type: must_view
+    published: true
+    repository: ''
+  - id: 55478
+    title: Methods in Ruby
+    position: 4
+    indent: 1
+    type: Assignment
+    module_id: 5606
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55478
+    content_id: 29206
+    url: https://learning.flatironschool.com/api/v1/courses/2058/assignments/29206
+    completion_requirement:
+      type: must_submit
+    published: true
+    repository: ''
+  - id: 55479
+    title: Method Parameters
+    position: 5
+    indent: 0
+    type: Page
+    module_id: 5606
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55479
+    page_url: method-parameters
+    url: https://learning.flatironschool.com/api/v1/courses/2058/pages/method-parameters
+    completion_requirement:
+      type: must_view
+    published: true
+    repository: ''
+  - id: 55480
+    title: Method Arguments Lab
+    position: 6
+    indent: 1
+    type: Assignment
+    module_id: 5606
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55480
+    content_id: 29204
+    url: https://learning.flatironschool.com/api/v1/courses/2058/assignments/29204
+    completion_requirement:
+      type: must_submit
+    published: true
+    repository: ''
+  - id: 55481
+    title: Methods with Default Arguments
+    position: 7
+    indent: 0
+    type: Page
+    module_id: 5606
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55481
+    page_url: methods-with-default-arguments
+    url: https://learning.flatironschool.com/api/v1/courses/2058/pages/methods-with-default-arguments
+    completion_requirement:
+      type: must_view
+    published: true
+    repository: ''
+  - id: 55482
+    title: Say Hello Lab
+    position: 8
+    indent: 1
+    type: Assignment
+    module_id: 5606
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55482
+    content_id: 29271
+    url: https://learning.flatironschool.com/api/v1/courses/2058/assignments/29271
+    completion_requirement:
+      type: must_submit
+    published: true
+    repository: ''
+  - id: 55483
+    title: Print, Puts, and Return
+    position: 9
+    indent: 0
+    type: Page
+    module_id: 5606
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55483
+    page_url: print-puts-and-return
+    url: https://learning.flatironschool.com/api/v1/courses/2058/pages/print-puts-and-return
+    completion_requirement:
+      type: must_view
+    published: true
+    repository: ''
+  - id: 55484
+    title: Parrot Lab
+    position: 10
+    indent: 1
+    type: Assignment
+    module_id: 5606
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55484
+    content_id: 29247
+    url: https://learning.flatironschool.com/api/v1/courses/2058/assignments/29247
+    completion_requirement:
+      type: must_submit
+    published: true
+    repository: ''
+  - id: 55485
+    title: Debugging with Pry
+    position: 11
+    indent: 1
+    type: Assignment
+    module_id: 5606
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55485
+    content_id: 29170
+    url: https://learning.flatironschool.com/api/v1/courses/2058/assignments/29170
+    completion_requirement:
+      type: must_submit
+    published: true
+    repository: ''
+  - id: 55486
+    title: Method Scope
+    position: 12
+    indent: 0
+    type: Page
+    module_id: 5606
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55486
+    page_url: method-scope
+    url: https://learning.flatironschool.com/api/v1/courses/2058/pages/method-scope
+    completion_requirement:
+      type: must_view
+    published: true
+    repository: ''
+  - id: 55487
+    title: Method Scope Lab
+    position: 13
+    indent: 1
+    type: Assignment
+    module_id: 5606
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55487
+    content_id: 29205
+    url: https://learning.flatironschool.com/api/v1/courses/2058/assignments/29205
+    completion_requirement:
+      type: must_submit
+    published: true
+    repository: ''
+- :id: 5607
+  :name: 'Procedural Ruby: Booleans'
+  :lessons:
+  - id: 55488
+    title: Booleans and Comparisons
+    position: 1
+    indent: 0
+    type: Page
+    module_id: 5607
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55488
+    page_url: booleans-and-comparisons
+    url: https://learning.flatironschool.com/api/v1/courses/2058/pages/booleans-and-comparisons
+    completion_requirement:
+      type: must_view
+    published: true
+    repository: ''
+  - id: 55489
+    title: Truthiness
+    position: 1
+    indent: 0
+    type: Page
+    module_id: 5607
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55489
+    page_url: truthiness
+    url: https://learning.flatironschool.com/api/v1/courses/2058/pages/truthiness
+    completion_requirement:
+      type: must_view
+    published: true
+    repository: ''
+  - id: 55490
+    title: Truthiness Quiz
+    position: 2
+    indent: 0
+    type: Quiz
+    module_id: 5607
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55490
+    content_id: 3852
+    url: https://learning.flatironschool.com/api/v1/courses/2058/quizzes/3852
+    completion_requirement:
+      type: must_submit
+    published: true
+    repository: ''
+- :id: 5608
+  :name: 'Procedural Ruby: Logic and Conditionals'
+  :lessons:
+  - id: 55491
+    title: Control Flow
+    position: 1
+    indent: 0
+    type: Page
+    module_id: 5608
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55491
+    page_url: control-flow
+    url: https://learning.flatironschool.com/api/v1/courses/2058/pages/control-flow
+    completion_requirement:
+      type: must_view
+    published: true
+    repository: ''
+  - id: 55492
+    title: Speak to Grandma
+    position: 2
+    indent: 1
+    type: Assignment
+    module_id: 5608
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55492
+    content_id: 29276
+    url: https://learning.flatironschool.com/api/v1/courses/2058/assignments/29276
+    completion_requirement:
+      type: must_submit
+    published: true
+    repository: ''
+  - id: 55493
+    title: Operators
+    position: 3
+    indent: 1
+    type: Assignment
+    module_id: 5608
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55493
+    content_id: 29239
+    url: https://learning.flatironschool.com/api/v1/courses/2058/assignments/29239
+    completion_requirement:
+      type: must_submit
+    published: true
+    repository: ''
+  - id: 55494
+    title: If Statements Quiz
+    position: 4
+    indent: 0
+    type: Quiz
+    module_id: 5608
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55494
+    content_id: 3854
+    url: https://learning.flatironschool.com/api/v1/courses/2058/quizzes/3854
+    completion_requirement:
+      type: must_submit
+    published: true
+    repository: ''
+  - id: 55495
+    title: Case Statements
+    position: 5
+    indent: 0
+    type: Page
+    module_id: 5608
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55495
+    page_url: case-statements
+    url: https://learning.flatironschool.com/api/v1/courses/2058/pages/case-statements
+    completion_requirement:
+      type: must_view
+    published: true
+    repository: ''
+  - id: 55496
+    title: Case Statements Quiz
+    position: 6
+    indent: 0
+    type: Quiz
+    module_id: 5608
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55496
+    content_id: 3857
+    url: https://learning.flatironschool.com/api/v1/courses/2058/quizzes/3857
+    completion_requirement:
+      type: must_submit
+    published: true
+    repository: ''
+  - id: 55497
+    title: Logic and Conditionals Quiz
+    position: 7
+    indent: 0
+    type: Quiz
+    module_id: 5608
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55497
+    content_id: 3860
+    url: https://learning.flatironschool.com/api/v1/courses/2058/quizzes/3860
+    completion_requirement:
+      type: must_submit
+    published: true
+    repository: ''
+- :id: 5609
+  :name: 'Procedural Ruby: Looping'
+  :lessons:
+  - id: 55498
+    title: Introduction to Looping
+    position: 1
+    indent: 0
+    type: Page
+    module_id: 5609
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55498
+    page_url: introduction-to-looping
+    url: https://learning.flatironschool.com/api/v1/courses/2058/pages/introduction-to-looping
+    completion_requirement:
+      type: must_view
+    published: true
+    repository: ''
+  - id: 55499
+    title: Looping
+    position: 2
+    indent: 0
+    type: Page
+    module_id: 5609
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55499
+    page_url: looping
+    url: https://learning.flatironschool.com/api/v1/courses/2058/pages/looping
+    completion_requirement:
+      type: must_view
+    published: true
+    repository: ''
+  - id: 55500
+    title: The `loop` Construct
+    position: 3
+    indent: 0
+    type: Page
+    module_id: 5609
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55500
+    page_url: the-`loop`-construct
+    url: https://learning.flatironschool.com/api/v1/courses/2058/pages/the-%60loop%60-construct
+    completion_requirement:
+      type: must_view
+    published: true
+    repository: ''
+  - id: 55501
+    title: The `times` Construct
+    position: 4
+    indent: 1
+    type: Assignment
+    module_id: 5609
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55501
+    content_id: 29285
+    url: https://learning.flatironschool.com/api/v1/courses/2058/assignments/29285
+    completion_requirement:
+      type: must_submit
+    published: true
+    repository: ''
+  - id: 55502
+    title: Looping Quiz
+    position: 5
+    indent: 0
+    type: Quiz
+    module_id: 5609
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55502
+    content_id: 3853
+    url: https://learning.flatironschool.com/api/v1/courses/2058/quizzes/3853
+    completion_requirement:
+      type: must_submit
+    published: true
+    repository: ''
+  - id: 55503
+    title: The `while` and `until` Constructs
+    position: 6
+    indent: 0
+    type: Page
+    module_id: 5609
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55503
+    page_url: the-`while`-and-`until`-constructs
+    url: https://learning.flatironschool.com/api/v1/courses/2058/pages/the-%60while%60-and-%60until%60-constructs
+    completion_requirement:
+      type: must_view
+    published: true
+    repository: ''
+  - id: 55504
+    title: The `while` and `until` Constructs
+    position: 7
+    indent: 1
+    type: Assignment
+    module_id: 5609
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55504
+    content_id: 29286
+    url: https://learning.flatironschool.com/api/v1/courses/2058/assignments/29286
+    completion_requirement:
+      type: must_submit
+    published: true
+    repository: ''
+  - id: 55505
+    title: Countdown to Midnight Lab
+    position: 8
+    indent: 1
+    type: Assignment
+    module_id: 5609
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55505
+    content_id: 29163
+    url: https://learning.flatironschool.com/api/v1/courses/2058/assignments/29163
+    completion_requirement:
+      type: must_submit
+    published: true
+    repository: ''
+- :id: 5610
+  :name: 'Procedural Ruby: Arrays'
+  :lessons:
+  - id: 55506
+    title: Array Introduction
+    position: 1
+    indent: 0
+    type: Page
+    module_id: 5610
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55506
+    page_url: array-introduction
+    url: https://learning.flatironschool.com/api/v1/courses/2058/pages/array-introduction
+    completion_requirement:
+      type: must_view
+    published: true
+    repository: ''
+  - id: 55507
+    title: 'Basic Arrays: Creating, Retrieving, Updating and Deleting'
+    position: 2
+    indent: 0
+    type: Page
+    module_id: 5610
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55507
+    page_url: basic-arrays-creating-retrieving-updating-and-deleting
+    url: https://learning.flatironschool.com/api/v1/courses/2058/pages/basic-arrays-creating-retrieving-updating-and-deleting
+    completion_requirement:
+      type: must_view
+    published: true
+    repository: ''
+  - id: 55508
+    title: 'Array Lab: Create, Retrieve, Update, Delete'
+    position: 3
+    indent: 1
+    type: Assignment
+    module_id: 5610
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55508
+    content_id: 29138
+    url: https://learning.flatironschool.com/api/v1/courses/2058/assignments/29138
+    completion_requirement:
+      type: must_submit
+    published: true
+    repository: ''
+  - id: 55509
+    title: Array Methods
+    position: 4
+    indent: 0
+    type: Page
+    module_id: 5610
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55509
+    page_url: array-methods
+    url: https://learning.flatironschool.com/api/v1/courses/2058/pages/array-methods
+    completion_requirement:
+      type: must_view
+    published: true
+    repository: ''
+  - id: 55510
+    title: Array Methods Lab
+    position: 5
+    indent: 1
+    type: Assignment
+    module_id: 5610
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55510
+    content_id: 29139
+    url: https://learning.flatironschool.com/api/v1/courses/2058/assignments/29139
+    completion_requirement:
+      type: must_submit
+    published: true
+    repository: ''
+- :id: 5611
+  :name: 'Procedural Ruby: Iteration'
+  :lessons:
+  - id: 55511
+    title: Enumeration and Iteration
+    position: 1
+    indent: 0
+    type: Page
+    module_id: 5611
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55511
+    page_url: enumeration-and-iteration
+    url: https://learning.flatironschool.com/api/v1/courses/2058/pages/enumeration-and-iteration
+    completion_requirement:
+      type: must_view
+    published: true
+    repository: ''
+  - id: 55512
+    title: Intro To Ruby Iterators
+    position: 2
+    indent: 0
+    type: Page
+    module_id: 5611
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55512
+    page_url: intro-to-ruby-iterators
+    url: https://learning.flatironschool.com/api/v1/courses/2058/pages/intro-to-ruby-iterators
+    completion_requirement:
+      type: must_view
+    published: true
+    repository: ''
+  - id: 55513
+    title: Square Array
+    position: 3
+    indent: 1
+    type: Assignment
+    module_id: 5611
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55513
+    content_id: 29283
+    url: https://learning.flatironschool.com/api/v1/courses/2058/assignments/29283
+    completion_requirement:
+      type: must_submit
+    published: true
+    repository: ''
+  - id: 55514
+    title: Badges and Schedules
+    position: 4
+    indent: 1
+    type: Assignment
+    module_id: 5611
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55514
+    content_id: 29141
+    url: https://learning.flatironschool.com/api/v1/courses/2058/assignments/29141
+    completion_requirement:
+      type: must_submit
+    published: true
+    repository: ''
+  - id: 55515
+    title: Oxford Comma List Formatter
+    position: 5
+    indent: 1
+    type: Assignment
+    module_id: 5611
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55515
+    content_id: 29246
+    url: https://learning.flatironschool.com/api/v1/courses/2058/assignments/29246
+    completion_requirement:
+      type: must_submit
+    published: true
+    repository: ''
+  - id: 55516
+    title: Deli Counter - Take a Number
+    position: 6
+    indent: 1
+    type: Assignment
+    module_id: 5611
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55516
+    content_id: 29172
+    url: https://learning.flatironschool.com/api/v1/courses/2058/assignments/29172
+    completion_requirement:
+      type: must_submit
+    published: true
+    repository: ''
+  - id: 55517
+    title: 'Iteration: Each Vs. Collect'
+    position: 7
+    indent: 0
+    type: Page
+    module_id: 5611
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55517
+    page_url: iteration-each-vs-collect
+    url: https://learning.flatironschool.com/api/v1/courses/2058/pages/iteration-each-vs-collect
+    completion_requirement:
+      type: must_view
+    published: true
+    repository: ''
+  - id: 55518
+    title: Reverse Each Word
+    position: 8
+    indent: 1
+    type: Assignment
+    module_id: 5611
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55518
+    content_id: 29257
+    url: https://learning.flatironschool.com/api/v1/courses/2058/assignments/29257
+    completion_requirement:
+      type: must_submit
+    published: true
+    repository: ''
+  - id: 55519
+    title: Yield and Blocks
+    position: 9
+    indent: 1
+    type: Assignment
+    module_id: 5611
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55519
+    content_id: 29299
+    url: https://learning.flatironschool.com/api/v1/courses/2058/assignments/29299
+    completion_requirement:
+      type: must_submit
+    published: true
+    repository: ''
+  - id: 55520
+    title: My Each
+    position: 10
+    indent: 1
+    type: Assignment
+    module_id: 5611
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55520
+    content_id: 29210
+    url: https://learning.flatironschool.com/api/v1/courses/2058/assignments/29210
+    completion_requirement:
+      type: must_submit
+    published: true
+    repository: ''
+  - id: 55521
+    title: 'Code Along: Yielding and Return Values'
+    position: 11
+    indent: 1
+    type: Assignment
+    module_id: 5611
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55521
+    content_id: 29160
+    url: https://learning.flatironschool.com/api/v1/courses/2058/assignments/29160
+    completion_requirement:
+      type: must_submit
+    published: true
+    repository: ''
+  - id: 55522
+    title: My `collect`
+    position: 12
+    indent: 1
+    type: Assignment
+    module_id: 5611
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55522
+    content_id: 29209
+    url: https://learning.flatironschool.com/api/v1/courses/2058/assignments/29209
+    completion_requirement:
+      type: must_submit
+    published: true
+    repository: ''
+  - id: 55523
+    title: Ruby Boolean Enumerables
+    position: 13
+    indent: 0
+    type: Page
+    module_id: 5611
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55523
+    page_url: ruby-boolean-enumerables
+    url: https://learning.flatironschool.com/api/v1/courses/2058/pages/ruby-boolean-enumerables
+    completion_requirement:
+      type: must_view
+    published: true
+    repository: ''
+  - id: 55524
+    title: Ruby Search Enumerators
+    position: 14
+    indent: 0
+    type: Page
+    module_id: 5611
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55524
+    page_url: ruby-search-enumerators
+    url: https://learning.flatironschool.com/api/v1/courses/2058/pages/ruby-search-enumerators
+    completion_requirement:
+      type: must_view
+    published: true
+    repository: ''
+  - id: 55525
+    title: 'Code-Along: Building the `all?` method'
+    position: 15
+    indent: 1
+    type: Assignment
+    module_id: 5611
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55525
+    content_id: 29155
+    url: https://learning.flatironschool.com/api/v1/courses/2058/assignments/29155
+    completion_requirement:
+      type: must_submit
+    published: true
+    repository: ''
+  - id: 55526
+    title: 'Code Along: Building the `find` method'
+    position: 16
+    indent: 1
+    type: Assignment
+    module_id: 5611
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55526
+    content_id: 29156
+    url: https://learning.flatironschool.com/api/v1/courses/2058/assignments/29156
+    completion_requirement:
+      type: must_submit
+    published: true
+    repository: ''
+  - id: 55527
+    title: Cartoon Collections
+    position: 17
+    indent: 1
+    type: Assignment
+    module_id: 5611
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55527
+    content_id: 29147
+    url: https://learning.flatironschool.com/api/v1/courses/2058/assignments/29147
+    completion_requirement:
+      type: must_submit
+    published: true
+    repository: ''
+  - id: 55528
+    title: Enumerators Quiz
+    position: 18
+    indent: 0
+    type: Quiz
+    module_id: 5611
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55528
+    content_id: 3863
+    url: https://learning.flatironschool.com/api/v1/courses/2058/quizzes/3863
+    completion_requirement:
+      type: must_submit
+    published: true
+    repository: ''
+  - id: 55529
+    title: Implementing Prime
+    position: 19
+    indent: 1
+    type: Assignment
+    module_id: 5611
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55529
+    content_id: 29185
+    url: https://learning.flatironschool.com/api/v1/courses/2058/assignments/29185
+    completion_requirement:
+      type: must_submit
+    published: true
+    repository: ''
+  - id: 55530
+    title: Sorting
+    position: 20
+    indent: 0
+    type: Page
+    module_id: 5611
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55530
+    page_url: sorting
+    url: https://learning.flatironschool.com/api/v1/courses/2058/pages/sorting
+    completion_requirement:
+      type: must_view
+    published: true
+    repository: ''
+  - id: 55531
+    title: Bonus — Collections Practice
+    position: 21
+    indent: 1
+    type: Assignment
+    module_id: 5611
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55531
+    content_id: 29145
+    url: https://learning.flatironschool.com/api/v1/courses/2058/assignments/29145
+    completion_requirement:
+      type: must_submit
+    published: true
+    repository: ''
+- :id: 5612
+  :name: 'Procedural Ruby: Hashes'
+  :lessons:
+  - id: 55532
+    title: Hashes
+    position: 1
+    indent: 0
+    type: Page
+    module_id: 5612
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55532
+    page_url: hashes
+    url: https://learning.flatironschool.com/api/v1/courses/2058/pages/hashes
+    completion_requirement:
+      type: must_view
+    published: true
+    repository: ''
+  - id: 55533
+    title: My First Hash
+    position: 2
+    indent: 1
+    type: Assignment
+    module_id: 5612
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55533
+    content_id: 29211
+    url: https://learning.flatironschool.com/api/v1/courses/2058/assignments/29211
+    completion_requirement:
+      type: must_submit
+    published: true
+    repository: ''
+  - id: 55534
+    title: Ruby Symbols
+    position: 3
+    indent: 0
+    type: Page
+    module_id: 5612
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55534
+    page_url: ruby-symbols
+    url: https://learning.flatironschool.com/api/v1/courses/2058/pages/ruby-symbols
+    completion_requirement:
+      type: must_view
+    published: true
+    repository: ''
+  - id: 55535
+    title: Iterating Over Hashes With `each`
+    position: 4
+    indent: 1
+    type: Assignment
+    module_id: 5612
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55535
+    content_id: 29197
+    url: https://learning.flatironschool.com/api/v1/courses/2058/assignments/29197
+    completion_requirement:
+      type: must_submit
+    published: true
+    repository: ''
+  - id: 55536
+    title: Hash Iteration with `collect`
+    position: 5
+    indent: 0
+    type: Page
+    module_id: 5612
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55536
+    page_url: hash-iteration-with-`collect`
+    url: https://learning.flatironschool.com/api/v1/courses/2058/pages/hash-iteration-with-%60collect%60
+    completion_requirement:
+      type: must_view
+    published: true
+    repository: ''
+  - id: 55537
+    title: Key For Minimum Value
+    position: 6
+    indent: 1
+    type: Assignment
+    module_id: 5612
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55537
+    content_id: 29198
+    url: https://learning.flatironschool.com/api/v1/courses/2058/assignments/29198
+    completion_requirement:
+      type: must_submit
+    published: true
+    repository: ''
+- :id: 5613
+  :name: 'Procedural Ruby: Data Structures'
+  :lessons:
+  - id: 55538
+    title: Introduction to Nested Hashes
+    position: 1
+    indent: 0
+    type: Page
+    module_id: 5613
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55538
+    page_url: introduction-to-nested-hashes
+    url: https://learning.flatironschool.com/api/v1/courses/2058/pages/introduction-to-nested-hashes
+    completion_requirement:
+      type: must_view
+    published: true
+    repository: ''
+  - id: 55539
+    title: Building Nested Hashes
+    position: 2
+    indent: 0
+    type: Page
+    module_id: 5613
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55539
+    page_url: building-nested-hashes
+    url: https://learning.flatironschool.com/api/v1/courses/2058/pages/building-nested-hashes
+    completion_requirement:
+      type: must_view
+    published: true
+    repository: ''
+  - id: 55540
+    title: 'Code Along Exercise: Building Nested Hashes'
+    position: 3
+    indent: 1
+    type: Assignment
+    module_id: 5613
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55540
+    content_id: 29158
+    url: https://learning.flatironschool.com/api/v1/courses/2058/assignments/29158
+    completion_requirement:
+      type: must_submit
+    published: true
+    repository: ''
+  - id: 55541
+    title: Intro to Hashes Lab
+    position: 4
+    indent: 1
+    type: Assignment
+    module_id: 5613
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55541
+    content_id: 29193
+    url: https://learning.flatironschool.com/api/v1/courses/2058/assignments/29193
+    completion_requirement:
+      type: must_submit
+    published: true
+    repository: ''
+  - id: 55542
+    title: Simple Nesting Lab
+    position: 5
+    indent: 1
+    type: Assignment
+    module_id: 5613
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55542
+    content_id: 29275
+    url: https://learning.flatironschool.com/api/v1/courses/2058/assignments/29275
+    completion_requirement:
+      type: must_submit
+    published: true
+    repository: ''
+  - id: 55543
+    title: Iterating Over Nested Hashes
+    position: 6
+    indent: 0
+    type: Page
+    module_id: 5613
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55543
+    page_url: iterating-over-nested-hashes
+    url: https://learning.flatironschool.com/api/v1/courses/2058/pages/iterating-over-nested-hashes
+    completion_requirement:
+      type: must_view
+    published: true
+    repository: ''
+  - id: 55544
+    title: 'Code Along: Manipulating Nested Hashes'
+    position: 7
+    indent: 1
+    type: Assignment
+    module_id: 5613
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55544
+    content_id: 29159
+    url: https://learning.flatironschool.com/api/v1/courses/2058/assignments/29159
+    completion_requirement:
+      type: must_submit
+    published: true
+    repository: ''
+  - id: 55545
+    title: Higher Level Hash Methods
+    position: 8
+    indent: 1
+    type: Assignment
+    module_id: 5613
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55545
+    content_id: 29184
+    url: https://learning.flatironschool.com/api/v1/courses/2058/assignments/29184
+    completion_requirement:
+      type: must_submit
+    published: true
+    repository: ''
+  - id: 55546
+    title: Iterating Over Hashes
+    position: 9
+    indent: 1
+    type: Assignment
+    module_id: 5613
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55546
+    content_id: 29196
+    url: https://learning.flatironschool.com/api/v1/courses/2058/assignments/29196
+    completion_requirement:
+      type: must_submit
+    published: true
+    repository: ''
+- :id: 5614
+  :name: "[BONUS] Regex"
+  :lessons:
+  - id: 55547
+    title: RegEx - What Is A Pattern?
+    position: 1
+    indent: 0
+    type: Page
+    module_id: 5614
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55547
+    page_url: regex-what-is-a-pattern
+    url: https://learning.flatironschool.com/api/v1/courses/2058/pages/regex-what-is-a-pattern
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: ''
+  - id: 55548
+    title: RegEx Basics
+    position: 2
+    indent: 0
+    type: Page
+    module_id: 5614
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55548
+    page_url: regex-basics
+    url: https://learning.flatironschool.com/api/v1/courses/2058/pages/regex-basics
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: ''
+  - id: 55549
+    title: Ruby Methods with Regex
+    position: 3
+    indent: 0
+    type: Page
+    module_id: 5614
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55549
+    page_url: ruby-methods-with-regex
+    url: https://learning.flatironschool.com/api/v1/courses/2058/pages/ruby-methods-with-regex
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: ''
+  - id: 55550
+    title: Regex Lab
+    position: 4
+    indent: 1
+    type: Assignment
+    module_id: 5614
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55550
+    content_id: 29254
+    url: https://learning.flatironschool.com/api/v1/courses/2058/assignments/29254
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: ''
+- :id: 5615
+  :name: Introduction to Object-Orientation in Ruby
+  :lessons:
+  - id: 55551
+    title: Introduction to Object-Orientation in Ruby
+    position: 1
+    indent: 0
+    type: Page
+    module_id: 5615
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55551
+    page_url: introduction-to-object-orientation-in-ruby
+    url: https://learning.flatironschool.com/api/v1/courses/2058/pages/introduction-to-object-orientation-in-ruby
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: ''
+  - id: 55552
+    title: Defining Object-Orientation
+    position: 2
+    indent: 0
+    type: Page
+    module_id: 5615
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55552
+    page_url: defining-object-orientation
+    url: https://learning.flatironschool.com/api/v1/courses/2058/pages/defining-object-orientation
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: ''
+  - id: 55553
+    title: 'Video: Object-Orientation Overview'
+    position: 3
+    indent: 0
+    type: Page
+    module_id: 5615
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55553
+    page_url: video-object-orientation-overview
+    url: https://learning.flatironschool.com/api/v1/courses/2058/pages/video-object-orientation-overview
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: ''
+  - id: 55554
+    title: Classes And Instances
+    position: 4
+    indent: 0
+    type: Page
+    module_id: 5615
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55554
+    page_url: classes-and-instances
+    url: https://learning.flatironschool.com/api/v1/courses/2058/pages/classes-and-instances
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: ''
+  - id: 55555
+    title: Classes And Instances Lab
+    position: 5
+    indent: 1
+    type: Assignment
+    module_id: 5615
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55555
+    content_id: 29150
+    url: https://learning.flatironschool.com/api/v1/courses/2058/assignments/29150
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: ''
+  - id: 55556
+    title: Instance Methods
+    position: 6
+    indent: 0
+    type: Page
+    module_id: 5615
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55556
+    page_url: instance-methods
+    url: https://learning.flatironschool.com/api/v1/courses/2058/pages/instance-methods
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: ''
+  - id: 55557
+    title: Instance Methods Lab
+    position: 7
+    indent: 1
+    type: Assignment
+    module_id: 5615
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55557
+    content_id: 29187
+    url: https://learning.flatironschool.com/api/v1/courses/2058/assignments/29187
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: ''
+  - id: 55558
+    title: Instance Variables Lab
+    position: 8
+    indent: 1
+    type: Assignment
+    module_id: 5615
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55558
+    content_id: 29190
+    url: https://learning.flatironschool.com/api/v1/courses/2058/assignments/29190
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: ''
+  - id: 55559
+    title: Object Initialization
+    position: 9
+    indent: 0
+    type: Page
+    module_id: 5615
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55559
+    page_url: object-initialization
+    url: https://learning.flatironschool.com/api/v1/courses/2058/pages/object-initialization
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: ''
+  - id: 55560
+    title: Object Initialization Lab
+    position: 10
+    indent: 1
+    type: Assignment
+    module_id: 5615
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55560
+    content_id: 29214
+    url: https://learning.flatironschool.com/api/v1/courses/2058/assignments/29214
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: ''
+  - id: 55561
+    title: Variables and Scope in Ruby Quiz
+    position: 11
+    indent: 0
+    type: Quiz
+    module_id: 5615
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55561
+    content_id: 3859
+    url: https://learning.flatironschool.com/api/v1/courses/2058/quizzes/3859
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: ''
+  - id: 55562
+    title: Object Attributes
+    position: 12
+    indent: 0
+    type: Page
+    module_id: 5615
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55562
+    page_url: object-attributes
+    url: https://learning.flatironschool.com/api/v1/courses/2058/pages/object-attributes
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: ''
+  - id: 55563
+    title: Object Attributes Lab
+    position: 13
+    indent: 1
+    type: Assignment
+    module_id: 5615
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55563
+    content_id: 29213
+    url: https://learning.flatironschool.com/api/v1/courses/2058/assignments/29213
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: ''
+  - id: 55564
+    title: Attribute Accessors
+    position: 14
+    indent: 0
+    type: Page
+    module_id: 5615
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55564
+    page_url: attribute-accessors
+    url: https://learning.flatironschool.com/api/v1/courses/2058/pages/attribute-accessors
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: ''
+  - id: 55565
+    title: Attribute Accessors Lab
+    position: 15
+    indent: 1
+    type: Assignment
+    module_id: 5615
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55565
+    content_id: 29140
+    url: https://learning.flatironschool.com/api/v1/courses/2058/assignments/29140
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: ''
+  - id: 55566
+    title: Email Parser Lab
+    position: 16
+    indent: 1
+    type: Assignment
+    module_id: 5615
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55566
+    content_id: 29178
+    url: https://learning.flatironschool.com/api/v1/courses/2058/assignments/29178
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: ''
+  - id: 55567
+    title: Anagram Detector
+    position: 17
+    indent: 1
+    type: Assignment
+    module_id: 5615
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55567
+    content_id: 29136
+    url: https://learning.flatironschool.com/api/v1/courses/2058/assignments/29136
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: ''
+  - id: 55568
+    title: 'Video: Object Properties Review'
+    position: 18
+    indent: 0
+    type: Page
+    module_id: 5615
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55568
+    page_url: video-object-properties-review
+    url: https://learning.flatironschool.com/api/v1/courses/2058/pages/video-object-properties-review
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: ''
+  - id: 55569
+    title: Object-Orientation Fundamentals Quiz
+    position: 19
+    indent: 0
+    type: Quiz
+    module_id: 5615
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55569
+    content_id: 3872
+    url: https://learning.flatironschool.com/api/v1/courses/2058/quizzes/3872
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: ''
+  - id: 55570
+    title: Intro to Object-Orientation Conclusion
+    position: 20
+    indent: 0
+    type: Page
+    module_id: 5615
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55570
+    page_url: intro-to-object-orientation-conclusion
+    url: https://learning.flatironschool.com/api/v1/courses/2058/pages/intro-to-object-orientation-conclusion
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: ''
+- :id: 5616
+  :name: Topics in OO - Building Complex Class Objects in Ruby
+  :lessons:
+  - id: 55571
+    title: Introduction to Complex Objects
+    position: 1
+    indent: 0
+    type: Page
+    module_id: 5616
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55571
+    page_url: introduction-to-complex-objects
+    url: https://learning.flatironschool.com/api/v1/courses/2058/pages/introduction-to-complex-objects
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: ''
+  - id: 55572
+    title: Putting the Pieces Together
+    position: 2
+    indent: 1
+    type: Assignment
+    module_id: 5616
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55572
+    content_id: 29252
+    url: https://learning.flatironschool.com/api/v1/courses/2058/assignments/29252
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: ''
+  - id: 55573
+    title: Complex Objects School Domain
+    position: 3
+    indent: 1
+    type: Assignment
+    module_id: 5616
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55573
+    content_id: 29162
+    url: https://learning.flatironschool.com/api/v1/courses/2058/assignments/29162
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: ''
+  - id: 55574
+    title: Object Design Principles
+    position: 4
+    indent: 0
+    type: Page
+    module_id: 5616
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55574
+    page_url: object-design-principles
+    url: https://learning.flatironschool.com/api/v1/courses/2058/pages/object-design-principles
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: ''
+  - id: 55575
+    title: Introduction to Object-Orientation in Ruby
+    position: 5
+    indent: 0
+    type: Page
+    module_id: 5616
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55575
+    page_url: introduction-to-object-orientation-in-ruby
+    url: https://learning.flatironschool.com/api/v1/courses/2058/pages/introduction-to-object-orientation-in-ruby
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: ''
+  - id: 55576
+    title: Class Objects in Ruby Quiz
+    position: 6
+    indent: 0
+    type: Quiz
+    module_id: 5616
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55576
+    content_id: 3868
+    url: https://learning.flatironschool.com/api/v1/courses/2058/quizzes/3868
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: ''
+  - id: 55577
+    title: "[BONUS] Person Lab"
+    position: 7
+    indent: 1
+    type: Assignment
+    module_id: 5616
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55577
+    content_id: 29146
+    url: https://learning.flatironschool.com/api/v1/courses/2058/assignments/29146
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: ''
+  - id: 55578
+    title: Complex Objects Conclusion
+    position: 8
+    indent: 0
+    type: Page
+    module_id: 5616
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55578
+    page_url: complex-objects-conclusion
+    url: https://learning.flatironschool.com/api/v1/courses/2058/pages/complex-objects-conclusion
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: ''
+- :id: 5617
+  :name: Topics in OO - Self in Ruby
+  :lessons:
+  - id: 55579
+    title: Introduction to Self in Ruby
+    position: 1
+    indent: 0
+    type: Page
+    module_id: 5617
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55579
+    page_url: introduction-to-self-in-ruby
+    url: https://learning.flatironschool.com/api/v1/courses/2058/pages/introduction-to-self-in-ruby
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: ''
+  - id: 55580
+    title: Basics of Self
+    position: 2
+    indent: 0
+    type: Page
+    module_id: 5617
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55580
+    page_url: basics-of-self
+    url: https://learning.flatironschool.com/api/v1/courses/2058/pages/basics-of-self
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: ''
+  - id: 55581
+    title: Count Sentences Lab
+    position: 3
+    indent: 1
+    type: Assignment
+    module_id: 5617
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55581
+    content_id: 29165
+    url: https://learning.flatironschool.com/api/v1/courses/2058/assignments/29165
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: ''
+  - id: 55582
+    title: Cash Register Lab
+    position: 4
+    indent: 1
+    type: Assignment
+    module_id: 5617
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55582
+    content_id: 29148
+    url: https://learning.flatironschool.com/api/v1/courses/2058/assignments/29148
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: ''
+  - id: 55583
+    title: Self Quiz
+    position: 5
+    indent: 0
+    type: Quiz
+    module_id: 5617
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55583
+    content_id: 3867
+    url: https://learning.flatironschool.com/api/v1/courses/2058/quizzes/3867
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: ''
+  - id: 55584
+    title: Self Conclusion
+    position: 7
+    indent: 0
+    type: Page
+    module_id: 5617
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55584
+    page_url: self-conclusion
+    url: https://learning.flatironschool.com/api/v1/courses/2058/pages/self-conclusion
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: ''
+- :id: 5618
+  :name: Topics in OO - Class Variables and Methods in Ruby
+  :lessons:
+  - id: 55585
+    title: Introduction to Class Variables
+    position: 1
+    indent: 0
+    type: Page
+    module_id: 5618
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55585
+    page_url: introduction-to-class-variables
+    url: https://learning.flatironschool.com/api/v1/courses/2058/pages/introduction-to-class-variables
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: ''
+  - id: 55586
+    title: Class Variables and Class Methods
+    position: 2
+    indent: 0
+    type: Page
+    module_id: 5618
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55586
+    page_url: class-variables-and-class-methods
+    url: https://learning.flatironschool.com/api/v1/courses/2058/pages/class-variables-and-class-methods
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: ''
+  - id: 55587
+    title: Class Variables and Class Methods Lab
+    position: 3
+    indent: 1
+    type: Assignment
+    module_id: 5618
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55587
+    content_id: 29153
+    url: https://learning.flatironschool.com/api/v1/courses/2058/assignments/29153
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: ''
+  - id: 55588
+    title: Class Constants
+    position: 4
+    indent: 1
+    type: Assignment
+    module_id: 5618
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55588
+    content_id: 29149
+    url: https://learning.flatironschool.com/api/v1/courses/2058/assignments/29149
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: ''
+  - id: 55589
+    title: Private Methods
+    position: 5
+    indent: 0
+    type: Page
+    module_id: 5618
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55589
+    page_url: private-methods
+    url: https://learning.flatironschool.com/api/v1/courses/2058/pages/private-methods
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: ''
+  - id: 55590
+    title: Class Variables and Methods Quiz
+    position: 7
+    indent: 0
+    type: Quiz
+    module_id: 5618
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55590
+    content_id: 3864
+    url: https://learning.flatironschool.com/api/v1/courses/2058/quizzes/3864
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: ''
+  - id: 55591
+    title: Class Variables Conclusion
+    position: 8
+    indent: 0
+    type: Page
+    module_id: 5618
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55591
+    page_url: class-variables-conclusion
+    url: https://learning.flatironschool.com/api/v1/courses/2058/pages/class-variables-conclusion
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: ''
+- :id: 5619
+  :name: Topics in OO - Advanced Class Methods in Ruby
+  :lessons:
+  - id: 55592
+    title: Introduction to Advanced Class Methods
+    position: 1
+    indent: 0
+    type: Page
+    module_id: 5619
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55592
+    page_url: introduction-to-advanced-class-methods
+    url: https://learning.flatironschool.com/api/v1/courses/2058/pages/introduction-to-advanced-class-methods
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: ''
+  - id: 55593
+    title: Remembering Objects
+    position: 2
+    indent: 0
+    type: Page
+    module_id: 5619
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55593
+    page_url: remembering-objects
+    url: https://learning.flatironschool.com/api/v1/courses/2058/pages/remembering-objects
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: ''
+  - id: 55594
+    title: Puppy Lab
+    position: 3
+    indent: 1
+    type: Assignment
+    module_id: 5619
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55594
+    content_id: 29251
+    url: https://learning.flatironschool.com/api/v1/courses/2058/assignments/29251
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: ''
+  - id: 55595
+    title: Ruby Advanced Class Methods
+    position: 4
+    indent: 0
+    type: Page
+    module_id: 5619
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55595
+    page_url: ruby-advanced-class-methods
+    url: https://learning.flatironschool.com/api/v1/courses/2058/pages/ruby-advanced-class-methods
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: ''
+  - id: 55596
+    title: Advanced Class Methods Lab
+    position: 5
+    indent: 1
+    type: Assignment
+    module_id: 5619
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55596
+    content_id: 29135
+    url: https://learning.flatironschool.com/api/v1/courses/2058/assignments/29135
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: ''
+  - id: 55597
+    title: 'Video: Object Models'
+    position: 6
+    indent: 0
+    type: Page
+    module_id: 5619
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55597
+    page_url: video-object-models
+    url: https://learning.flatironschool.com/api/v1/courses/2058/pages/video-object-models
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: ''
+  - id: 55598
+    title: Advanced Class Methods Quiz
+    position: 7
+    indent: 0
+    type: Quiz
+    module_id: 5619
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55598
+    content_id: 3858
+    url: https://learning.flatironschool.com/api/v1/courses/2058/quizzes/3858
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: ''
+  - id: 55599
+    title: Advanced Class Methods Conclusion
+    position: 8
+    indent: 0
+    type: Page
+    module_id: 5619
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55599
+    page_url: advanced-class-methods-conclusion
+    url: https://learning.flatironschool.com/api/v1/courses/2058/pages/advanced-class-methods-conclusion
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: ''
+- :id: 5620
+  :name: Object-Oriented Tic Tac Toe
+  :lessons:
+  - id: 55600
+    title: Procedural vs. Object-Oriented Ruby
+    position: 1
+    indent: 0
+    type: Page
+    module_id: 5620
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55600
+    page_url: procedural-vs-object-oriented-ruby
+    url: https://learning.flatironschool.com/api/v1/courses/2058/pages/procedural-vs-object-oriented-ruby
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: ''
+  - id: 55601
+    title: OO Tic Tac Toe
+    position: 2
+    indent: 1
+    type: Assignment
+    module_id: 5620
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55601
+    content_id: 29238
+    url: https://learning.flatironschool.com/api/v1/courses/2058/assignments/29238
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: ''
+- :id: 5621
+  :name: Topics in OO - Object Relationships in Ruby
+  :lessons:
+  - id: 55602
+    title: Introduction to Object Relationships
+    position: 1
+    indent: 0
+    type: Page
+    module_id: 5621
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55602
+    page_url: introduction-to-object-relationships
+    url: https://learning.flatironschool.com/api/v1/courses/2058/pages/introduction-to-object-relationships
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: ''
+  - id: 55603
+    title: Object Relationship Basics
+    position: 2
+    indent: 0
+    type: Page
+    module_id: 5621
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55603
+    page_url: object-relationship-basics
+    url: https://learning.flatironschool.com/api/v1/courses/2058/pages/object-relationship-basics
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: ''
+  - id: 55604
+    title: Belongs To Lab
+    position: 3
+    indent: 1
+    type: Assignment
+    module_id: 5621
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55604
+    content_id: 29144
+    url: https://learning.flatironschool.com/api/v1/courses/2058/assignments/29144
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: ''
+  - id: 55605
+    title: Has Many Relationships
+    position: 4
+    indent: 0
+    type: Page
+    module_id: 5621
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55605
+    page_url: has-many-relationships
+    url: https://learning.flatironschool.com/api/v1/courses/2058/pages/has-many-relationships
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: ''
+  - id: 55606
+    title: Has Many Lab
+    position: 5
+    indent: 1
+    type: Assignment
+    module_id: 5621
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55606
+    content_id: 29181
+    url: https://learning.flatironschool.com/api/v1/courses/2058/assignments/29181
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: ''
+  - id: 55607
+    title: Collaborating Objects
+    position: 6
+    indent: 0
+    type: Page
+    module_id: 5621
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55607
+    page_url: collaborating-objects
+    url: https://learning.flatironschool.com/api/v1/courses/2058/pages/collaborating-objects
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: ''
+  - id: 55608
+    title: Collaborating Objects Lab
+    position: 7
+    indent: 1
+    type: Assignment
+    module_id: 5621
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55608
+    content_id: 29161
+    url: https://learning.flatironschool.com/api/v1/courses/2058/assignments/29161
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: ''
+  - id: 55609
+    title: 'Video: Collaborating Object Review'
+    position: 8
+    indent: 0
+    type: Page
+    module_id: 5621
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55609
+    page_url: video-collaborating-object-review
+    url: https://learning.flatironschool.com/api/v1/courses/2058/pages/video-collaborating-object-review
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: ''
+  - id: 55610
+    title: 'Object Relationships: My Pets Lab'
+    position: 9
+    indent: 1
+    type: Assignment
+    module_id: 5621
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55610
+    content_id: 29224
+    url: https://learning.flatironschool.com/api/v1/courses/2058/assignments/29224
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: ''
+  - id: 55611
+    title: 'Object Relationships: Banking Lab'
+    position: 10
+    indent: 1
+    type: Assignment
+    module_id: 5621
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55611
+    content_id: 29222
+    url: https://learning.flatironschool.com/api/v1/courses/2058/assignments/29222
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: ''
+  - id: 55612
+    title: Has Many Through Relationships
+    position: 11
+    indent: 0
+    type: Assignment
+    module_id: 5621
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55612
+    content_id: 29183
+    url: https://learning.flatironschool.com/api/v1/courses/2058/assignments/29183
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: ''
+  - id: 55613
+    title: Has Many Through Lab
+    position: 12
+    indent: 1
+    type: Assignment
+    module_id: 5621
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55613
+    content_id: 29182
+    url: https://learning.flatironschool.com/api/v1/courses/2058/assignments/29182
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: ''
+  - id: 55614
+    title: 'Object Relationships: Kickstarter Lab'
+    position: 13
+    indent: 1
+    type: Assignment
+    module_id: 5621
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55614
+    content_id: 29223
+    url: https://learning.flatironschool.com/api/v1/courses/2058/assignments/29223
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: ''
+  - id: 55615
+    title: Object Relationships Quiz
+    position: 14
+    indent: 0
+    type: Quiz
+    module_id: 5621
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55615
+    content_id: 3866
+    url: https://learning.flatironschool.com/api/v1/courses/2058/quizzes/3866
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: ''
+  - id: 55616
+    title: Object Relationships Conclusion
+    position: 15
+    indent: 0
+    type: Page
+    module_id: 5621
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55616
+    page_url: object-relationships-conclusion
+    url: https://learning.flatironschool.com/api/v1/courses/2058/pages/object-relationships-conclusion
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: ''
+- :id: 5622
+  :name: Topics in OO - Object Inheritance in Ruby
+  :lessons:
+  - id: 55617
+    title: Introduction to Object Inheritance
+    position: 1
+    indent: 0
+    type: Page
+    module_id: 5622
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55617
+    page_url: introduction-to-object-inheritance
+    url: https://learning.flatironschool.com/api/v1/courses/2058/pages/introduction-to-object-inheritance
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: ''
+  - id: 55618
+    title: Defining Inheritance
+    position: 2
+    indent: 1
+    type: Assignment
+    module_id: 5622
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55618
+    content_id: 29171
+    url: https://learning.flatironschool.com/api/v1/courses/2058/assignments/29171
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: ''
+  - id: 55619
+    title: Inheritance Lab
+    position: 3
+    indent: 1
+    type: Assignment
+    module_id: 5622
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55619
+    content_id: 29186
+    url: https://learning.flatironschool.com/api/v1/courses/2058/assignments/29186
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: ''
+  - id: 55620
+    title: Introduction to Modules
+    position: 4
+    indent: 1
+    type: Assignment
+    module_id: 5622
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55620
+    content_id: 29191
+    url: https://learning.flatironschool.com/api/v1/courses/2058/assignments/29191
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: ''
+  - id: 55621
+    title: Modules Lab
+    position: 5
+    indent: 1
+    type: Assignment
+    module_id: 5622
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55621
+    content_id: 29208
+    url: https://learning.flatironschool.com/api/v1/courses/2058/assignments/29208
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: ''
+  - id: 55622
+    title: Super
+    position: 6
+    indent: 0
+    type: Page
+    module_id: 5622
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55622
+    page_url: super
+    url: https://learning.flatironschool.com/api/v1/courses/2058/pages/super
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: ''
+  - id: 55623
+    title: Super Lab
+    position: 7
+    indent: 1
+    type: Assignment
+    module_id: 5622
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55623
+    content_id: 29284
+    url: https://learning.flatironschool.com/api/v1/courses/2058/assignments/29284
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: ''
+  - id: 55624
+    title: Object Inheritance Quiz
+    position: 8
+    indent: 0
+    type: Quiz
+    module_id: 5622
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55624
+    content_id: 3862
+    url: https://learning.flatironschool.com/api/v1/courses/2058/quizzes/3862
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: ''
+  - id: 55625
+    title: Object Inheritance Conclusion
+    position: 9
+    indent: 0
+    type: Page
+    module_id: 5622
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55625
+    page_url: object-inheritance-conclusion
+    url: https://learning.flatironschool.com/api/v1/courses/2058/pages/object-inheritance-conclusion
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: ''
+- :id: 5623
+  :name: Metaprogramming in Ruby
+  :lessons:
+  - id: 55626
+    title: Introduction to Metaprogramming
+    position: 1
+    indent: 0
+    type: Page
+    module_id: 5623
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55626
+    page_url: introduction-to-metaprogramming
+    url: https://learning.flatironschool.com/api/v1/courses/2058/pages/introduction-to-metaprogramming
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: ''
+  - id: 55627
+    title: Keyword Arguments and Mass Assignment
+    position: 2
+    indent: 0
+    type: Page
+    module_id: 5623
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55627
+    page_url: keyword-arguments-and-mass-assignment
+    url: https://learning.flatironschool.com/api/v1/courses/2058/pages/keyword-arguments-and-mass-assignment
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: ''
+  - id: 55628
+    title: Mass Assignment and Class Initialization
+    position: 3
+    indent: 0
+    type: Page
+    module_id: 5623
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55628
+    page_url: mass-assignment-and-class-initialization
+    url: https://learning.flatironschool.com/api/v1/courses/2058/pages/mass-assignment-and-class-initialization
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: ''
+  - id: 55629
+    title: Mass Assignment Lab
+    position: 4
+    indent: 1
+    type: Assignment
+    module_id: 5623
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55629
+    content_id: 29202
+    url: https://learning.flatironschool.com/api/v1/courses/2058/assignments/29202
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: ''
+  - id: 55630
+    title: Custom Errors
+    position: 5
+    indent: 0
+    type: Assignment
+    module_id: 5623
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55630
+    content_id: 29168
+    url: https://learning.flatironschool.com/api/v1/courses/2058/assignments/29168
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: ''
+  - id: 55631
+    title: Triangle Classification Lab
+    position: 6
+    indent: 1
+    type: Assignment
+    module_id: 5623
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55631
+    content_id: 29291
+    url: https://learning.flatironschool.com/api/v1/courses/2058/assignments/29291
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: ''
+  - id: 55632
+    title: Mass Assignment Quiz
+    position: 7
+    indent: 0
+    type: Quiz
+    module_id: 5623
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55632
+    content_id: 3856
+    url: https://learning.flatironschool.com/api/v1/courses/2058/quizzes/3856
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: ''
+  - id: 55633
+    title: Metaprogramming Conclusion
+    position: 8
+    indent: 0
+    type: Page
+    module_id: 5623
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55633
+    page_url: metaprogramming-conclusion
+    url: https://learning.flatironschool.com/api/v1/courses/2058/pages/metaprogramming-conclusion
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: ''
+- :id: 5624
+  :name: Configuring Ruby Applications
+  :lessons:
+  - id: 55634
+    title: Introduction to Configuring Ruby Applications
+    position: 1
+    indent: 0
+    type: Page
+    module_id: 5624
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55634
+    page_url: introduction-to-configuring-ruby-applications
+    url: https://learning.flatironschool.com/api/v1/courses/2058/pages/introduction-to-configuring-ruby-applications
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: ''
+  - id: 55635
+    title: Requiring Files
+    position: 2
+    indent: 1
+    type: Assignment
+    module_id: 5624
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55635
+    content_id: 29256
+    url: https://learning.flatironschool.com/api/v1/courses/2058/assignments/29256
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: ''
+  - id: 55636
+    title: Setting Up an Application Environment
+    position: 3
+    indent: 1
+    type: Assignment
+    module_id: 5624
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55636
+    content_id: 29274
+    url: https://learning.flatironschool.com/api/v1/courses/2058/assignments/29274
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: ''
+  - id: 55637
+    title: Gems and Bundler
+    position: 4
+    indent: 1
+    type: Assignment
+    module_id: 5624
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55637
+    content_id: 29179
+    url: https://learning.flatironschool.com/api/v1/courses/2058/assignments/29179
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: ''
+- :id: 5625
+  :name: Scraping
+  :lessons:
+  - id: 55638
+    title: Object Oriented Scraping
+    position: 1
+    indent: 1
+    type: Assignment
+    module_id: 5625
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55638
+    content_id: 29220
+    url: https://learning.flatironschool.com/api/v1/courses/2058/assignments/29220
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: ''
+  - id: 55639
+    title: Scraping HTML with Nokogiri
+    position: 2
+    indent: 1
+    type: Assignment
+    module_id: 5625
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55639
+    content_id: 29272
+    url: https://learning.flatironschool.com/api/v1/courses/2058/assignments/29272
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: ''
+  - id: 55640
+    title: Scraping Kickstarter
+    position: 2
+    indent: 1
+    type: Assignment
+    module_id: 5625
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55640
+    content_id: 29273
+    url: https://learning.flatironschool.com/api/v1/courses/2058/assignments/29273
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: ''
+  - id: 55641
+    title: 'Video: Object-Orientation and Scraping Review'
+    position: 3
+    indent: 0
+    type: Page
+    module_id: 5625
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55641
+    page_url: video-object-orientation-and-scraping-review
+    url: https://learning.flatironschool.com/api/v1/courses/2058/pages/video-object-orientation-and-scraping-review
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: ''
+- :id: 5626
+  :name: Getting Data from Remote Sources
+  :lessons:
+  - id: 55642
+    title: Introduction to Getting Remote Data
+    position: 1
+    indent: 0
+    type: Page
+    module_id: 5626
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55642
+    page_url: introduction-to-getting-remote-data
+    url: https://learning.flatironschool.com/api/v1/courses/2058/pages/introduction-to-getting-remote-data
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: ''
+  - id: 55643
+    title: Sending GET Requests
+    position: 2
+    indent: 0
+    type: Page
+    module_id: 5626
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55643
+    page_url: sending-get-requests
+    url: https://learning.flatironschool.com/api/v1/courses/2058/pages/sending-get-requests
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: ''
+  - id: 55644
+    title: Working with APIs
+    position: 3
+    indent: 0
+    type: Page
+    module_id: 5626
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55644
+    page_url: working-with-apis
+    url: https://learning.flatironschool.com/api/v1/courses/2058/pages/working-with-apis
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: ''
+  - id: 55645
+    title: Remote Data Lab
+    position: 4
+    indent: 1
+    type: Assignment
+    module_id: 5626
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55645
+    content_id: 29255
+    url: https://learning.flatironschool.com/api/v1/courses/2058/assignments/29255
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: ''
+  - id: 55646
+    title: Getting Data from Remote Sources Quiz
+    position: 6
+    indent: 0
+    type: Quiz
+    module_id: 5626
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55646
+    content_id: 3870
+    url: https://learning.flatironschool.com/api/v1/courses/2058/quizzes/3870
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: ''
+  - id: 55647
+    title: Getting Remote Data Conclusion
+    position: 7
+    indent: 0
+    type: Page
+    module_id: 5626
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55647
+    page_url: getting-remote-data-conclusion
+    url: https://learning.flatironschool.com/api/v1/courses/2058/pages/getting-remote-data-conclusion
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: ''
+- :id: 5627
+  :name: "[BONUS] Video Reviews of OO Ruby"
+  :lessons:
+  - id: 55648
+    title: 'Video: Object-Orientation Review-2'
+    position: 1
+    indent: 0
+    type: Page
+    module_id: 5627
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55648
+    page_url: video-object-orientation-review
+    url: https://learning.flatironschool.com/api/v1/courses/2058/pages/video-object-orientation-review
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: ''
+- :id: 5628
+  :name: Phase 1 Final Projects
+  :lessons:
+  - id: 55649
+    title: Ruby Music Library
+    position: 1
+    indent: 1
+    type: Assignment
+    module_id: 5628
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55649
+    content_id: 29262
+    url: https://learning.flatironschool.com/api/v1/courses/2058/assignments/29262
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: ''
+  - id: 55650
+    title: 'Video: Music Library CLI Review'
+    position: 2
+    indent: 0
+    type: Page
+    module_id: 5628
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55650
+    page_url: video-music-library-cli-review
+    url: https://learning.flatironschool.com/api/v1/courses/2058/pages/video-music-library-cli-review
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: ''
+  - id: 55651
+    title: Tic-Tac-Toe with AI
+    position: 3
+    indent: 1
+    type: Assignment
+    module_id: 5628
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55651
+    content_id: 29287
+    url: https://learning.flatironschool.com/api/v1/courses/2058/assignments/29287
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: ''
+  - id: 55652
+    title: Object-Oriented Student Scraper
+    position: 4
+    indent: 1
+    type: Assignment
+    module_id: 5628
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55652
+    content_id: 29221
+    url: https://learning.flatironschool.com/api/v1/courses/2058/assignments/29221
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: ''
+  - id: 55653
+    title: CLI Project Planning
+    position: 5
+    indent: 0
+    type: Page
+    module_id: 5628
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55653
+    page_url: cli-project-planning
+    url: https://learning.flatironschool.com/api/v1/courses/2058/pages/cli-project-planning
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: ''
+  - id: 55654
+    title: Build a CLI Application with External Data
+    position: 6
+    indent: 0
+    type: Page
+    module_id: 5628
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55654
+    page_url: build-a-cli-application-with-external-data
+    url: https://learning.flatironschool.com/api/v1/courses/2058/pages/build-a-cli-application-with-external-data
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: ''
+  - id: 55655
+    title: Student Survey
+    position: 7
+    indent: 0
+    type: Page
+    module_id: 5628
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55655
+    page_url: student-survey
+    url: https://learning.flatironschool.com/api/v1/courses/2058/pages/student-survey
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: ''
+  - id: 55656
+    title: Building a CLI Gem Walkthrough
+    position: 8
+    indent: 0
+    type: Page
+    module_id: 5628
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55656
+    page_url: building-a-cli-gem-walkthrough
+    url: https://learning.flatironschool.com/api/v1/courses/2058/pages/building-a-cli-gem-walkthrough
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: ''
+  - id: 55657
+    title: 'Video: Common Anti-Patterns in CLI Gem Application'
+    position: 9
+    indent: 0
+    type: Page
+    module_id: 5628
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55657
+    page_url: video-common-anti-patterns-in-cli-gem-application
+    url: https://learning.flatironschool.com/api/v1/courses/2058/pages/video-common-anti-patterns-in-cli-gem-application
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: ''
+  - id: 55658
+    title: 'Video: Refactoring a CLI Gem'
+    position: 10
+    indent: 0
+    type: Page
+    module_id: 5628
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55658
+    page_url: video-refactoring-a-cli-gem
+    url: https://learning.flatironschool.com/api/v1/courses/2058/pages/video-refactoring-a-cli-gem
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: ''
+  - id: 55659
+    title: 'Video: Refactoring a CLI Gem (Concert Gem)'
+    position: 11
+    indent: 0
+    type: Page
+    module_id: 5628
+    html_url: https://learning.flatironschool.com/courses/2058/modules/items/55659
+    page_url: video-refactoring-a-cli-gem-concert-gem
+    url: https://learning.flatironschool.com/api/v1/courses/2058/pages/video-refactoring-a-cli-gem-concert-gem
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: ''

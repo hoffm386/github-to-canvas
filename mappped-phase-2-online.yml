@@ -1,0 +1,792 @@
+---
+:name: Software Engineering Online - Phase 2
+:id: 355
+:modules:
+- :id: 2695
+  :name: Rack
+  :lessons:
+  - id: how-the-web-works
+    title: How The Web Works
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/355/modules/items/30942
+    page_url: how-the-web-works
+    url: https://learning.flatironschool.com/api/v1/courses/355/pages/how-the-web-works
+    published: false
+    repository: https://github.com/learn-co-curriculum/how-the-web-works-readme
+  - id: increasing-layers-of-abstraction
+    title: Increasing Layers of Abstraction
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/355/modules/items/30943
+    page_url: increasing-layers-of-abstraction
+    url: https://learning.flatironschool.com/api/v1/courses/355/pages/increasing-layers-of-abstraction
+    published: false
+    repository: https://github.com/learn-co-curriculum/why-layers-of-abstraction
+  - id: '12949'
+    title: Inspecting The Web With Rack
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/355/modules/items/30944
+    url: https://learning.flatironschool.com/api/v1/courses/355/assignments/12949
+    published: false
+    repository: https://github.com/learn-co-curriculum/rack-intro
+  - id: '12932'
+    title: Dynamic Web Apps with Rack
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/355/modules/items/30945
+    url: https://learning.flatironschool.com/api/v1/courses/355/assignments/12932
+    published: false
+    repository: https://github.com/learn-co-curriculum/rack-dynamic-web-apps
+  - id: '12964'
+    title: Rack Responses Lab
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/355/modules/items/30946
+    url: https://learning.flatironschool.com/api/v1/courses/355/assignments/12964
+    published: false
+    repository: https://github.com/learn-co-curriculum/rack-responses-lab
+  - id: the-http-request
+    title: The HTTP Request
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/355/modules/items/30947
+    page_url: the-http-request
+    url: https://learning.flatironschool.com/api/v1/courses/355/pages/the-http-request
+    published: false
+    repository: https://github.com/learn-co-curriculum/rack-http-request-readme
+  - id: '12965'
+    title: Rack Routes and GET Params
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/355/modules/items/30948
+    url: https://learning.flatironschool.com/api/v1/courses/355/assignments/12965
+    published: false
+    repository: https://github.com/learn-co-curriculum/rack-get-params-lab
+  - id: dynamic-url-routes
+    title: Dynamic URL Routes
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/355/modules/items/30949
+    page_url: dynamic-url-routes
+    url: https://learning.flatironschool.com/api/v1/courses/355/pages/dynamic-url-routes
+    published: false
+    repository: https://github.com/learn-co-curriculum/rack-dynamic-paths-readme
+  - id: http-status-codes
+    title: HTTP Status Codes
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/355/modules/items/30950
+    page_url: http-status-codes
+    url: https://learning.flatironschool.com/api/v1/courses/355/pages/http-status-codes
+    published: false
+    repository: https://github.com/learn-co-curriculum/rack-status-codes-readme
+  - id: '12930'
+    title: Dynamic Routes and Status Codes
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/355/modules/items/30951
+    url: https://learning.flatironschool.com/api/v1/courses/355/assignments/12930
+    published: false
+    repository: https://github.com/learn-co-curriculum/rack-dynamic-routes-lab
+- :id: 2694
+  :name: HTML
+  :lessons:
+  - id: html-basics-overview
+    title: HTML Basics Overview
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/355/modules/items/30929
+    page_url: html-basics-overview
+    url: https://learning.flatironschool.com/api/v1/courses/355/pages/html-basics-overview
+    published: false
+    repository: https://github.com/learn-co-curriculum/html-basics-welcome-to-html
+  - id: crafting-html-documents
+    title: Crafting HTML Documents
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/355/modules/items/30930
+    page_url: crafting-html-documents
+    url: https://learning.flatironschool.com/api/v1/courses/355/pages/crafting-html-documents
+    published: false
+    repository: https://github.com/learn-co-curriculum/html-basics-crafting-html-docs
+  - id: '13016'
+    title: Well-Formed HTML Document Lab
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/355/modules/items/30931
+    url: https://learning.flatironschool.com/api/v1/courses/355/assignments/13016
+    published: false
+    repository: https://github.com/learn-co-curriculum/html-basics-well-formed-html-document-lab
+  - id: nested-html-tags-and-attributes
+    title: Nested HTML Tags And Attributes
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/355/modules/items/30932
+    page_url: nested-html-tags-and-attributes
+    url: https://learning.flatironschool.com/api/v1/courses/355/pages/nested-html-tags-and-attributes
+    published: false
+    repository: https://github.com/learn-co-curriculum/html-basics-nested-tags-and-attributes
+  - id: '12918'
+    title: Create an `<a>` Tag with an `href` Attribute
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/355/modules/items/30933
+    url: https://learning.flatironschool.com/api/v1/courses/355/assignments/12918
+    published: false
+    repository: https://github.com/learn-co-curriculum/html-basics-a-tag-with-href-attributes-lab
+  - id: leveraging-additional-html-documentation-resources
+    title: Leveraging Additional HTML Documentation Resources
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/355/modules/items/30934
+    page_url: leveraging-additional-html-documentation-resources
+    url: https://learning.flatironschool.com/api/v1/courses/355/pages/leveraging-additional-html-documentation-resources
+    published: false
+    repository: https://github.com/learn-co-curriculum/html-basics-researching-html-elements
+  - id: html-fundamentals-lists-images-and-links
+    title: 'HTML Fundamentals: Lists, Images and Links'
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/355/modules/items/30935
+    page_url: html-fundamentals-lists-images-and-links
+    url: https://learning.flatironschool.com/api/v1/courses/355/pages/html-fundamentals-lists-images-and-links
+    published: false
+    repository: https://github.com/learn-co-curriculum/html-fundamentals-lists-images-links
+  - id: '13008'
+    title: Text Formatting in HTML
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/355/modules/items/30936
+    url: https://learning.flatironschool.com/api/v1/courses/355/assignments/13008
+    published: false
+    repository: https://github.com/learn-co-curriculum/html-fundamentals-text-formatting-lab
+  - id: '12947'
+    title: HTML Lists
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/355/modules/items/30937
+    url: https://learning.flatironschool.com/api/v1/courses/355/assignments/12947
+    published: false
+    repository: https://github.com/learn-co-curriculum/html-fundamentals-html-lists-lab
+  - id: '12948'
+    title: HTML Tables
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/355/modules/items/30938
+    url: https://learning.flatironschool.com/api/v1/courses/355/assignments/12948
+    published: false
+    repository: https://github.com/learn-co-curriculum/html-fundamentals-html-tables-lab
+  - id: '12945'
+    title: HTML Images
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/355/modules/items/30939
+    url: https://learning.flatironschool.com/api/v1/courses/355/assignments/12945
+    published: false
+    repository: https://github.com/learn-co-curriculum/html-fundamentals-html-images-lab
+  - id: '12946'
+    title: HTML Links
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/355/modules/items/30940
+    url: https://learning.flatironschool.com/api/v1/courses/355/assignments/12946
+    published: false
+    repository: https://github.com/learn-co-curriculum/html-fundamentals-html-links-lab
+  - id: dev-tools-super-power
+    title: Dev Tools Super Power
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/355/modules/items/30941
+    page_url: dev-tools-super-power
+    url: https://learning.flatironschool.com/api/v1/courses/355/pages/dev-tools-super-power
+    published: false
+    repository: https://github.com/learn-co-curriculum/html-fundamentals-dev-tools-super-power
+- :id: 2709
+  :name: CSS
+  :lessons:
+  - id: diving-into-the-world-of-css-cascading-style-sheets
+    title: Diving into the World of CSS (Cascading Style Sheets)
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/355/modules/items/31086
+    page_url: diving-into-the-world-of-css-cascading-style-sheets
+    url: https://learning.flatironschool.com/api/v1/courses/355/pages/diving-into-the-world-of-css-cascading-style-sheets
+    published: false
+    repository: https://github.com/learn-co-curriculum/css-essentials-introduction-to-css
+  - id: '12952'
+    title: Introduction to CSS Lab
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/355/modules/items/31087
+    url: https://learning.flatironschool.com/api/v1/courses/355/assignments/12952
+    published: false
+    repository: https://github.com/learn-co-curriculum/css-essentials-introduction-to-css-lab
+  - id: css-fundamentals
+    title: CSS Fundamentals
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/355/modules/items/31088
+    page_url: css-fundamentals
+    url: https://learning.flatironschool.com/api/v1/courses/355/pages/css-fundamentals
+    published: false
+    repository: ''
+  - id: '12951'
+    title: Introduction to CSS Lab
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/355/modules/items/31089
+    url: https://learning.flatironschool.com/api/v1/courses/355/assignments/12951
+    published: false
+    repository: ''
+  - id: '12921'
+    title: CSS Issue Bot 9000
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/355/modules/items/31090
+    url: https://learning.flatironschool.com/api/v1/courses/355/assignments/12921
+    published: false
+    repository: ''
+  - id: '12957'
+    title: My Little Rainbow
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/355/modules/items/31091
+    url: https://learning.flatironschool.com/api/v1/courses/355/assignments/12957
+    published: false
+    repository: ''
+  - id: '12922'
+    title: CSS Kitten Wheelbarrow
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/355/modules/items/31092
+    url: https://learning.flatironschool.com/api/v1/courses/355/assignments/12922
+    published: false
+    repository: ''
+  - id: '12920'
+    title: CSS Graffiti Override Lab
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/355/modules/items/31093
+    url: https://learning.flatironschool.com/api/v1/courses/355/assignments/12920
+    published: false
+    repository: ''
+- :id: 2696
+  :name: Sinatra Basics
+  :lessons:
+  - id: what-is-sinatra
+    title: What is Sinatra?
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/355/modules/items/30952
+    page_url: what-is-sinatra
+    url: https://learning.flatironschool.com/api/v1/courses/355/pages/what-is-sinatra
+    published: false
+    repository: ''
+  - id: sinatra-from-scratch
+    title: Sinatra From Scratch
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/355/modules/items/30953
+    page_url: sinatra-from-scratch
+    url: https://learning.flatironschool.com/api/v1/courses/355/pages/sinatra-from-scratch
+    published: false
+    repository: ''
+  - id: sinatra-basics
+    title: Sinatra Basics
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/355/modules/items/30954
+    page_url: sinatra-basics
+    url: https://learning.flatironschool.com/api/v1/courses/355/pages/sinatra-basics
+    published: false
+    repository: ''
+  - id: '13012'
+    title: Using the Shotgun Development Server
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/355/modules/items/30955
+    url: https://learning.flatironschool.com/api/v1/courses/355/assignments/13012
+    published: false
+    repository: ''
+  - id: '12996'
+    title: Sinatra Hello World Basics
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/355/modules/items/30956
+    url: https://learning.flatironschool.com/api/v1/courses/355/assignments/12996
+    published: false
+    repository: ''
+  - id: routes-in-sinatra
+    title: Routes in Sinatra
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/355/modules/items/30957
+    page_url: routes-in-sinatra
+    url: https://learning.flatironschool.com/api/v1/courses/355/pages/routes-in-sinatra
+    published: false
+    repository: ''
+  - id: '13003'
+    title: Sinatra Routes Lab
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/355/modules/items/30958
+    url: https://learning.flatironschool.com/api/v1/courses/355/assignments/13003
+    published: false
+    repository: ''
+- :id: 2697
+  :name: Sinatra MVC
+  :lessons:
+  - id: intro-to-mvc
+    title: Intro To MVC
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/355/modules/items/30959
+    page_url: intro-to-mvc
+    url: https://learning.flatironschool.com/api/v1/courses/355/pages/intro-to-mvc
+    published: false
+    repository: ''
+  - id: '12998'
+    title: Sinatra MVC File Structure
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/355/modules/items/30960
+    url: https://learning.flatironschool.com/api/v1/courses/355/assignments/12998
+    published: false
+    repository: ''
+  - id: '13005'
+    title: Sinatra Views
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/355/modules/items/30961
+    url: https://learning.flatironschool.com/api/v1/courses/355/assignments/13005
+    published: false
+    repository: ''
+  - id: '12992'
+    title: Sinatra Basic Views Lab
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/355/modules/items/30962
+    url: https://learning.flatironschool.com/api/v1/courses/355/assignments/12992
+    published: false
+    repository: ''
+  - id: sinatra-views-using-erb
+    title: 'Sinatra Views: Using ERB'
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/355/modules/items/30963
+    page_url: sinatra-views-using-erb
+    url: https://learning.flatironschool.com/api/v1/courses/355/pages/sinatra-views-using-erb
+    published: false
+    repository: ''
+  - id: '13006'
+    title: Sinatra Views Lab
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/355/modules/items/30964
+    url: https://learning.flatironschool.com/api/v1/courses/355/assignments/13006
+    published: false
+    repository: ''
+  - id: video-review-sinatra-forms
+    title: 'Video Review: Sinatra Forms'
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/355/modules/items/31340
+    page_url: video-review-sinatra-forms
+    url: https://learning.flatironschool.com/api/v1/courses/355/pages/video-review-sinatra-forms
+    published: false
+    repository: ''
+- :id: 2698
+  :name: Sinatra Forms
+  :lessons:
+  - id: '12953'
+    title: Intro To Capybara
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/355/modules/items/30965
+    url: https://learning.flatironschool.com/api/v1/courses/355/assignments/12953
+    published: false
+    repository: ''
+  - id: '12931'
+    title: Dynamic Routes in Sinatra
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/355/modules/items/30966
+    url: https://learning.flatironschool.com/api/v1/courses/355/assignments/12931
+    published: false
+    repository: ''
+  - id: '12993'
+    title: Sinatra Dynamic Routes Lab
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/355/modules/items/30967
+    url: https://learning.flatironschool.com/api/v1/courses/355/assignments/12993
+    published: false
+    repository: ''
+  - id: '12944'
+    title: HTML Forms and Params
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/355/modules/items/30968
+    url: https://learning.flatironschool.com/api/v1/courses/355/assignments/12944
+    published: false
+    repository: ''
+  - id: '12962'
+    title: Passing Data Between Views and Controllers in Sinatra
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/355/modules/items/30969
+    url: https://learning.flatironschool.com/api/v1/courses/355/assignments/12962
+    published: false
+    repository: ''
+  - id: '12994'
+    title: Sinatra Forms Lab
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/355/modules/items/30970
+    url: https://learning.flatironschool.com/api/v1/courses/355/assignments/12994
+    published: false
+    repository: ''
+  - id: sinatra-yield-readme
+    title: Sinatra Yield Readme
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/355/modules/items/30971
+    page_url: sinatra-yield-readme
+    url: https://learning.flatironschool.com/api/v1/courses/355/pages/sinatra-yield-readme
+    published: false
+    repository: ''
+  - id: '12950'
+    title: Integrating Models Sinatra Code-along
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/355/modules/items/30972
+    url: https://learning.flatironschool.com/api/v1/courses/355/assignments/12950
+    published: false
+    repository: ''
+  - id: '12999'
+    title: Sinatra MVC Lab - Pig Latinizer
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/355/modules/items/30973
+    url: https://learning.flatironschool.com/api/v1/courses/355/assignments/12999
+    published: false
+    repository: ''
+  - id: '12991'
+    title: Sinatra Basic Forms Lab
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/355/modules/items/30974
+    url: https://learning.flatironschool.com/api/v1/courses/355/assignments/12991
+    published: false
+    repository: ''
+  - id: nested-forms-readme
+    title: Nested Forms Readme
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/355/modules/items/30975
+    page_url: nested-forms-readme
+    url: https://learning.flatironschool.com/api/v1/courses/355/pages/nested-forms-readme
+    published: false
+    repository: ''
+  - id: '13000'
+    title: 'Sinatra Nested Forms Lab: Pirates!'
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/355/modules/items/30976
+    url: https://learning.flatironschool.com/api/v1/courses/355/assignments/13000
+    published: false
+    repository: ''
+  - id: '13001'
+    title: 'Sinatra Nested Forms Lab: Superheroes!'
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/355/modules/items/30977
+    url: https://learning.flatironschool.com/api/v1/courses/355/assignments/13001
+    published: false
+    repository: ''
+- :id: 2768
+  :name: Sessions
+  :lessons:
+  - id: sessions-and-cookies
+    title: Sessions and Cookies
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/355/modules/items/31425
+    page_url: sessions-and-cookies
+    url: https://learning.flatironschool.com/api/v1/courses/355/pages/sessions-and-cookies
+    published: false
+    repository: ''
+  - id: mechanics-of-sessions
+    title: Mechanics of Sessions
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/355/modules/items/31426
+    page_url: mechanics-of-sessions
+    url: https://learning.flatironschool.com/api/v1/courses/355/pages/mechanics-of-sessions
+    published: false
+    repository: ''
+  - id: '13169'
+    title: Sinatra Basic Sessions Lab
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/355/modules/items/31427
+    url: https://learning.flatironschool.com/api/v1/courses/355/assignments/13169
+    published: false
+    repository: ''
+  - id: '13170'
+    title: Using Sessions
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/355/modules/items/31428
+    url: https://learning.flatironschool.com/api/v1/courses/355/assignments/13170
+    published: false
+    repository: ''
+- :id: 2699
+  :name: Sinatra and Active Record
+  :lessons:
+  - id: '12988'
+    title: Sinatra Activerecord Setup
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/355/modules/items/30978
+    url: https://learning.flatironschool.com/api/v1/courses/355/assignments/12988
+    published: false
+    repository: ''
+  - id: sinatra-and-active-record-crud
+    title: Sinatra and Active Record CRUD
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/355/modules/items/30979
+    page_url: sinatra-and-active-record-crud
+    url: https://learning.flatironschool.com/api/v1/courses/355/pages/sinatra-and-active-record-crud
+    published: false
+    repository: ''
+  - id: '12990'
+    title: sinatra-ar-crud-lab
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/355/modules/items/30980
+    url: https://learning.flatironschool.com/api/v1/courses/355/assignments/12990
+    published: false
+    repository: ''
+  - id: '13171'
+    title: User Authentication in Sinatra
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/355/modules/items/31465
+    url: https://learning.flatironschool.com/api/v1/courses/355/assignments/13171
+    published: false
+    repository: ''
+  - id: '13172'
+    title: Sinatra Sessions Lab - User Logins
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/355/modules/items/31492
+    url: https://learning.flatironschool.com/api/v1/courses/355/assignments/13172
+    published: false
+    repository: ''
+  - id: '13173'
+    title: Securing Passwords
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/355/modules/items/31493
+    url: https://learning.flatironschool.com/api/v1/courses/355/assignments/13173
+    published: false
+    repository: ''
+  - id: '13174'
+    title: Secure Password Lab
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/355/modules/items/31494
+    url: https://learning.flatironschool.com/api/v1/courses/355/assignments/13174
+    published: false
+    repository: ''
+  - id: sinatra-video-review-authentication
+    title: sinatra-video-review-authentication
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/355/modules/items/31510
+    page_url: sinatra-video-review-authentication
+    url: https://learning.flatironschool.com/api/v1/courses/355/pages/sinatra-video-review-authentication
+    published: false
+    repository: ''
+  - id: restful-routes
+    title: RESTful Routes
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/355/modules/items/30981
+    page_url: restful-routes
+    url: https://learning.flatironschool.com/api/v1/courses/355/pages/restful-routes
+    published: false
+    repository: ''
+  - id: '12983'
+    title: Restful Routes Basic Lab
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/355/modules/items/30982
+    url: https://learning.flatironschool.com/api/v1/courses/355/assignments/12983
+    published: false
+    repository: ''
+  - id: '13176'
+    title: Using Tux in Sinatra with ActiveRecord
+    indent: 0
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/355/modules/items/31511
+    url: https://learning.flatironschool.com/api/v1/courses/355/assignments/13176
+    published: false
+    repository: ''
+  - id: '12910'
+    title: ActiveRecord Associations in Sinatra
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/355/modules/items/30983
+    url: https://learning.flatironschool.com/api/v1/courses/355/assignments/12910
+    published: false
+    repository: ''
+  - id: sinatra-activerecord-associations-join-tables
+    title: 'Sinatra ActiveRecord Associations: Join Tables'
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/355/modules/items/30984
+    page_url: sinatra-activerecord-associations-join-tables
+    url: https://learning.flatironschool.com/api/v1/courses/355/pages/sinatra-activerecord-associations-join-tables
+    published: false
+    repository: ''
+  - id: sinatra-multiple-controllers
+    title: Sinatra Multiple Controllers
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/355/modules/items/30985
+    page_url: sinatra-multiple-controllers
+    url: https://learning.flatironschool.com/api/v1/courses/355/pages/sinatra-multiple-controllers
+    published: false
+    repository: ''
+  - id: '12989'
+    title: 'Sinatra and Active Record: Associations and Complex Forms'
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/355/modules/items/30986
+    url: https://learning.flatironschool.com/api/v1/courses/355/assignments/12989
+    published: false
+    repository: ''
+  - id: '13015'
+    title: Welcome to NYC Sinatra!
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/355/modules/items/30987
+    url: https://learning.flatironschool.com/api/v1/courses/355/assignments/13015
+    published: false
+    repository: ''
+  - id: '13002'
+    title: Sinatra Playlister
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/355/modules/items/30988
+    url: https://learning.flatironschool.com/api/v1/courses/355/assignments/13002
+    published: false
+    repository: ''
+- :id: 2700
+  :name: Sinatra Additional Practice
+  :lessons:
+  - id: building-a-site-generator-part-1
+    title: Building a Site Generator, Part 1
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/355/modules/items/31604
+    page_url: building-a-site-generator-part-1
+    url: https://learning.flatironschool.com/api/v1/courses/355/pages/building-a-site-generator-part-1
+    published: false
+    repository: ''
+  - id: building-a-site-generator-part-2
+    title: Building a Site Generator, Part 2
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/355/modules/items/31605
+    page_url: building-a-site-generator-part-2
+    url: https://learning.flatironschool.com/api/v1/courses/355/pages/building-a-site-generator-part-2
+    published: false
+    repository: ''
+- :id: 2839
+  :name: Sinatra Project Mode
+  :lessons:
+  - id: '9812'
+    title: Fwitter Group Project
+    indent: 1
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/355/modules/items/31606
+    url: https://learning.flatironschool.com/api/v1/courses/355/assignments/9812
+    published: false
+    repository: ''
+  - id: sinatra-project-planning-structured
+    title: Sinatra Project Planning Structured
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/355/modules/items/31608
+    page_url: sinatra-project-planning-structured
+    url: https://learning.flatironschool.com/api/v1/courses/355/pages/sinatra-project-planning-structured
+    published: false
+    repository: ''
+  - id: sinatra-cms-app-assessment
+    title: Sinatra Cms App Assessment
+    indent: 0
+    type: Page
+    html_url: https://learning.flatironschool.com/courses/355/modules/items/31607
+    page_url: sinatra-cms-app-assessment
+    url: https://learning.flatironschool.com/api/v1/courses/355/pages/sinatra-cms-app-assessment
+    published: false
+    repository: https://github.com/learn-co-curriculum/sinatra-cms-app-assessment
+- :id: 8960
+  :name: Phase 2 Milestones
+  :lessons:
+  - id: '43190'
+    title: 'GitHub Link: Phase 2 Portfolio Project'
+    indent: 0
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/355/modules/items/82851
+    url: https://learning.flatironschool.com/api/v1/courses/355/assignments/43190
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: ''
+  - id: '43193'
+    title: 'Video Link: Phase 2 Portfolio Project'
+    indent: 0
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/355/modules/items/82852
+    url: https://learning.flatironschool.com/api/v1/courses/355/assignments/43193
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: ''
+  - id: '43189'
+    title: 'Blog Link: Phase 2 Portfolio Project'
+    indent: 0
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/355/modules/items/82853
+    url: https://learning.flatironschool.com/api/v1/courses/355/assignments/43189
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: ''
+  - id: '43192'
+    title: 'Instructor Review: Phase 2 Portfolio Project'
+    indent: 0
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/355/modules/items/82854
+    url: https://learning.flatironschool.com/api/v1/courses/355/assignments/43192
+    completion_requirement:
+      type: must_submit
+    published: false
+    repository: ''
+  - id: '43191'
+    title: 'Instructor Notes: Phase 2 Portfolio Project'
+    indent: 0
+    type: Assignment
+    html_url: https://learning.flatironschool.com/courses/355/modules/items/82855
+    url: https://learning.flatironschool.com/api/v1/courses/355/assignments/43191
+    completion_requirement:
+      type: must_view
+    published: false
+    repository: ''

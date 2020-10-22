@@ -1,0 +1,92 @@
+---
+:name: Maxwell Benton
+:email: maxwellbenton@gmail.com
+:links:
+  :github: https://github.com/maxwellbenton
+  :linkedin: https://www.linkedin.com/in/maxwellbenton/
+  :blog: ''
+:education:
+- :school: Flatiron School
+  :year: 2017
+  :description: Full Stack Web Development, Ruby on Rails, JavaScript
+- :school: Hunter College
+  :year: 2008
+  :description: Bachelor of the Arts, English Literature and Theory
+:technical_skills:
+- :category: Languages
+  :content:
+  - JavaScript
+  - Ruby
+  - Visual Basic for Applications
+- :category: Related Skills
+  :content:
+  - React
+  - Redux
+  - Node.js
+  - Rails
+  - SQL
+  - GraphQL
+  - JSON
+  - APIs
+  - Git
+  - HTML5
+  - CSS3
+  - Microsoft Excel/Access
+:experience:
+- :title: Software Engineer, Curriculum
+  :company: Flatiron School
+  :location: New York City / Remote
+  :start_date: 05/2020
+  :end_date: Present
+  :highlights:
+  - Oversaw the redesign and implementation of all Flatiron School software engineering
+    curriculum while transitioning to a new learning management system
+  - Applied modern learning strategies and pedagogy to curriculum design
+  - Created Ruby gem for bulk migration of curriculum content from GitHub to the Canvas
+    LMS, allowing the school to have version controlled course content while delivering
+    the materials in Canvas
+  - Implemented custom student feedback systems for tracking the success of individual
+    pieces of curriculum
+  - Coordinated with product managers, engineers, and educators on training and support
+    for instructional staff
+- :title: Senior Curriculum Designer
+  :company: Flatiron School
+  :location: New York City / Remote
+  :start_date: 04/2019
+  :end_date: 05/2020
+  :highlights:
+  - Led a team on projects to update and redesign course materials on JavaScript,
+    React, and Ruby
+  - Built tools to assist in content creation and monitor the health of Flatiron School’s
+    curriculum content
+  - Brought an existing 1500+ GitHub issue count to zero
+  - Established operating procedures for rolling out new curriculum content
+- :title: Senior Curriculum Writer
+  :company: Flatiron School
+  :location: New York City / Remote
+  :start_date: 07/2018
+  :end_date: 04/2019
+  :highlights:
+  - Performed maintenance and scripting operations on one of GitHub’s largest organizations,
+    automating updates to over 1000 repositories, resolving issues, and merging pull
+    requests
+  - Created, maintained, and updated test-driven student materials using RSpec and
+    Mocha
+- :title: Curriculum Writer
+  :company: Flatiron School
+  :location: New York City / Remote
+  :start_date: 03/2018
+  :end_date: 07/2018
+  :highlights:
+  - Created student lessons and assessments for Ruby, Rails, JavaScript, and React
+  - Managed internal feedback, issue tracking, and communication with educators through
+    JIRA
+- :title: Software Engineering Junior Instructor
+  :company: Flatiron School
+  :location: New York City / Remote
+  :start_date: 08/2017
+  :end_date: 03/2018
+  :highlights:
+  - Taught students in all areas of coursework, including Ruby, Rails, JavaScript,
+    React and Redux
+  - Conducted technical lectures, code reviews, and tutoring for students

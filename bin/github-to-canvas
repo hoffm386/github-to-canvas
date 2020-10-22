@@ -1,3 +1,4 @@
+require 'byebug'
 #!/usr/bin/env ruby
 require 'optparse'
 require 'github-to-canvas'
@@ -75,12 +76,15 @@ OptionParser.new do |opts|
           end
   opts.on("-tTYPE", "--type TYPE", 
           "Sets the type Canvas lesson to be created (page or assignment). If no type, type decided based on repository structure") do |type| 
-            if type == 'page' || type == 'assignment' || type == 'discussion'
-              options[:type] = type
-            else
-              puts "Invalid type. Defaulting to page"
-              options[:type] = "page"
-            end
+            # byebug
+            options[:type] = type.downcase
+            abort if type == 'quiz' || type == 'discussion'
+            # if type == 'page' || type == 'assignment' || type == 'discussion' || type == 'quiz' || type == 'Page' || type == 'Assignment' || type == 'Discussion' || type == 'Quiz'
+              
+            # else
+            #   puts "Invalid type. Defaulting to page"
+            #   options[:type] = "page"
+            # end
           end
   opts.on("-fFILE", "--file FILE", 
           "Looks for and uses a markdown file in the currentt folder as source for conversion. Default file is README.md. Skips writing .canvas to repository") do |file| 
@@ -130,6 +134,10 @@ OptionParser.new do |opts|
           "REQUIRES -f or --file Associates canvas lessons with repositories. Use query to create required YAML file") do |file|
             options[:map] = file
           end
+  opts.on("--csv COURSE", 
+          "Returns a course's lesson struction as CSV") do |course|
+            options[:csv] = course
+          end
   opts.on("--read-from-canvas CANVAS_URL",
           "Retrieves an existing Canvas lesson using the provided URL") do |url|
             options[:read_from_canvas] = url
@@ -162,6 +170,14 @@ OptionParser.new do |opts|
           "Updates all lessons in a course using remote repos in provided YAML file") do |file|
             options[:update_course_lessons] = file
           end
+  opts.on("--clone-from-yaml YAML_FILE", 
+          "Iterates over provided course YAML file and clones repos locally") do |file|
+            options[:clone_from_yaml] = file
+          end
+  opts.on("--contains-html", 
+          "Escapes all HTML included in source markdown by replacing '<' and '>' with HTML charset values") do |html|
+            options[:contains_html] = html
+          end
   
 end.parse!
 
@@ -171,12 +187,18 @@ if options[:version]
 end
 
 if options[:read_from_canvas]
-  GithubToCanvas.new(mode: 'canvas_read', filepath: options[:read_from_canvas])
+  GithubToCanvas.new(mode: 'canvas_read', 
+                    filepath: options[:read_from_canvas])
   abort
 end
 
 if options[:read_from_github]
-  GithubToCanvas.new(mode: 'github_read', filepath: options[:read_from_github])
+  GithubToCanvas.new(mode: 'github_read', 
+                    filepath: options[:read_from_github],
+                    remove_header_and_footer: !!options[:remove_header_and_footer],
+                    forkable: !!options[:forkable],
+                    fis_links: !!options[:fis],
+                    contains_html: options[:contains_html])
   abort
 end
 
@@ -186,9 +208,11 @@ if options[:create_from_github]
                       filepath: options[:create_from_github], 
                       course_id: options[:course_id], 
                       type: options[:type],
+                      name: options[:name],
                       remove_header_and_footer: !!options[:remove_header_and_footer],
                       forkable: !!options[:forkable],
-                      fis_links: !!options[:fis])
+                      fis_links: !!options[:fis],
+                      contains_html: options[:contains_html])
   else
     puts 'Canvas course ID and lesson type required. Example: github-to-canvas --create-from-github URL --course ID --type TYPE'
   end
@@ -202,9 +226,11 @@ if options[:align_from_github]
                       course_id: options[:course_id], 
                       type: options[:type], 
                       id: options[:id],
+                      name: options[:name],
                       remove_header_and_footer: !!options[:remove_header_and_footer],
                       forkable: !!options[:forkable],
-                      fis_links: !!options[:fis])
+                      fis_links: !!options[:fis],
+                      contains_html: options[:contains_html])
   else
     puts 'Canvas course ID, lesson ID, and type required. Example: github-to-canvas --create-from-github URL --course COURSE_ID --id LESSON_ID --type TYPE'
   end
@@ -218,6 +244,11 @@ end
 
 if options[:map]
   GithubToCanvas.new(mode: 'map', file_to_convert: options[:map])
+  abort
+end
+
+if options[:csv]
+  GithubToCanvas.new(mode: 'csv', file_to_convert: options[:csv])
   abort
 end
 
@@ -253,6 +284,11 @@ if options[:update_course_lessons]
   abort
 end
 
+if options[:clone_from_yaml]
+  GithubToCanvas.new(mode: 'clone_course', 
+                    file_to_convert: options[:clone_from_yaml])
+  abort
+end
 
 if !options[:type]
   if Dir.glob("**/*/").empty?
@@ -306,7 +342,8 @@ if options[:create_lesson]
                     fis_links: !!options[:fis], 
                     remove_header_and_footer: !!options[:remove_header_and_footer],
                     only_update_content: !!options[:only_content],
-                    forkable: !!options[:forkable])
+                    forkable: !!options[:forkable],
+                    contains_html: options[:contains_html])
 end
 
 if options[:align]
@@ -322,5 +359,6 @@ if options[:align]
                     fis_links: !!options[:fis], 
                     remove_header_and_footer: !!options[:remove_header_and_footer],
                     only_update_content: !!options[:only_content],
-                    forkable: !!options[:forkable])
+                    forkable: !!options[:forkable],
+                    contains_html: options[:contains_html])
 end

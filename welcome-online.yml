@@ -1,0 +1,239 @@
+---
+:name: ''
+:modules:
+- :id: 5089
+  :name: Welcome to Flatiron School
+  :lessons:
+  - id: 50975
+    title: Let's Get Started
+    position: 1
+    indent: 0
+    type: Page
+    module_id: 5089
+    html_url: https://learning.flatironschool.com/courses/2004/modules/items/50975
+    page_url: lets-get-started
+    url: https://learning.flatironschool.com/api/v1/courses/2004/pages/lets-get-started
+    completion_requirement:
+      type: must_view
+    published: true
+    repository: ''
+  - id: 50976
+    title: Who We Are
+    position: 2
+    indent: 0
+    type: Page
+    module_id: 5089
+    html_url: https://learning.flatironschool.com/courses/2004/modules/items/50976
+    page_url: who-we-are
+    url: https://learning.flatironschool.com/api/v1/courses/2004/pages/who-we-are
+    completion_requirement:
+      type: must_view
+    published: true
+    repository: ''
+  - id: 50977
+    title: Meet Career Services
+    position: 3
+    indent: 0
+    type: Page
+    module_id: 5089
+    html_url: https://learning.flatironschool.com/courses/2004/modules/items/50977
+    page_url: meet-career-services
+    url: https://learning.flatironschool.com/api/v1/courses/2004/pages/meet-career-services
+    completion_requirement:
+      type: must_view
+    published: true
+    repository: ''
+  - id: 50978
+    title: Learning in a Growth Environment
+    position: 4
+    indent: 0
+    type: Page
+    module_id: 5089
+    html_url: https://learning.flatironschool.com/courses/2004/modules/items/50978
+    page_url: learning-in-a-growth-environment
+    url: https://learning.flatironschool.com/api/v1/courses/2004/pages/learning-in-a-growth-environment
+    completion_requirement:
+      type: must_view
+    published: true
+    repository: ''
+  - id: 50979
+    title: Important Policies and Points of Contact
+    position: 5
+    indent: 0
+    type: Page
+    module_id: 5089
+    html_url: https://learning.flatironschool.com/courses/2004/modules/items/50979
+    page_url: important-policies-and-points-of-contact
+    url: https://learning.flatironschool.com/api/v1/courses/2004/pages/important-policies-and-points-of-contact
+    completion_requirement:
+      type: must_view
+    published: true
+    repository: ''
+- :id: 5090
+  :name: Welcome to Software Engineering in Canvas
+  :lessons:
+  - id: 50980
+    title: Welcome
+    position: 1
+    indent: 0
+    type: Page
+    module_id: 5090
+    html_url: https://learning.flatironschool.com/courses/2004/modules/items/50980
+    page_url: welcome
+    url: https://learning.flatironschool.com/api/v1/courses/2004/pages/welcome
+    completion_requirement:
+      type: must_view
+    published: true
+    repository: ''
+  - id: 50981
+    title: How to Get Help
+    position: 2
+    indent: 0
+    type: Page
+    module_id: 5090
+    html_url: https://learning.flatironschool.com/courses/2004/modules/items/50981
+    page_url: how-to-get-help
+    url: https://learning.flatironschool.com/api/v1/courses/2004/pages/how-to-get-help
+    completion_requirement:
+      type: must_view
+    published: true
+    repository: ''
+- :id: 5091
+  :name: Canvas Resources
+  :lessons:
+  - id: 50982
+    title: Introduction To Canvas
+    position: 2
+    indent: 0
+    type: Page
+    module_id: 5091
+    html_url: https://learning.flatironschool.com/courses/2004/modules/items/50982
+    page_url: introduction-to-canvas
+    url: https://learning.flatironschool.com/api/v1/courses/2004/pages/introduction-to-canvas
+    completion_requirement:
+      type: must_view
+    published: true
+    repository: ''
+  - id: 50983
+    title: Navigating Canvas
+    position: 3
+    indent: 0
+    type: Page
+    module_id: 5091
+    html_url: https://learning.flatironschool.com/courses/2004/modules/items/50983
+    page_url: navigating-canvas
+    url: https://learning.flatironschool.com/api/v1/courses/2004/pages/navigating-canvas
+    completion_requirement:
+      type: must_view
+    published: true
+    repository: ''
+  - id: 50984
+    title: Courses, Modules, & Assignments
+    position: 4
+    indent: 0
+    type: Page
+    module_id: 5091
+    html_url: https://learning.flatironschool.com/courses/2004/modules/items/50984
+    page_url: courses-modules-and-assignments
+    url: https://learning.flatironschool.com/api/v1/courses/2004/pages/courses-modules-and-assignments
+    completion_requirement:
+      type: must_view
+    published: true
+    repository: ''
+  - id: 50986
+    title: Utilizing Your Calendars
+    position: 5
+    indent: 0
+    type: Page
+    module_id: 5091
+    html_url: https://learning.flatironschool.com/courses/2004/modules/items/50986
+    page_url: utilizing-your-calendars
+    url: https://learning.flatironschool.com/api/v1/courses/2004/pages/utilizing-your-calendars
+    completion_requirement:
+      type: must_view
+    published: true
+    repository: ''
+- :id: 5092
+  :name: Intro to the Command-Line Interface
+  :lessons:
+  - id: 50987
+    title: Introduction to the Command Line Interface
+    position: 1
+    indent: 0
+    type: Page
+    module_id: 5092
+    html_url: https://learning.flatironschool.com/courses/2004/modules/items/50987
+    page_url: introduction-to-the-command-line-interface
+    url: https://learning.flatironschool.com/api/v1/courses/2004/pages/introduction-to-the-command-line-interface
+    completion_requirement:
+      type: must_view
+    published: true
+    repository: ''
+  - id: 50988
+    title: Navigation Commands in Bash and Zsh
+    position: 2
+    indent: 0
+    type: Page
+    module_id: 5092
+    html_url: https://learning.flatironschool.com/courses/2004/modules/items/50988
+    page_url: navigation-commands-in-bash-and-zsh
+    url: https://learning.flatironschool.com/api/v1/courses/2004/pages/navigation-commands-in-bash-and-zsh
+    completion_requirement:
+      type: must_view
+    published: true
+    repository: ''
+- :id: 5093
+  :name: Local Environment Setup for MacOS
+  :lessons:
+  - id: 50989
+    title: Mac OSX Local Environment Setup Instructions
+    position: 1
+    indent: 0
+    type: Page
+    module_id: 5093
+    html_url: https://learning.flatironschool.com/courses/2004/modules/items/50989
+    page_url: mac-osx-local-environment-setup-instructions
+    url: https://learning.flatironschool.com/api/v1/courses/2004/pages/mac-osx-local-environment-setup-instructions
+    published: true
+    repository: ''
+- :id: 5094
+  :name: Local Environment Setup for Windows
+  :lessons:
+  - id: 50990
+    title: Windows Subsystem for Linux Environment Setup Instructions
+    position: 1
+    indent: 0
+    type: Page
+    module_id: 5094
+    html_url: https://learning.flatironschool.com/courses/2004/modules/items/50990
+    page_url: windows-subsystem-for-linux-environment-setup-instructions
+    url: https://learning.flatironschool.com/api/v1/courses/2004/pages/windows-subsystem-for-linux-environment-setup-instructions
+    published: true
+    repository: ''
+- :id: 5095
+  :name: Software Engineering Training Mateirals
+  :lessons:
+  - id: 50991
+    title: Completing Assignments
+    position: 1
+    indent: 1
+    type: Assignment
+    module_id: 5095
+    html_url: https://learning.flatironschool.com/courses/2004/modules/items/50991
+    content_id: 26861
+    url: https://learning.flatironschool.com/api/v1/courses/2004/assignments/26861
+    completion_requirement:
+      type: must_submit
+    published: true
+    repository: ''
+  - id: 50992
+    title: Contributing to our Curriculum on Canvas
+    position: 3
+    indent: 0
+    type: Page
+    module_id: 5095
+    html_url: https://learning.flatironschool.com/courses/2004/modules/items/50992
+    page_url: contributing-to-our-curriculum-on-canvas
+    url: https://learning.flatironschool.com/api/v1/courses/2004/pages/contributing-to-our-curriculum-on-canvas
+    published: true
+    repository: ''
