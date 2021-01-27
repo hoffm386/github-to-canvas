@@ -110,6 +110,10 @@ OptionParser.new do |opts|
           "Removes top lesson header and any Learn.co specific footer links before converting to HTML") do |r|
             options[:remove_header_and_footer] = true
           end
+  opts.on("-h", "--header-only",
+          "Only pushes header to Canvas, no other HTML content") do |h|
+            options[:header_only] = true
+          end
   opts.on("--course COURSE",
           "For align functionality only - updates the HTML content of a lesson using the provided course ID. Use with --id.") do |course_id|
             options[:course_id] = course_id
@@ -230,6 +234,7 @@ if (options[:create_from_github] ||
   options[:remove_header_and_footer] = !!options[:remove_header_and_footer]
   options[:forkable] = !!options[:forkable]
   options[:fis_links] = !!options[:fis]
+  options[:header_only] = !!options[:header_only]
 end
 
 # Set boolean flags for alignment settings

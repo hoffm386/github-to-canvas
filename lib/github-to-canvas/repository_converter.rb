@@ -164,7 +164,11 @@ class RepositoryConverter
     html = html.sub(/<div id="git-data-element.*<header class="fis-header.*<\/header>/,'') # remove existing fis header
     header = self.create_github_link_header(repo_info[:repo_path], options[:forkable])
     data_element = self.create_data_element(repo_info[:repo_org], repo_info[:repo_name])
-    data_element + header + html
+    if options[:header_only]
+      header
+    else
+      data_element + header + html
+    end
   end
 
   def self.create_github_link_header(repo_path, forkable)
