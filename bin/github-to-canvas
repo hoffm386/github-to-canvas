@@ -165,95 +165,91 @@ OptionParser.new do |opts|
   
 end.parse!
 
+# Input validation
+if options[:create_from_github] && (!options[:course_id] || !options[:type])
+  puts 'Canvas course ID and lesson type required. Example: github-to-canvas --create-from-github URL --course ID --type TYPE'
+  abort
+elsif (options[:align_from_github] &&
+        (!options[:course_id] || !options[:type] || !options[:id]))
+  puts 'Canvas course ID, lesson ID, and type required. Example: github-to-canvas --create-from-github URL --course COURSE_ID --id LESSON_ID --type TYPE'
+  abort
+elsif options[:add_to_course] && !options[:course_id]
+  puts '--course required'
+  abort
+end
+
+# Set mode
 if options[:version]
-  GithubToCanvas.new(mode: 'version',  course_id: nil)
-  abort
+  options[:mode] = 'version'
+elsif options[:read_from_canvas]
+  options[:mode] = 'canvas_read'
+elsif options[:read_from_github]
+  options[:mode] = 'github_read'
+elsif options[:create_from_github]
+  options[:mode] = 'github_create'
+elsif options[:align_from_github]
+  options[:mode] = 'github_align'
+elsif options[:query]
+  options[:mode] = 'query'
+elsif options[:map]
+  options[:mode] = 'map'
+elsif options[:build_course]
+  options[:mode] = 'build_course'
+elsif options[:add_to_course]
+  options[:mode] = 'add_to_course'
+elsif options[:update_course_lessons]
+  options[:mode] = 'update_course_lessons'
+elsif options[:create_lesson]
+  options[:mode] = "create"
+elsif options[:align]
+  options[:mode] = "align"
 end
 
+# Set filepath
 if options[:read_from_canvas]
-  GithubToCanvas.new(mode: 'canvas_read', filepath: options[:read_from_canvas])
-  abort
+  options[:filepath] = options[:read_from_canvas]
+elsif options[:read_from_github]
+  options[:filepath] = options[:read_from_github]
+elsif options[:create_from_github]
+  options[:filepath] = options[:create_from_github]
+elsif options[:align_from_github]
+  options[:filepath] = options[:align_from_github]
+elsif options[:create_lesson] || options[:align]
+  options[:filepath] = Dir.pwd
 end
 
-if options[:read_from_github]
-  GithubToCanvas.new(mode: 'github_read', filepath: options[:read_from_github])
-  abort
+# Set boolean flags for HTML content changes
+# !! to ensure it's a boolean
+if (options[:create_from_github] ||
+      options[:align_from_github] ||
+      options[:build_course] ||
+      options[:add_to_course] ||
+      options[:update_course_lessons] ||
+      options[:create_lesson] ||
+      options[:align])
+  options[:remove_header_and_footer] = !!options[:remove_header_and_footer]
+  options[:forkable] = !!options[:forkable]
+  options[:fis_links] = !!options[:fis]
 end
 
-if options[:create_from_github]
-  if options[:course_id] && options[:type]
-    GithubToCanvas.new(mode: 'github_create', 
-                      filepath: options[:create_from_github], 
-                      course_id: options[:course_id], 
-                      type: options[:type],
-                      remove_header_and_footer: !!options[:remove_header_and_footer],
-                      forkable: !!options[:forkable],
-                      fis_links: !!options[:fis])
-  else
-    puts 'Canvas course ID and lesson type required. Example: github-to-canvas --create-from-github URL --course ID --type TYPE'
-  end
-  abort
+# Set boolean flags for alignment settings
+if options[:create_lesson] || options[:align]
+  options[:save_to_github] = !!options[:save_to_github]
+  options[:only_update_content] = !!options[:only_content]
 end
 
-if options[:align_from_github]
-  if options[:course_id] && options[:type] && options[:id]
-    GithubToCanvas.new(mode: 'github_align', 
-                      filepath: options[:align_from_github], 
-                      course_id: options[:course_id], 
-                      type: options[:type], 
-                      id: options[:id],
-                      remove_header_and_footer: !!options[:remove_header_and_footer],
-                      forkable: !!options[:forkable],
-                      fis_links: !!options[:fis])
-  else
-    puts 'Canvas course ID, lesson ID, and type required. Example: github-to-canvas --create-from-github URL --course COURSE_ID --id LESSON_ID --type TYPE'
-  end
-  abort
-end
-
-if options[:query]
-  GithubToCanvas.new(mode: 'query',  course_id: options[:query], id: options[:id])
-  abort
-end
-
+# Set file_to_convert
 if options[:map]
-  GithubToCanvas.new(mode: 'map', file_to_convert: options[:map])
-  abort
+  options[:file_to_convert] = options[:map]
+elsif options[:build_course]
+  options[:file_to_convert] = options[:build_course]
+elsif options[:add_to_course]
+  options[:file_to_convert] = options[:add_to_course]
+elsif options[:update_course_lessons]
+  options[:file_to_convert] = options[:update_course_lessons]
 end
 
-if options[:build_course]
-  GithubToCanvas.new(mode: 'build_course', 
-                    file_to_convert: options[:build_course],
-                    fis_links: !!options[:fis], 
-                    remove_header_and_footer: !!options[:remove_header_and_footer],
-                    forkable: !!options[:forkable])
-  abort
-end
-
-if options[:add_to_course]
-  if options[:course_id]
-    GithubToCanvas.new(mode: 'add_to_course', 
-                      course_id: options[:course_id], 
-                      file_to_convert: options[:add_to_course],
-                      fis_links: !!options[:fis], 
-                      remove_header_and_footer: !!options[:remove_header_and_footer],
-                      forkable: !!options[:forkable])
-  else
-    puts '--course required'
-  end
-  abort
-end
-
-if options[:update_course_lessons]
-  GithubToCanvas.new(mode: 'update_course_lessons', 
-                    file_to_convert: options[:update_course_lessons],
-                    fis_links: !!options[:fis], 
-                    remove_header_and_footer: !!options[:remove_header_and_footer],
-                    forkable: !!options[:forkable])
-  abort
-end
-
-
+# Set type if missing
 if !options[:type]
   if Dir.glob("**/*/").empty?
     options[:type] = "page"
@@ -263,10 +259,12 @@ if !options[:type]
   end
 end
 
+# Set branch if missing
 if !options[:branch]
   options[:branch] = 'master'
 end
 
+# Set name if missing
 if !options[:name]
   if options[:file_to_convert]
     markdown = File.read("#{Dir.pwd}/#{options[:file_to_convert]}")
@@ -290,37 +288,9 @@ if !options[:name]
   end
 end
 
+# Set file_to_convert if missing
 if !options[:file_to_convert]
   options[:file_to_convert] = "README.md"
 end
 
-if options[:create_lesson]
-  GithubToCanvas.new(mode: "create", 
-                    course_id: options[:course_id], 
-                    filepath: Dir.pwd, 
-                    file_to_convert: options[:file_to_convert],
-                    branch: options[:branch], 
-                    name: options[:name], 
-                    type: options[:type], 
-                    save_to_github: !!options[:save_to_github], 
-                    fis_links: !!options[:fis], 
-                    remove_header_and_footer: !!options[:remove_header_and_footer],
-                    only_update_content: !!options[:only_content],
-                    forkable: !!options[:forkable])
-end
-
-if options[:align]
-  GithubToCanvas.new(mode: "align", 
-                    course_id: options[:course_id], 
-                    id: options[:id],
-                    filepath: Dir.pwd,
-                    file_to_convert: options[:file_to_convert], 
-                    branch: options[:branch],
-                    name: options[:name],
-                    type: options[:type],
-                    save_to_github: !!options[:save_to_github], 
-                    fis_links: !!options[:fis], 
-                    remove_header_and_footer: !!options[:remove_header_and_footer],
-                    only_update_content: !!options[:only_content],
-                    forkable: !!options[:forkable])
-end
+GithubToCanvas.new(options)
