@@ -217,12 +217,11 @@ class CanvasInterface
             response = RestClient.get(url, self.headers)
             lessons = JSON.parse(response.body)
             lessons = lessons.map do |lesson|
-              if lesson["type"] == "ExternalUrl"
-                next
-              end
               lesson = lesson.slice("id","title","name","indent","type","html_url","page_url","url","completion_requirement", "published")
               lesson["repository"] = ""
-              lesson['id'] = lesson['url'].gsub(/^(.*[\\\/])/,'')
+              if lesson["type"] != "ExternalUrl"
+                lesson['id'] = lesson['url'].gsub(/^(.*[\\\/])/,'')
+              end
               lesson
             end
             if ([200, 201].include? response.code) && (!lessons.empty?)
@@ -248,11 +247,13 @@ class CanvasInterface
     course_info[:modules] = course_info[:modules].map do |mod|
       mod[:lessons] = mod[:lessons].map do |lesson|
 
-        url = lesson["url"]
-        response = RestClient.get(url, headers={
-          "Authorization" => "Bearer #{ENV['CANVAS_API_KEY']}"
-        })
         begin
+          url = lesson["url"]
+
+          response = RestClient.get(url, headers={
+            "Authorization" => "Bearer #{ENV['CANVAS_API_KEY']}"
+          })
+
           lesson_data = JSON.parse(response)
           contents = lesson_data["body"] if lesson["type"] == "Page"
           contents = lesson_data["message"] if lesson["type"] == "Discussion"
@@ -271,8 +272,7 @@ class CanvasInterface
             end
           end
         rescue
-          puts 'Error while mapping course info.'
-          abort
+          repo = ""
         end
         
         if repo != nil && repo != ""
